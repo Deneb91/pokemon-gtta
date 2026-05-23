@@ -1,9 +1,9 @@
 import { useState } from "react";
+import { Pokedex, PokemonSpecies } from "../lib/pokedex";
+import type { IDEntry } from "../lib/pokedex/misc-types";
 import type { Task } from "../lib/types";
 import "../styles/TaskList.css";
-import { Pokedex } from "../lib/pokedex";
-import type { IDEntry } from "../lib/pokedex/misc-types";
-import { PokemonSpecies } from "../lib/pokedex/pokemon-species";
+import { PokemonAutocomplete } from "./PokemonAutocomplete";
 
 interface TaskListProps {
   tasks: Task[];
@@ -19,9 +19,12 @@ export const TaskList = ({
   onDeleteTask,
 }: TaskListProps) => {
   const [title, setTitle] = useState("");
-  const [selectedReward, setSelectedReward] = useState<IDEntry>("bulbasaur");
+  const [selectedReward, setSelectedReward] = useState<IDEntry | undefined>();
 
   const handleAddTask = () => {
+    if (!selectedReward) {
+      return;
+    }
     if (title.trim()) {
       const newTask: Task = {
         id: `task-${Date.now()}`,
@@ -68,17 +71,10 @@ export const TaskList = ({
           onKeyPress={(e) => e.key === "Enter" && handleAddTask()}
           className="task-input"
         />
-        <select
+        <PokemonAutocomplete
           value={selectedReward}
-          onChange={(e) => setSelectedReward(e.target.value as IDEntry)}
-          className="reward-select"
-        >
-          {Object.entries(Pokedex).map(([type, species]) => (
-            <option key={type} value={type}>
-              {species.name}
-            </option>
-          ))}
-        </select>
+          onChange={setSelectedReward}
+        />
         <button onClick={handleAddTask} className="add-btn">
           Add Task
         </button>

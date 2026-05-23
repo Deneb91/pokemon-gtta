@@ -1,6 +1,6 @@
 // Data types for the Pokémon tidy-up SPA
 
-import type { PokemonSpecies } from "./pokedex/pokemon-species";
+import type { PokemonSpecies } from "./pokedex";
 
 export interface Task {
   id: string;
