@@ -1,6 +1,6 @@
-import type { AppState, Task, Pokemon } from './types';
+import type { AppState, Task, Pokemon } from "./types";
 
-const STORAGE_KEY = 'pokemon-gtta-state';
+const STORAGE_KEY = "pokemon-gtta-state";
 
 export const getInitialState = (): AppState => ({
   tasks: [],
@@ -21,7 +21,7 @@ export const saveState = (state: AppState): void => {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   } catch (error) {
-    console.error('Failed to save state:', error);
+    console.error("Failed to save state:", error);
   }
 };
 
@@ -36,7 +36,7 @@ export const completeTask = (state: AppState, taskId: string): AppState => {
   const updatedTasks = state.tasks.map((task) =>
     task.id === taskId
       ? { ...task, completed: true, completedAt: Date.now() }
-      : task
+      : task,
   );
 
   // Add a Pokémon reward for completing a task
@@ -46,11 +46,11 @@ export const completeTask = (state: AppState, taskId: string): AppState => {
   if (task && !task.completed) {
     const newPokemon: Pokemon = {
       id: `pokemon-${Date.now()}`,
-      name: task.reward || 'Pikachu',
-      type: task.reward || 'Electric',
+      name: task.reward.name,
       level: 1,
       experience: 0,
       capturedAt: Date.now(),
+      species: task.reward,
     };
     newPokemons.push(newPokemon);
   }
@@ -66,7 +66,7 @@ export const completeTask = (state: AppState, taskId: string): AppState => {
 export const trainPokemon = (
   state: AppState,
   pokemonId: string,
-  experience: number
+  experience: number,
 ): AppState => {
   const updatedPokemons = state.pokemons.map((pokemon) => {
     if (pokemon.id === pokemonId) {

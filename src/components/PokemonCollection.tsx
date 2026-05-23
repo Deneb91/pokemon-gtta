@@ -1,5 +1,5 @@
-import type { Pokemon } from '../lib/types';
-import '../styles/PokemonCollection.css';
+import type { Pokemon } from "../lib/types";
+import "../styles/PokemonCollection.css";
 
 interface PokemonCollectionProps {
   pokemons: Pokemon[];
@@ -16,18 +16,18 @@ export const PokemonCollection = ({
 
   const getPokemonEmoji = (name: string): string => {
     const emojiMap: { [key: string]: string } = {
-      Bulbasaur: '🌱',
-      Charmander: '🔥',
-      Squirtle: '💧',
-      Pikachu: '⚡',
-      Psyduck: '🦆',
-      Growlithe: '🐕',
-      Oddish: '👽',
-      Poliwag: '🐸',
-      Abra: '✨',
-      Machop: '💪',
+      Bulbasaur: "🌱",
+      Charmander: "🔥",
+      Squirtle: "💧",
+      Pikachu: "⚡",
+      Psyduck: "🦆",
+      Growlithe: "🐕",
+      Oddish: "👽",
+      Poliwag: "🐸",
+      Abra: "✨",
+      Machop: "💪",
     };
-    return emojiMap[name] || '👾';
+    return emojiMap[name] || "👾";
   };
 
   return (
@@ -60,7 +60,9 @@ export const PokemonCollection = ({
               </div>
               <div className="pokemon-info">
                 <h3>{pokemon.name}</h3>
-                <p className="pokemon-type">Type: {pokemon.type}</p>
+                <p className="pokemon-type">
+                  Type: {pokemon.species.types.join(" / ")}
+                </p>
                 <p className="pokemon-level">Level {pokemon.level}</p>
                 <div className="exp-bar">
                   <div
@@ -72,10 +74,7 @@ export const PokemonCollection = ({
                 </div>
                 <p className="pokemon-exp">{pokemon.experience} XP</p>
               </div>
-              <button
-                onClick={() => onTrain(pokemon.id)}
-                className="train-btn"
-              >
+              <button onClick={() => onTrain(pokemon.id)} className="train-btn">
                 Train (+10 XP)
               </button>
             </div>

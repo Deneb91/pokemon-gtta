@@ -1,7 +1,9 @@
-import { useState } from 'react';
-import type { Task } from '../lib/types';
-import { POKEMON_TYPES } from '../lib/types';
-import '../styles/TaskList.css';
+import { useState } from "react";
+import type { Task } from "../lib/types";
+import "../styles/TaskList.css";
+import { Pokedex } from "../lib/pokedex";
+import type { IDEntry } from "../lib/pokedex/misc-types";
+import { PokemonSpecies } from "../lib/pokedex/pokemon-species";
 
 interface TaskListProps {
   tasks: Task[];
@@ -16,8 +18,8 @@ export const TaskList = ({
   onCompleteTask,
   onDeleteTask,
 }: TaskListProps) => {
-  const [title, setTitle] = useState('');
-  const [selectedReward, setSelectedReward] = useState(POKEMON_TYPES[0]);
+  const [title, setTitle] = useState("");
+  const [selectedReward, setSelectedReward] = useState<IDEntry>("bulbasaur");
 
   const handleAddTask = () => {
     if (title.trim()) {
@@ -25,11 +27,11 @@ export const TaskList = ({
         id: `task-${Date.now()}`,
         title,
         completed: false,
-        reward: selectedReward,
+        reward: new PokemonSpecies(Pokedex[selectedReward]),
         createdAt: Date.now(),
       };
       onAddTask(newTask);
-      setTitle('');
+      setTitle("");
     }
   };
 
@@ -44,7 +46,10 @@ export const TaskList = ({
           <div
             className="progress-fill"
             style={{
-              width: totalCount === 0 ? 0 : `${(completedCount / totalCount) * 100}%`,
+              width:
+                totalCount === 0
+                  ? 0
+                  : `${(completedCount / totalCount) * 100}%`,
             }}
           ></div>
         </div>
@@ -60,17 +65,17 @@ export const TaskList = ({
           placeholder="Enter task (e.g., Clean bedroom)"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          onKeyPress={(e) => e.key === 'Enter' && handleAddTask()}
+          onKeyPress={(e) => e.key === "Enter" && handleAddTask()}
           className="task-input"
         />
         <select
           value={selectedReward}
-          onChange={(e) => setSelectedReward(e.target.value)}
+          onChange={(e) => setSelectedReward(e.target.value as IDEntry)}
           className="reward-select"
         >
-          {POKEMON_TYPES.map((type) => (
+          {Object.entries(Pokedex).map(([type, species]) => (
             <option key={type} value={type}>
-              Earn: {type}
+              {species.name}
             </option>
           ))}
         </select>
@@ -88,22 +93,20 @@ export const TaskList = ({
             {tasks.map((task) => (
               <li
                 key={task.id}
-                className={`task-item ${task.completed ? 'completed' : ''}`}
+                className={`task-item ${task.completed ? "completed" : ""}`}
               >
                 <div className="task-content">
                   <input
                     type="checkbox"
                     checked={task.completed}
-                    onChange={() =>
-                      !task.completed && onCompleteTask(task.id)
-                    }
+                    onChange={() => !task.completed && onCompleteTask(task.id)}
                     disabled={task.completed}
                     className="task-checkbox"
                   />
                   <div className="task-info">
                     <span className="task-title">{task.title}</span>
                     <span className="task-reward">
-                      🎁 Earns {task.reward}
+                      🎁 Earns {task.reward.name}
                     </span>
                   </div>
                 </div>
