@@ -110,7 +110,14 @@ function App() {
         </div>
         {statusMessage && (
           <div className={`status-message status-${statusMessage.type}`}>
-            {statusMessage.text}
+            <span className="status-text">{statusMessage.text}</span>
+            <button
+              className="status-close"
+              onClick={() => setStatusMessage(null)}
+              aria-label="Close status message"
+            >
+              ✕
+            </button>
           </div>
         )}
       </header>

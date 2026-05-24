@@ -2,6 +2,7 @@ import { useEffect, useRef, type ChangeEvent } from "react";
 import { downloadStateAsFile, importState } from "../lib/storage/storage";
 import type { AppState } from "../lib/types";
 import { KebabMenu } from "./KebabMenu";
+import { formatErrorForUser, hasUserMessage } from "../lib/errors";
 
 interface HeaderActionsProps {
   state: AppState;
@@ -28,6 +29,18 @@ export function useImportedState(setState: (s: AppState) => void) {
   }, []);
 }
 export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
+  const setErrorStatus = (context: string, error: unknown) => {
+    const errorMessage = formatErrorForUser(error);
+    onStatusMessage({
+      type: "error",
+      text: `${context}: ${errorMessage}`,
+    });
+    // If the error has a user-friendly message, we let the user close it at their pace.
+    const autoDismiss = !hasUserMessage(error);
+    if (autoDismiss) {
+      setTimeout(() => onStatusMessage(null), 5000);
+    }
+  };
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleExportState = () => {
@@ -39,11 +52,7 @@ export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
       });
       setTimeout(() => onStatusMessage(null), 3000);
     } catch (error) {
-      onStatusMessage({
-        type: "error",
-        text: `Export failed: ${error instanceof Error ? error.message : "Unknown error"}`,
-      });
-      setTimeout(() => onStatusMessage(null), 5000);
+      setErrorStatus("Export failed", error);
     }
   };
 
@@ -77,20 +86,12 @@ export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
           setTimeout(() => onStatusMessage(null), 3000);
         }
       } catch (error) {
-        onStatusMessage({
-          type: "error",
-          text: `Import failed: ${error instanceof Error ? error.message : "Unknown error"}`,
-        });
-        setTimeout(() => onStatusMessage(null), 5000);
+        setErrorStatus("Import failed", error);
       }
     };
 
     reader.onerror = () => {
-      onStatusMessage({
-        type: "error",
-        text: "Failed to read file.",
-      });
-      setTimeout(() => onStatusMessage(null), 5000);
+      setErrorStatus("Failed to read file", new Error("Failed to read file."));
     };
 
     reader.readAsText(file);

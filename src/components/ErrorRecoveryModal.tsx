@@ -1,6 +1,6 @@
 import { useEffect } from "react";
+import { formatErrorForUser } from "../lib/errors";
 import "../styles/ErrorRecoveryModal.css";
-import { hasUserMessage } from "../lib/types";
 
 interface ErrorRecoveryModalProps {
   isOpen: boolean;
@@ -37,9 +37,7 @@ export function ErrorRecoveryModal({
     setTimeout(onDismiss, 500);
   };
 
-  const errorMessage = hasUserMessage(error)
-    ? error.userMessage
-    : error?.message || "Unknown error";
+  const errorMessage = formatErrorForUser(error);
   return (
     <div className="error-recovery-overlay" onClick={onDismiss}>
       <div
@@ -66,8 +64,12 @@ export function ErrorRecoveryModal({
           </div>
 
           <p className="error-recovery-instructions">
-            You can download your save file below. Once downloaded, you can try
-            to manually fix the JSON and import it back using the Import button.
+            Do not panic! Your data is likely still intact. You can try to
+            recover it by downloading the save file, fixing the issue manually,
+            and re-importing it.
+            <br />
+            If you're not sure how to fix it, feel free to reach out with the
+            error details and the file.
           </p>
         </div>
 

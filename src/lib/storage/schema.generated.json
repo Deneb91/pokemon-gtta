@@ -73,6 +73,7 @@
           "$ref": "#/definitions/AppState"
         },
         "version": {
+          "description": "Version of the save file format. This can be used to handle migrations in future updates.",
           "type": "string"
         }
       },
