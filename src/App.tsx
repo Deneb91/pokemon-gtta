@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import { ErrorRecoveryModal } from "./components/ErrorRecoveryModal";
 import { HeaderActions, useImportedState } from "./components/HeaderActions";
 import { PokemonCollection } from "./components/PokemonCollection";
 import { TaskList } from "./components/TaskList";
@@ -7,16 +8,19 @@ import {
   addTask,
   completeTask,
   deleteTask,
+  downloadSaveFileForRecovery,
+  getInitialState,
   loadState,
   saveState,
   trainPokemon,
   updatePokemonName,
-} from "./lib/storage";
+} from "./lib/storage/storage";
 import type { Task } from "./lib/tasks";
 import type { AppState } from "./lib/types";
 
 function App() {
   const [state, setState] = useState<AppState | null>(null);
+  const [loadError, setLoadError] = useState<Error | null>(null);
   const [currentTab, setCurrentTab] = useState<"tasks" | "collection">("tasks");
   const [statusMessage, setStatusMessage] = useState<{
     type: "success" | "error";
@@ -25,7 +29,13 @@ function App() {
 
   // Load state on mount
   useEffect(() => {
-    setState(loadState());
+    try {
+      setState(loadState());
+    } catch (error) {
+      setLoadError(
+        error instanceof Error ? error : new Error("Failed to load state"),
+      );
+    }
   }, []);
 
   // Save state whenever it changes
@@ -37,6 +47,32 @@ function App() {
 
   // Listen for import state events from HeaderActions
   useImportedState(setState);
+
+  const handleDismissError = () => {
+    setLoadError(null);
+    setState(getInitialState());
+  };
+
+  const handleDownloadSaveFile = () => {
+    const stored = localStorage.getItem("pokemon-gtta-state");
+    if (stored) {
+      downloadSaveFileForRecovery(stored);
+    }
+  };
+
+  // Show error modal if load failed
+  if (loadError && !state) {
+    return (
+      <div className="app">
+        <ErrorRecoveryModal
+          isOpen={true}
+          error={loadError}
+          onDismiss={handleDismissError}
+          onDownload={handleDownloadSaveFile}
+        />
+      </div>
+    );
+  }
 
   if (!state) {
     return <div className="loading">Loading...</div>;

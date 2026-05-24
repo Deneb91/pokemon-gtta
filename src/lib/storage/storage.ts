@@ -1,15 +1,14 @@
-import { addXp } from "./pokedex";
-import { createTaskRewardPokemon, type Task } from "./tasks";
-import type { AppState } from "./types";
+import Ajv, { type ErrorObject } from "ajv";
+import { addXp } from "../pokedex";
+import { createTaskRewardPokemon, type Task } from "../tasks";
+import type { AppState } from "../types";
+import schema from "./schema.generated.json";
+import type { SaveFileData } from "./types";
 
 const STORAGE_KEY = "pokemon-gtta-state";
-const APP_VERSION = "1.0.0";
+const SAVE_FORMAT_VERSION = "1.0.0";
 
-export interface SaveFileData {
-  version: string;
-  exportedAt: number;
-  state: AppState;
-}
+const saveDataValidator = new Ajv().compile<SaveFileData>(schema);
 
 export const getInitialState = (): AppState => ({
   tasks: [],
@@ -17,21 +16,42 @@ export const getInitialState = (): AppState => ({
   totalTasksCompleted: 0,
 });
 
-function deserializeState(serialized: string): AppState {
-  return JSON.parse(serialized);
-}
-export const loadState = (): AppState => {
+function deserializeState(serialized: string): SaveFileData {
+  let parsed: unknown;
   try {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    return stored ? deserializeState(stored) : getInitialState();
-  } catch {
-    return getInitialState();
+    parsed = JSON.parse(serialized);
+  } catch (error) {
+    throw new InvalidSaveFileError(
+      "Failed to parse save file: invalid JSON format.",
+      null,
+      error,
+    );
   }
+  const valid = saveDataValidator(parsed);
+  if (!valid) {
+    throw new InvalidSaveFileError(
+      "Invalid save file format.",
+      saveDataValidator.errors,
+    );
+  }
+  return parsed as SaveFileData;
+}
+
+export const loadState = (): AppState => {
+  const stored = localStorage.getItem(STORAGE_KEY);
+  return stored ? deserializeState(stored).state : getInitialState();
 };
 
 export const saveState = (state: AppState): void => {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        version: SAVE_FORMAT_VERSION,
+        exportedAt: Date.now(),
+        state,
+      }),
+    );
   } catch (error) {
     console.error("Failed to save state:", error);
   }
@@ -116,7 +136,7 @@ export const updatePokemonName = (
  */
 export const exportState = (state: AppState): SaveFileData => {
   return {
-    version: APP_VERSION,
+    version: SAVE_FORMAT_VERSION,
     exportedAt: Date.now(),
     state,
   };
@@ -128,40 +148,12 @@ export const exportState = (state: AppState): SaveFileData => {
  */
 export const importState = (jsonString: string): AppState => {
   try {
-    const parsed: unknown = JSON.parse(jsonString);
-
-    // Validate structure
-    if (
-      !parsed ||
-      typeof parsed !== "object" ||
-      !("version" in parsed) ||
-      !parsed.version ||
-      !("state" in parsed)
-    ) {
-      throw new Error(
-        "Invalid save file format. Missing version or state property.",
-      );
-    }
-
-    const data = parsed as SaveFileData;
-
-    // Validate state structure
-    if (
-      !data.state ||
-      typeof data.state !== "object" ||
-      !Array.isArray((data.state as any).tasks) ||
-      !Array.isArray((data.state as any).pokemons) ||
-      typeof (data.state as any).totalTasksCompleted !== "number"
-    ) {
-      throw new Error(
-        "Invalid save file: state does not have the correct structure.",
-      );
-    }
+    const data = deserializeState(jsonString);
 
     // Check version compatibility (warn but don't block)
-    if (data.version !== APP_VERSION) {
+    if (data.version !== SAVE_FORMAT_VERSION) {
       console.warn(
-        `Save file version (${data.version}) does not match app version (${APP_VERSION}). There may be compatibility issues.`,
+        `Save file version (${data.version}) does not match app version (${SAVE_FORMAT_VERSION}). There may be compatibility issues.`,
       );
     }
 
@@ -194,3 +186,60 @@ export const downloadStateAsFile = (state: AppState): void => {
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
 };
+
+/**
+ * Downloads the corrupted save file from localStorage for manual recovery
+ * @param storedJsonString - The raw JSON string from localStorage
+ */
+export const downloadSaveFileForRecovery = (storedJsonString: string): void => {
+  const blob = new Blob([storedJsonString], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+
+  const date = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+  const filename = `pokemon-gtta-corrupted-save-${date}.json`;
+
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+};
+
+export class InvalidSaveFileError extends Error {
+  readonly errors: ErrorObject[] | null;
+  readonly userMessage: string;
+  constructor(
+    message: string,
+    errors: ErrorObject[] | null = null,
+    cause?: unknown,
+  ) {
+    super(message + (errors?.length ? errors.join(", ") : ""), { cause });
+    this.name = "InvalidSaveFileError";
+    this.errors = errors;
+    this.userMessage = InvalidSaveFileError.formatErrors(
+      message,
+      errors,
+      cause,
+    );
+  }
+
+  private static formatErrors(
+    message: string,
+    errors: ErrorObject[] | null = null,
+    cause?: unknown,
+  ): string {
+    let fullMessage = message;
+    if (errors && errors.length > 0) {
+      fullMessage +=
+        " Validation errors: " +
+        errors.map((e) => `  ${e.instancePath} ${e.message}`).join(";\n  ");
+    }
+    if (cause instanceof Error) {
+      fullMessage += ` \nCause: ${cause.message}`;
+    }
+
+    return fullMessage;
+  }
+}

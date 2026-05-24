@@ -1,5 +1,5 @@
 import { useEffect, useRef, type ChangeEvent } from "react";
-import { downloadStateAsFile, importState } from "../lib/storage";
+import { downloadStateAsFile, importState } from "../lib/storage/storage";
 import type { AppState } from "../lib/types";
 import { KebabMenu } from "./KebabMenu";
 
