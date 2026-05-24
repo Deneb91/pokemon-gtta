@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import { HeaderActions, useImportedState } from "./components/HeaderActions";
 import { PokemonCollection } from "./components/PokemonCollection";
 import { TaskList } from "./components/TaskList";
 import {
@@ -16,6 +17,10 @@ import type { AppState } from "./lib/types";
 function App() {
   const [state, setState] = useState<AppState | null>(null);
   const [currentTab, setCurrentTab] = useState<"tasks" | "collection">("tasks");
+  const [statusMessage, setStatusMessage] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
 
   // Load state on mount
   useEffect(() => {
@@ -28,6 +33,9 @@ function App() {
       saveState(state);
     }
   }, [state]);
+
+  // Listen for import state events from HeaderActions
+  useImportedState(setState);
 
   if (!state) {
     return <div className="loading">Loading...</div>;
@@ -52,8 +60,18 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🎮 Pokémon Tidy-Up Quest</h1>
-        <p>Clean your place and catch Pokémon!</p>
+        <div className="header-content">
+          <div className="header-title">
+            <h1>🎮 Pokémon Tidy-Up Quest</h1>
+            <p>Clean your place and catch Pokémon!</p>
+          </div>
+          <HeaderActions state={state} onStatusMessage={setStatusMessage} />
+        </div>
+        {statusMessage && (
+          <div className={`status-message status-${statusMessage.type}`}>
+            {statusMessage.text}
+          </div>
+        )}
       </header>
 
       <nav className="tab-navigation">
