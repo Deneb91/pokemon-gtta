@@ -1,6 +1,7 @@
 import { useEffect, useRef, type ChangeEvent } from "react";
 import { downloadStateAsFile, importState } from "../lib/storage";
 import type { AppState } from "../lib/types";
+import { KebabMenu } from "./KebabMenu";
 
 interface HeaderActionsProps {
   state: AppState;
@@ -101,7 +102,7 @@ export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
   };
 
   return (
-    <div className="header-actions">
+    <KebabMenu>
       <button className="action-btn export-btn" onClick={handleExportState}>
         💾 Export
       </button>
@@ -115,6 +116,6 @@ export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
         onChange={handleFileSelected}
         style={{ display: "none" }}
       />
-    </div>
+    </KebabMenu>
   );
 }
