@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "yarn schema && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "schema": "ts-json-schema-generator --path src/lib/storage/types.ts --type SaveFileData > src/lib/storage/schema.generated.json"
