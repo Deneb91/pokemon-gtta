@@ -1,18 +1,15 @@
-import {
-  isCosmeticFormeData,
-  type CosmeticFormeData,
-  type SpeciesData,
-} from "./dex-species";
+import { XPCurves, type XpCurve, type XpCurveName } from "../training";
+import { isCosmeticFormeData } from "./dex-species";
 import type {
-  StatsTable,
-  ID,
   GenderName,
-  TierTypes,
+  ID,
   Nonstandard,
+  StatsTable,
+  TierTypes,
 } from "./misc-types";
 import { Pokedex } from "./pokedex";
 
-export class PokemonSpecies {
+export interface PokemonSpecies {
   types: string[];
   name: string;
   num: number;
@@ -93,11 +90,49 @@ export class PokemonSpecies {
   isNonstandard?: Nonstandard | null | undefined;
   shortDesc?: string | undefined;
   color: string;
+  xpCurveName: XpCurveName;
+}
 
-  constructor(base: SpeciesData | CosmeticFormeData) {
+const SPECIES_CACHE: Record<string, PokemonSpecies> = {};
+export function getSpeciesByName(speciesName: string): PokemonSpecies {
+  if (!SPECIES_CACHE[speciesName]) {
+    const base = Pokedex[speciesName];
+    const newSpecies = {} as Partial<PokemonSpecies>;
     if (isCosmeticFormeData(base)) {
-      Object.assign(this, Pokedex[base.baseSpecies]);
+      Object.assign(newSpecies, Pokedex[base.baseSpecies]);
     }
-    Object.assign(this, base);
+    Object.assign(newSpecies, base);
+    SPECIES_CACHE[speciesName] = newSpecies as PokemonSpecies;
   }
+  return SPECIES_CACHE[speciesName];
+}
+
+export function getXpCurve(species: PokemonSpecies): XpCurve {
+  return XPCurves[species.xpCurveName];
+}
+
+export function getExpectedLevelForXp(
+  species: PokemonSpecies,
+  xp: number,
+): number {
+  return (
+    getXpCurve(species).findIndex((xpThreshold) => xp < xpThreshold) ?? 100
+  );
+}
+
+export function getTotalXpForLevel(
+  species: PokemonSpecies,
+  level: number,
+): number {
+  return getXpCurve(species)[level - 1] ?? 0;
+}
+
+export function getXpForNextLevel(
+  species: PokemonSpecies,
+  currentLevel: number,
+): number {
+  return (
+    getTotalXpForLevel(species, currentLevel + 1) -
+    getTotalXpForLevel(species, currentLevel)
+  );
 }

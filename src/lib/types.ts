@@ -1,25 +1,7 @@
 // Data types for the Pokémon tidy-up SPA
 
-import type { PokemonSpecies } from "./pokedex";
-
-export interface Task {
-  id: string;
-  title: string;
-  description?: string;
-  completed: boolean;
-  reward: PokemonSpecies; // Pokémon type earned on completion
-  createdAt: number;
-  completedAt?: number;
-}
-
-export interface Pokemon {
-  id: string;
-  name: string;
-  level: number;
-  experience: number;
-  capturedAt: number;
-  species: PokemonSpecies;
-}
+import type { Pokemon } from "./pokedex";
+import type { Task } from "./tasks";
 
 export interface AppState {
   tasks: Task[];

@@ -26,6 +26,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Ivysaur"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   ivysaur: {
     num: 2,
@@ -54,6 +55,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Venusaur"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   venusaur: {
     num: 3,
@@ -84,6 +86,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Venusaur-Mega"],
     formeOrder: ["Venusaur", "Venusaur-Mega"],
     canGigantamax: "G-Max Vine Lash",
+    xpCurveName: "MediumSlow",
   },
   venusaurmega: {
     num: 3,
@@ -111,6 +114,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Monster", "Grass"],
     requiredItem: "Venusaurite",
+    xpCurveName: "MediumSlow",
   },
   venusaurgmax: {
     num: 3,
@@ -139,6 +143,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Monster", "Grass"],
     changesFrom: "Venusaur",
+    xpCurveName: "MediumSlow",
   },
   charmander: {
     num: 4,
@@ -165,6 +170,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Charmeleon"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   charmeleon: {
     num: 5,
@@ -193,6 +199,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Charizard"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   charizard: {
     num: 6,
@@ -223,6 +230,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Charizard-Mega-X", "Charizard-Mega-Y"],
     formeOrder: ["Charizard", "Charizard-Mega-X", "Charizard-Mega-Y"],
     canGigantamax: "G-Max Wildfire",
+    xpCurveName: "MediumSlow",
   },
   charizardmegax: {
     num: 6,
@@ -250,6 +258,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Charizardite X",
+    xpCurveName: "MediumSlow",
   },
   charizardmegay: {
     num: 6,
@@ -277,6 +286,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Charizardite Y",
+    xpCurveName: "MediumSlow",
   },
   charizardgmax: {
     num: 6,
@@ -305,6 +315,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Monster", "Dragon"],
     changesFrom: "Charizard",
+    xpCurveName: "MediumSlow",
   },
   squirtle: {
     num: 7,
@@ -331,6 +342,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Wartortle"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   wartortle: {
     num: 8,
@@ -359,6 +371,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Blastoise"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   blastoise: {
     num: 9,
@@ -389,6 +402,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Blastoise-Mega"],
     formeOrder: ["Blastoise", "Blastoise-Mega"],
     canGigantamax: "G-Max Cannonade",
+    xpCurveName: "MediumSlow",
   },
   blastoisemega: {
     num: 9,
@@ -416,6 +430,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Water 1"],
     requiredItem: "Blastoisinite",
+    xpCurveName: "MediumSlow",
   },
   blastoisegmax: {
     num: 9,
@@ -444,6 +459,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Water 1"],
     changesFrom: "Blastoise",
+    xpCurveName: "MediumSlow",
   },
   caterpie: {
     num: 10,
@@ -466,6 +482,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Metapod"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   metapod: {
     num: 11,
@@ -489,6 +506,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 7,
     evos: ["Butterfree"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   butterfree: {
     num: 12,
@@ -513,6 +531,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 10,
     eggGroups: ["Bug"],
     canGigantamax: "G-Max Befuddle",
+    xpCurveName: "MediumFast",
   },
   butterfreegmax: {
     num: 12,
@@ -537,6 +556,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Bug"],
     changesFrom: "Butterfree",
+    xpCurveName: "MediumFast",
   },
   weedle: {
     num: 13,
@@ -559,6 +579,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Kakuna"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   kakuna: {
     num: 14,
@@ -582,6 +603,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 7,
     evos: ["Beedrill"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   beedrill: {
     num: 15,
@@ -607,6 +629,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Beedrill-Mega"],
     formeOrder: ["Beedrill", "Beedrill-Mega"],
+    xpCurveName: "MediumFast",
   },
   beedrillmega: {
     num: 15,
@@ -630,6 +653,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Bug"],
     requiredItem: "Beedrillite",
+    xpCurveName: "MediumFast",
   },
   pidgey: {
     num: 16,
@@ -653,6 +677,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Pidgeotto"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   pidgeotto: {
     num: 17,
@@ -678,6 +703,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Pidgeot"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   pidgeot: {
     num: 18,
@@ -704,6 +730,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Pidgeot-Mega"],
     formeOrder: ["Pidgeot", "Pidgeot-Mega"],
+    xpCurveName: "MediumSlow",
   },
   pidgeotmega: {
     num: 18,
@@ -727,6 +754,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Flying"],
     requiredItem: "Pidgeotite",
+    xpCurveName: "MediumSlow",
   },
   rattata: {
     num: 19,
@@ -752,6 +780,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Rattata-Alola"],
     formeOrder: ["Rattata", "Rattata-Alola"],
+    xpCurveName: "MediumFast",
   },
   rattataalola: {
     num: 19,
@@ -777,6 +806,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Raticate-Alola"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   raticate: {
     num: 20,
@@ -803,6 +833,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Raticate-Alola", "Raticate-Alola-Totem"],
     formeOrder: ["Raticate", "Raticate-Alola", "Raticate-Alola-Totem"],
+    xpCurveName: "MediumFast",
   },
   raticatealola: {
     num: 20,
@@ -830,6 +861,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   raticatealolatotem: {
     num: 20,
@@ -852,6 +884,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 105,
     color: "Black",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   spearow: {
     num: 21,
@@ -874,6 +907,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Fearow"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   fearow: {
     num: 22,
@@ -897,6 +931,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Spearow",
     evoLevel: 20,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   ekans: {
     num: 23,
@@ -920,6 +955,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Arbok"],
     eggGroups: ["Field", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   arbok: {
     num: 24,
@@ -944,6 +980,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Ekans",
     evoLevel: 22,
     eggGroups: ["Field", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   pikachu: {
     num: 25,
@@ -1004,6 +1041,7 @@ export const Pokedex: SpeciesDataTable = {
       "Pikachu-Cosplay",
     ],
     canGigantamax: "G-Max Volt Crash",
+    xpCurveName: "MediumFast",
   },
   pikachucosplay: {
     num: 25,
@@ -1028,6 +1066,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachurockstar: {
     num: 25,
@@ -1053,6 +1092,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Pikachu-Cosplay",
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachubelle: {
     num: 25,
@@ -1078,6 +1118,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Pikachu-Cosplay",
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachupopstar: {
     num: 25,
@@ -1103,6 +1144,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Pikachu-Cosplay",
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachuphd: {
     num: 25,
@@ -1128,6 +1170,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Pikachu-Cosplay",
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachulibre: {
     num: 25,
@@ -1153,6 +1196,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Pikachu-Cosplay",
     gen: 6,
+    xpCurveName: "MediumFast",
   },
   pikachuoriginal: {
     num: 25,
@@ -1178,6 +1222,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachuhoenn: {
     num: 25,
@@ -1203,6 +1248,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachusinnoh: {
     num: 25,
@@ -1228,6 +1274,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachuunova: {
     num: 25,
@@ -1253,6 +1300,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachukalos: {
     num: 25,
@@ -1278,6 +1326,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachualola: {
     num: 25,
@@ -1303,6 +1352,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachupartner: {
     num: 25,
@@ -1328,6 +1378,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumFast",
   },
   pikachustarter: {
     num: 25,
@@ -1351,6 +1402,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 6,
     color: "Yellow",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   pikachugmax: {
     num: 25,
@@ -1375,6 +1427,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Field", "Fairy"],
     changesFrom: "Pikachu",
+    xpCurveName: "MediumFast",
   },
   pikachuworld: {
     num: 25,
@@ -1400,6 +1453,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 8,
+    xpCurveName: "MediumFast",
   },
   raichu: {
     num: 26,
@@ -1426,6 +1480,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     otherFormes: ["Raichu-Alola", "Raichu-Mega-X", "Raichu-Mega-Y"],
     formeOrder: ["Raichu", "Raichu-Alola", "Raichu-Mega-X", "Raichu-Mega-Y"],
+    xpCurveName: "MediumFast",
   },
   raichualola: {
     num: 26,
@@ -1452,6 +1507,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Thunder Stone",
     evoRegion: "Alola",
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   raichumegax: {
     num: 26,
@@ -1476,6 +1532,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     requiredItem: "Raichunite X",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   raichumegay: {
     num: 26,
@@ -1500,6 +1557,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     requiredItem: "Raichunite Y",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   sandshrew: {
     num: 27,
@@ -1524,6 +1582,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Sandshrew-Alola"],
     formeOrder: ["Sandshrew", "Sandshrew-Alola"],
+    xpCurveName: "MediumFast",
   },
   sandshrewalola: {
     num: 27,
@@ -1548,6 +1607,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Sandslash-Alola"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   sandslash: {
     num: 28,
@@ -1573,6 +1633,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Sandslash-Alola"],
     formeOrder: ["Sandslash", "Sandslash-Alola"],
+    xpCurveName: "MediumFast",
   },
   sandslashalola: {
     num: 28,
@@ -1599,6 +1660,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Ice Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   nidoranf: {
     num: 29,
@@ -1623,6 +1685,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Nidorina"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   nidorina: {
     num: 30,
@@ -1649,6 +1712,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Nidoqueen"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumSlow",
   },
   nidoqueen: {
     num: 31,
@@ -1675,6 +1739,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Moon Stone",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumSlow",
   },
   nidoranm: {
     num: 32,
@@ -1700,6 +1765,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Nidorino"],
     eggGroups: ["Monster", "Field"],
     mother: "nidoranf",
+    xpCurveName: "MediumSlow",
   },
   nidorino: {
     num: 33,
@@ -1726,6 +1792,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Nidoking"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   nidoking: {
     num: 34,
@@ -1752,6 +1819,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Moon Stone",
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   clefairy: {
     num: 35,
@@ -1781,6 +1849,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evos: ["Clefable"],
     eggGroups: ["Fairy"],
+    xpCurveName: "Fast",
   },
   clefable: {
     num: 36,
@@ -1812,6 +1881,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy"],
     otherFormes: ["Clefable-Mega"],
     formeOrder: ["Clefable", "Clefable-Mega"],
+    xpCurveName: "Fast",
   },
   clefablemega: {
     num: 36,
@@ -1840,6 +1910,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Clefablite",
     gen: 9,
+    xpCurveName: "Fast",
   },
   vulpix: {
     num: 37,
@@ -1868,6 +1939,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Vulpix-Alola"],
     formeOrder: ["Vulpix", "Vulpix-Alola"],
+    xpCurveName: "MediumFast",
   },
   vulpixalola: {
     num: 37,
@@ -1896,6 +1968,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Ninetales-Alola"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   ninetales: {
     num: 38,
@@ -1926,6 +1999,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Ninetales-Alola"],
     formeOrder: ["Ninetales", "Ninetales-Alola"],
+    xpCurveName: "MediumFast",
   },
   ninetalesalola: {
     num: 38,
@@ -1956,6 +2030,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Ice Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   jigglypuff: {
     num: 39,
@@ -1985,6 +2060,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evos: ["Wigglytuff"],
     eggGroups: ["Fairy"],
+    xpCurveName: "Fast",
   },
   wigglytuff: {
     num: 40,
@@ -2014,6 +2090,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Moon Stone",
     eggGroups: ["Fairy"],
+    xpCurveName: "Fast",
   },
   zubat: {
     num: 41,
@@ -2036,6 +2113,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Golbat"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   golbat: {
     num: 42,
@@ -2060,6 +2138,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 22,
     evos: ["Crobat"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   oddish: {
     num: 43,
@@ -2082,6 +2161,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Gloom"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   gloom: {
     num: 44,
@@ -2106,6 +2186,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 21,
     evos: ["Vileplume", "Bellossom"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   vileplume: {
     num: 45,
@@ -2130,6 +2211,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Leaf Stone",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   paras: {
     num: 46,
@@ -2153,6 +2235,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Parasect"],
     eggGroups: ["Bug", "Grass"],
+    xpCurveName: "MediumFast",
   },
   parasect: {
     num: 47,
@@ -2177,6 +2260,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Paras",
     evoLevel: 24,
     eggGroups: ["Bug", "Grass"],
+    xpCurveName: "MediumFast",
   },
   venonat: {
     num: 48,
@@ -2200,6 +2284,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Venomoth"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   venomoth: {
     num: 49,
@@ -2224,6 +2309,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Venonat",
     evoLevel: 31,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   diglett: {
     num: 50,
@@ -2249,6 +2335,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Diglett-Alola"],
     formeOrder: ["Diglett", "Diglett-Alola"],
+    xpCurveName: "MediumFast",
   },
   diglettalola: {
     num: 50,
@@ -2274,6 +2361,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Dugtrio-Alola"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   dugtrio: {
     num: 51,
@@ -2300,6 +2388,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Dugtrio-Alola"],
     formeOrder: ["Dugtrio", "Dugtrio-Alola"],
+    xpCurveName: "MediumFast",
   },
   dugtrioalola: {
     num: 51,
@@ -2326,6 +2415,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Diglett-Alola",
     evoLevel: 26,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   meowth: {
     num: 52,
@@ -2352,6 +2442,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Meowth-Alola", "Meowth-Galar"],
     formeOrder: ["Meowth", "Meowth-Alola", "Meowth-Galar"],
     canGigantamax: "G-Max Gold Rush",
+    xpCurveName: "MediumFast",
   },
   meowthalola: {
     num: 52,
@@ -2377,6 +2468,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Persian-Alola"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   meowthgalar: {
     num: 52,
@@ -2402,6 +2494,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Perrserker"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   meowthgmax: {
     num: 52,
@@ -2427,6 +2520,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Field"],
     changesFrom: "Meowth",
+    xpCurveName: "MediumFast",
   },
   persian: {
     num: 53,
@@ -2453,6 +2547,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Persian-Alola"],
     formeOrder: ["Persian", "Persian-Alola"],
+    xpCurveName: "MediumFast",
   },
   persianalola: {
     num: 53,
@@ -2479,6 +2574,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Meowth-Alola",
     evoType: "levelFriendship",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   psyduck: {
     num: 54,
@@ -2502,6 +2598,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Golduck"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   golduck: {
     num: 55,
@@ -2526,6 +2623,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Psyduck",
     evoLevel: 33,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   mankey: {
     num: 56,
@@ -2549,6 +2647,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Primeape"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   primeape: {
     num: 57,
@@ -2574,6 +2673,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 28,
     evos: ["Annihilape"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   growlithe: {
     num: 58,
@@ -2603,6 +2703,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Growlithe-Hisui"],
     formeOrder: ["Growlithe", "Growlithe-Hisui"],
+    xpCurveName: "Slow",
   },
   growlithehisui: {
     num: 58,
@@ -2632,6 +2733,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Arcanine-Hisui"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   arcanine: {
     num: 59,
@@ -2663,6 +2765,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Arcanine-Hisui"],
     formeOrder: ["Arcanine", "Arcanine-Hisui"],
+    xpCurveName: "Slow",
   },
   arcaninehisui: {
     num: 59,
@@ -2694,6 +2797,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Fire Stone",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   poliwag: {
     num: 60,
@@ -2717,6 +2821,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Poliwhirl"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   poliwhirl: {
     num: 61,
@@ -2742,6 +2847,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Poliwrath", "Politoed"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   poliwrath: {
     num: 62,
@@ -2767,6 +2873,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Water Stone",
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   abra: {
     num: 63,
@@ -2794,6 +2901,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Kadabra"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   kadabra: {
     num: 64,
@@ -2823,6 +2931,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Alakazam"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   alakazam: {
     num: 65,
@@ -2853,6 +2962,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like"],
     otherFormes: ["Alakazam-Mega"],
     formeOrder: ["Alakazam", "Alakazam-Mega"],
+    xpCurveName: "MediumSlow",
   },
   alakazammega: {
     num: 65,
@@ -2880,6 +2990,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Human-Like"],
     requiredItem: "Alakazite",
+    xpCurveName: "MediumSlow",
   },
   machop: {
     num: 66,
@@ -2907,6 +3018,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Machoke"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   machoke: {
     num: 67,
@@ -2936,6 +3048,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 28,
     evos: ["Machamp"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   machamp: {
     num: 68,
@@ -2965,6 +3078,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     eggGroups: ["Human-Like"],
     canGigantamax: "G-Max Chi Strike",
+    xpCurveName: "MediumSlow",
   },
   machampgmax: {
     num: 68,
@@ -2994,6 +3108,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Human-Like"],
     changesFrom: "Machamp",
+    xpCurveName: "MediumSlow",
   },
   bellsprout: {
     num: 69,
@@ -3016,6 +3131,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Weepinbell"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   weepinbell: {
     num: 70,
@@ -3040,6 +3156,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 21,
     evos: ["Victreebel"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   victreebel: {
     num: 71,
@@ -3066,6 +3183,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     otherFormes: ["Victreebel-Mega"],
     formeOrder: ["Victreebel", "Victreebel-Mega"],
+    xpCurveName: "MediumSlow",
   },
   victreebelmega: {
     num: 71,
@@ -3090,6 +3208,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     requiredItem: "Victreebelite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   tentacool: {
     num: 72,
@@ -3113,6 +3232,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Tentacruel"],
     eggGroups: ["Water 3"],
+    xpCurveName: "Slow",
   },
   tentacruel: {
     num: 73,
@@ -3137,6 +3257,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tentacool",
     evoLevel: 30,
     eggGroups: ["Water 3"],
+    xpCurveName: "Slow",
   },
   geodude: {
     num: 74,
@@ -3162,6 +3283,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Geodude-Alola"],
     formeOrder: ["Geodude", "Geodude-Alola"],
+    xpCurveName: "MediumSlow",
   },
   geodudealola: {
     num: 74,
@@ -3187,6 +3309,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Graveler-Alola"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   graveler: {
     num: 75,
@@ -3214,6 +3337,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Graveler-Alola"],
     formeOrder: ["Graveler", "Graveler-Alola"],
+    xpCurveName: "MediumSlow",
   },
   graveleralola: {
     num: 75,
@@ -3241,6 +3365,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Golem-Alola"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   golem: {
     num: 76,
@@ -3267,6 +3392,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Golem-Alola"],
     formeOrder: ["Golem", "Golem-Alola"],
+    xpCurveName: "MediumSlow",
   },
   golemalola: {
     num: 76,
@@ -3293,6 +3419,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Graveler-Alola",
     evoType: "trade",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   ponyta: {
     num: 77,
@@ -3318,6 +3445,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Ponyta-Galar"],
     formeOrder: ["Ponyta", "Ponyta-Galar"],
+    xpCurveName: "MediumFast",
   },
   ponytagalar: {
     num: 77,
@@ -3343,6 +3471,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Rapidash-Galar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   rapidash: {
     num: 78,
@@ -3369,6 +3498,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Rapidash-Galar"],
     formeOrder: ["Rapidash", "Rapidash-Galar"],
+    xpCurveName: "MediumFast",
   },
   rapidashgalar: {
     num: 78,
@@ -3395,6 +3525,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Ponyta-Galar",
     evoLevel: 40,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   slowpoke: {
     num: 79,
@@ -3420,6 +3551,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     otherFormes: ["Slowpoke-Galar"],
     formeOrder: ["Slowpoke", "Slowpoke-Galar"],
+    xpCurveName: "MediumFast",
   },
   slowpokegalar: {
     num: 79,
@@ -3445,6 +3577,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Slowbro-Galar", "Slowking-Galar"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumFast",
   },
   slowbro: {
     num: 80,
@@ -3471,6 +3604,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     otherFormes: ["Slowbro-Mega", "Slowbro-Galar"],
     formeOrder: ["Slowbro", "Slowbro-Mega", "Slowbro-Galar"],
+    xpCurveName: "MediumFast",
   },
   slowbromega: {
     num: 80,
@@ -3494,6 +3628,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Monster", "Water 1"],
     requiredItem: "Slowbronite",
+    xpCurveName: "MediumFast",
   },
   slowbrogalar: {
     num: 80,
@@ -3521,6 +3656,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Galarica Cuff",
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumFast",
   },
   magnemite: {
     num: 81,
@@ -3545,6 +3681,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Magneton"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   magneton: {
     num: 82,
@@ -3571,6 +3708,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Magnezone"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   farfetchd: {
     num: 83,
@@ -3595,6 +3733,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying", "Field"],
     otherFormes: ["Farfetch’d-Galar"],
     formeOrder: ["Farfetch’d", "Farfetch’d-Galar"],
+    xpCurveName: "MediumFast",
   },
   farfetchdgalar: {
     num: 83,
@@ -3619,6 +3758,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Sirfetch’d"],
     eggGroups: ["Flying", "Field"],
+    xpCurveName: "Unknown",
   },
   doduo: {
     num: 84,
@@ -3642,6 +3782,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Dodrio"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   dodrio: {
     num: 85,
@@ -3666,6 +3807,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Doduo",
     evoLevel: 31,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   seel: {
     num: 86,
@@ -3689,6 +3831,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Dewgong"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   dewgong: {
     num: 87,
@@ -3713,6 +3856,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Seel",
     evoLevel: 34,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   grimer: {
     num: 88,
@@ -3738,6 +3882,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Grimer-Alola"],
     formeOrder: ["Grimer", "Grimer-Alola"],
+    xpCurveName: "MediumFast",
   },
   grimeralola: {
     num: 88,
@@ -3763,6 +3908,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Muk-Alola"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   muk: {
     num: 89,
@@ -3789,6 +3935,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Muk-Alola"],
     formeOrder: ["Muk", "Muk-Alola"],
+    xpCurveName: "MediumFast",
   },
   mukalola: {
     num: 89,
@@ -3815,6 +3962,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Grimer-Alola",
     evoLevel: 38,
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   shellder: {
     num: 90,
@@ -3838,6 +3986,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Cloyster"],
     eggGroups: ["Water 3"],
+    xpCurveName: "Slow",
   },
   cloyster: {
     num: 91,
@@ -3863,6 +4012,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Water Stone",
     eggGroups: ["Water 3"],
+    xpCurveName: "Slow",
   },
   gastly: {
     num: 92,
@@ -3884,6 +4034,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Haunter"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   haunter: {
     num: 93,
@@ -3907,6 +4058,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Gengar"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   gengar: {
     num: 94,
@@ -3932,6 +4084,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Gengar-Mega"],
     formeOrder: ["Gengar", "Gengar-Mega"],
     canGigantamax: "G-Max Terror",
+    xpCurveName: "MediumSlow",
   },
   gengarmega: {
     num: 94,
@@ -3955,6 +4108,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Amorphous"],
     requiredItem: "Gengarite",
+    xpCurveName: "MediumSlow",
   },
   gengargmax: {
     num: 94,
@@ -3978,6 +4132,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Amorphous"],
     changesFrom: "Gengar",
+    xpCurveName: "MediumSlow",
   },
   onix: {
     num: 95,
@@ -4001,6 +4156,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Steelix"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   drowzee: {
     num: 96,
@@ -4024,6 +4180,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Hypno"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   hypno: {
     num: 97,
@@ -4048,6 +4205,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Drowzee",
     evoLevel: 26,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   krabby: {
     num: 98,
@@ -4071,6 +4229,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Kingler"],
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   kingler: {
     num: 99,
@@ -4096,6 +4255,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 28,
     eggGroups: ["Water 3"],
     canGigantamax: "G-Max Foam Burst",
+    xpCurveName: "MediumFast",
   },
   kinglergmax: {
     num: 99,
@@ -4121,6 +4281,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Water 3"],
     changesFrom: "Kingler",
+    xpCurveName: "MediumFast",
   },
   voltorb: {
     num: 100,
@@ -4147,6 +4308,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Voltorb-Hisui"],
     formeOrder: ["Voltorb", "Voltorb-Hisui"],
+    xpCurveName: "MediumFast",
   },
   voltorbhisui: {
     num: 100,
@@ -4173,6 +4335,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Electrode-Hisui"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   electrode: {
     num: 101,
@@ -4200,6 +4363,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Electrode-Hisui"],
     formeOrder: ["Electrode", "Electrode-Hisui"],
+    xpCurveName: "MediumFast",
   },
   electrodehisui: {
     num: 101,
@@ -4228,6 +4392,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Leaf Stone",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   exeggcute: {
     num: 102,
@@ -4250,6 +4415,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Exeggutor", "Exeggutor-Alola"],
     eggGroups: ["Grass"],
+    xpCurveName: "Slow",
   },
   exeggutor: {
     num: 103,
@@ -4276,6 +4442,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     otherFormes: ["Exeggutor-Alola"],
     formeOrder: ["Exeggutor", "Exeggutor-Alola"],
+    xpCurveName: "Slow",
   },
   exeggutoralola: {
     num: 103,
@@ -4303,6 +4470,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Leaf Stone",
     evoRegion: "Alola",
     eggGroups: ["Grass"],
+    xpCurveName: "Slow",
   },
   cubone: {
     num: 104,
@@ -4326,6 +4494,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Marowak", "Marowak-Alola"],
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   marowak: {
     num: 105,
@@ -4352,6 +4521,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster"],
     otherFormes: ["Marowak-Alola", "Marowak-Alola-Totem"],
     formeOrder: ["Marowak", "Marowak-Alola", "Marowak-Alola-Totem"],
+    xpCurveName: "MediumFast",
   },
   marowakalola: {
     num: 105,
@@ -4380,6 +4550,7 @@ export const Pokedex: SpeciesDataTable = {
     evoCondition: "at night",
     evoRegion: "Alola",
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   marowakalolatotem: {
     num: 105,
@@ -4402,6 +4573,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 98,
     color: "Purple",
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   hitmonlee: {
     num: 106,
@@ -4428,6 +4600,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evoCondition: "with an Atk stat > its Def stat",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   hitmonchan: {
     num: 107,
@@ -4454,6 +4627,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evoCondition: "with an Atk stat < its Def stat",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   lickitung: {
     num: 108,
@@ -4477,6 +4651,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Lickilicky"],
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   koffing: {
     num: 109,
@@ -4500,6 +4675,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Weezing", "Weezing-Galar"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   weezing: {
     num: 110,
@@ -4526,6 +4702,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Weezing-Galar"],
     formeOrder: ["Weezing", "Weezing-Galar"],
+    xpCurveName: "MediumFast",
   },
   weezinggalar: {
     num: 110,
@@ -4553,6 +4730,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evoRegion: "Galar",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   rhyhorn: {
     num: 111,
@@ -4576,6 +4754,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Rhydon"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "Slow",
   },
   rhydon: {
     num: 112,
@@ -4601,6 +4780,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 42,
     evos: ["Rhyperior"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "Slow",
   },
   chansey: {
     num: 113,
@@ -4630,6 +4810,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Blissey"],
     eggGroups: ["Fairy"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   tangela: {
     num: 114,
@@ -4653,6 +4834,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Tangrowth"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   kangaskhan: {
     num: 115,
@@ -4678,6 +4860,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster"],
     otherFormes: ["Kangaskhan-Mega"],
     formeOrder: ["Kangaskhan", "Kangaskhan-Mega"],
+    xpCurveName: "MediumFast",
   },
   kangaskhanmega: {
     num: 115,
@@ -4702,6 +4885,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Monster"],
     requiredItem: "Kangaskhanite",
+    xpCurveName: "MediumFast",
   },
   horsea: {
     num: 116,
@@ -4725,6 +4909,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Seadra"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   seadra: {
     num: 117,
@@ -4750,6 +4935,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Kingdra"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   goldeen: {
     num: 118,
@@ -4773,6 +4959,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Seaking"],
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   seaking: {
     num: 119,
@@ -4797,6 +4984,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Goldeen",
     evoLevel: 33,
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   staryu: {
     num: 120,
@@ -4821,6 +5009,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Starmie"],
     eggGroups: ["Water 3"],
+    xpCurveName: "Slow",
   },
   starmie: {
     num: 121,
@@ -4849,6 +5038,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     otherFormes: ["Starmie-Mega"],
     formeOrder: ["Starmie", "Starmie-Mega"],
+    xpCurveName: "Slow",
   },
   starmiemega: {
     num: 121,
@@ -4874,6 +5064,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     requiredItem: "Starminite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   mrmime: {
     num: 122,
@@ -4902,6 +5093,7 @@ export const Pokedex: SpeciesDataTable = {
     canHatch: true,
     otherFormes: ["Mr. Mime-Galar"],
     formeOrder: ["Mr. Mime", "Mr. Mime-Galar"],
+    xpCurveName: "MediumFast",
   },
   mrmimegalar: {
     num: 122,
@@ -4932,6 +5124,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Mr. Rime"],
     eggGroups: ["Human-Like"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   scyther: {
     num: 123,
@@ -4955,6 +5148,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Scizor", "Kleavor"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   jynx: {
     num: 124,
@@ -4980,6 +5174,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Smoochum",
     evoLevel: 30,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   electabuzz: {
     num: 125,
@@ -5008,6 +5203,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Electivire"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   magmar: {
     num: 126,
@@ -5036,6 +5232,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Magmortar"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   pinsir: {
     num: 127,
@@ -5060,6 +5257,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Pinsir-Mega"],
     formeOrder: ["Pinsir", "Pinsir-Mega"],
+    xpCurveName: "Slow",
   },
   pinsirmega: {
     num: 127,
@@ -5083,6 +5281,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Bug"],
     requiredItem: "Pinsirite",
+    xpCurveName: "Slow",
   },
   tauros: {
     num: 128,
@@ -5117,6 +5316,7 @@ export const Pokedex: SpeciesDataTable = {
       "Tauros-Paldea-Aqua",
     ],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   taurospaldeacombat: {
     num: 128,
@@ -5142,6 +5342,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 115,
     color: "Black",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   taurospaldeablaze: {
     num: 128,
@@ -5167,6 +5368,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 85,
     color: "Black",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   taurospaldeaaqua: {
     num: 128,
@@ -5192,6 +5394,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 110,
     color: "Black",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   magikarp: {
     num: 129,
@@ -5214,6 +5417,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Gyarados"],
     eggGroups: ["Water 2", "Dragon"],
+    xpCurveName: "Slow",
   },
   gyarados: {
     num: 130,
@@ -5239,6 +5443,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2", "Dragon"],
     otherFormes: ["Gyarados-Mega"],
     formeOrder: ["Gyarados", "Gyarados-Mega"],
+    xpCurveName: "Slow",
   },
   gyaradosmega: {
     num: 130,
@@ -5262,6 +5467,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Water 2", "Dragon"],
     requiredItem: "Gyaradosite",
+    xpCurveName: "Slow",
   },
   lapras: {
     num: 131,
@@ -5285,6 +5491,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Water 1"],
     canGigantamax: "G-Max Resonance",
+    xpCurveName: "Slow",
   },
   laprasgmax: {
     num: 131,
@@ -5310,6 +5517,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Water 1"],
     changesFrom: "Lapras",
+    xpCurveName: "Slow",
   },
   ditto: {
     num: 132,
@@ -5332,6 +5540,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 4,
     color: "Purple",
     eggGroups: ["Ditto"],
+    xpCurveName: "MediumFast",
   },
   eevee: {
     num: 133,
@@ -5371,6 +5580,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Eevee-Starter"],
     formeOrder: ["Eevee", "Eevee-Starter"],
     canGigantamax: "G-Max Cuddle",
+    xpCurveName: "MediumFast",
   },
   eeveestarter: {
     num: 133,
@@ -5399,6 +5609,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 6.5,
     color: "Brown",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   eeveegmax: {
     num: 133,
@@ -5428,6 +5639,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Field"],
     changesFrom: "Eevee",
+    xpCurveName: "MediumFast",
   },
   vaporeon: {
     num: 134,
@@ -5456,6 +5668,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Water Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   jolteon: {
     num: 135,
@@ -5484,6 +5697,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Thunder Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   flareon: {
     num: 136,
@@ -5512,6 +5726,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Fire Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   porygon: {
     num: 137,
@@ -5536,6 +5751,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Porygon2"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   omanyte: {
     num: 138,
@@ -5563,6 +5779,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Omastar"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   omastar: {
     num: 139,
@@ -5591,6 +5808,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Omanyte",
     evoLevel: 40,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   kabuto: {
     num: 140,
@@ -5618,6 +5836,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Kabutops"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   kabutops: {
     num: 141,
@@ -5646,6 +5865,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Kabuto",
     evoLevel: 40,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   aerodactyl: {
     num: 142,
@@ -5674,6 +5894,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Aerodactyl-Mega"],
     formeOrder: ["Aerodactyl", "Aerodactyl-Mega"],
+    xpCurveName: "Slow",
   },
   aerodactylmega: {
     num: 142,
@@ -5701,6 +5922,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Flying"],
     requiredItem: "Aerodactylite",
+    xpCurveName: "Slow",
   },
   snorlax: {
     num: 143,
@@ -5731,6 +5953,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster"],
     canHatch: true,
     canGigantamax: "G-Max Replenish",
+    xpCurveName: "Slow",
   },
   snorlaxgmax: {
     num: 143,
@@ -5760,6 +5983,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Monster"],
     changesFrom: "Snorlax",
+    xpCurveName: "Slow",
   },
   articuno: {
     num: 144,
@@ -5785,6 +6009,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Articuno-Galar"],
     formeOrder: ["Articuno", "Articuno-Galar"],
+    xpCurveName: "Slow",
   },
   articunogalar: {
     num: 144,
@@ -5808,6 +6033,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 50.9,
     color: "Purple",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   zapdos: {
     num: 145,
@@ -5833,6 +6059,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Zapdos-Galar"],
     formeOrder: ["Zapdos", "Zapdos-Galar"],
+    xpCurveName: "Slow",
   },
   zapdosgalar: {
     num: 145,
@@ -5856,6 +6083,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 58.2,
     color: "Yellow",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   moltres: {
     num: 146,
@@ -5881,6 +6109,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Moltres-Galar"],
     formeOrder: ["Moltres", "Moltres-Galar"],
+    xpCurveName: "Slow",
   },
   moltresgalar: {
     num: 146,
@@ -5904,6 +6133,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 66,
     color: "Red",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   dratini: {
     num: 147,
@@ -5926,6 +6156,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Dragonair"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "Slow",
   },
   dragonair: {
     num: 148,
@@ -5950,6 +6181,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Dragonite"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "Slow",
   },
   dragonite: {
     num: 149,
@@ -5975,6 +6207,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Dragon"],
     otherFormes: ["Dragonite-Mega"],
     formeOrder: ["Dragonite", "Dragonite-Mega"],
+    xpCurveName: "Slow",
   },
   dragonitemega: {
     num: 149,
@@ -5999,6 +6232,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Dragon"],
     requiredItem: "Dragoninite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   mewtwo: {
     num: 150,
@@ -6024,6 +6258,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Restricted Legendary"],
     otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y"],
     formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y"],
+    xpCurveName: "Slow",
   },
   mewtwomegax: {
     num: 150,
@@ -6048,6 +6283,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     requiredItem: "Mewtwonite X",
+    xpCurveName: "Slow",
   },
   mewtwomegay: {
     num: 150,
@@ -6072,6 +6308,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     requiredItem: "Mewtwonite Y",
+    xpCurveName: "Slow",
   },
   mew: {
     num: 151,
@@ -6094,6 +6331,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumSlow",
   },
   chikorita: {
     num: 152,
@@ -6120,6 +6358,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Bayleef"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   bayleef: {
     num: 153,
@@ -6148,6 +6387,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Meganium"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   meganium: {
     num: 154,
@@ -6177,6 +6417,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Grass"],
     otherFormes: ["Meganium-Mega"],
     formeOrder: ["Meganium", "Meganium-Mega"],
+    xpCurveName: "MediumSlow",
   },
   meganiummega: {
     num: 154,
@@ -6205,6 +6446,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Grass"],
     requiredItem: "Meganiumite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   cyndaquil: {
     num: 155,
@@ -6231,6 +6473,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Quilava"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   quilava: {
     num: 156,
@@ -6259,6 +6502,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Typhlosion", "Typhlosion-Hisui"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   typhlosion: {
     num: 157,
@@ -6288,6 +6532,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Typhlosion-Hisui"],
     formeOrder: ["Typhlosion", "Typhlosion-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   typhlosionhisui: {
     num: 157,
@@ -6317,6 +6562,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Quilava",
     evoLevel: 36,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   totodile: {
     num: 158,
@@ -6343,6 +6589,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Croconaw"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   croconaw: {
     num: 159,
@@ -6371,6 +6618,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Feraligatr"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   feraligatr: {
     num: 160,
@@ -6400,6 +6648,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     otherFormes: ["Feraligatr-Mega"],
     formeOrder: ["Feraligatr", "Feraligatr-Mega"],
+    xpCurveName: "MediumSlow",
   },
   feraligatrmega: {
     num: 160,
@@ -6428,6 +6677,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     requiredItem: "Feraligite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   sentret: {
     num: 161,
@@ -6451,6 +6701,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Furret"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   furret: {
     num: 162,
@@ -6475,6 +6726,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Sentret",
     evoLevel: 15,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   hoothoot: {
     num: 163,
@@ -6498,6 +6750,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Noctowl"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   noctowl: {
     num: 164,
@@ -6522,6 +6775,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Hoothoot",
     evoLevel: 20,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   ledyba: {
     num: 165,
@@ -6545,6 +6799,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Ledian"],
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   ledian: {
     num: 166,
@@ -6569,6 +6824,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Ledyba",
     evoLevel: 18,
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   spinarak: {
     num: 167,
@@ -6592,6 +6848,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Ariados"],
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   ariados: {
     num: 168,
@@ -6616,6 +6873,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Spinarak",
     evoLevel: 22,
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   crobat: {
     num: 169,
@@ -6639,6 +6897,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Golbat",
     evoType: "levelFriendship",
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   chinchou: {
     num: 170,
@@ -6662,6 +6921,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Lanturn"],
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   lanturn: {
     num: 171,
@@ -6686,6 +6946,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Chinchou",
     evoLevel: 27,
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   pichu: {
     num: 172,
@@ -6711,6 +6972,7 @@ export const Pokedex: SpeciesDataTable = {
     canHatch: true,
     otherFormes: ["Pichu-Spiky-eared"],
     formeOrder: ["Pichu", "Pichu-Spiky-eared"],
+    xpCurveName: "MediumFast",
   },
   pichuspikyeared: {
     num: 172,
@@ -6734,6 +6996,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     gen: 4,
+    xpCurveName: "MediumFast",
   },
   cleffa: {
     num: 173,
@@ -6762,6 +7025,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Clefairy"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   igglybuff: {
     num: 174,
@@ -6790,6 +7054,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Jigglypuff"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   togepi: {
     num: 175,
@@ -6818,6 +7083,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Togetic"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   togetic: {
     num: 176,
@@ -6847,6 +7113,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evos: ["Togekiss"],
     eggGroups: ["Flying", "Fairy"],
+    xpCurveName: "Fast",
   },
   natu: {
     num: 177,
@@ -6870,6 +7137,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Xatu"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   xatu: {
     num: 178,
@@ -6894,6 +7162,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Natu",
     evoLevel: 25,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   mareep: {
     num: 179,
@@ -6916,6 +7185,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Flaaffy"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   flaaffy: {
     num: 180,
@@ -6940,6 +7210,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 15,
     evos: ["Ampharos"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   ampharos: {
     num: 181,
@@ -6965,6 +7236,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Field"],
     otherFormes: ["Ampharos-Mega"],
     formeOrder: ["Ampharos", "Ampharos-Mega"],
+    xpCurveName: "MediumSlow",
   },
   ampharosmega: {
     num: 181,
@@ -6988,6 +7260,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Monster", "Field"],
     requiredItem: "Ampharosite",
+    xpCurveName: "MediumSlow",
   },
   bellossom: {
     num: 182,
@@ -7012,6 +7285,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Sun Stone",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   marill: {
     num: 183,
@@ -7038,6 +7312,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Azumarill"],
     eggGroups: ["Water 1", "Fairy"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   azumarill: {
     num: 184,
@@ -7062,6 +7337,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Marill",
     evoLevel: 18,
     eggGroups: ["Water 1", "Fairy"],
+    xpCurveName: "Fast",
   },
   sudowoodo: {
     num: 185,
@@ -7088,6 +7364,7 @@ export const Pokedex: SpeciesDataTable = {
     evoMove: "Mimic",
     eggGroups: ["Mineral"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   politoed: {
     num: 186,
@@ -7113,6 +7390,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "King's Rock",
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   hoppip: {
     num: 187,
@@ -7136,6 +7414,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Skiploom"],
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   skiploom: {
     num: 188,
@@ -7161,6 +7440,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Jumpluff"],
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   jumpluff: {
     num: 189,
@@ -7185,6 +7465,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Skiploom",
     evoLevel: 27,
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   aipom: {
     num: 190,
@@ -7208,6 +7489,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Ambipom"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   sunkern: {
     num: 191,
@@ -7231,6 +7513,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Sunflora"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   sunflora: {
     num: 192,
@@ -7256,6 +7539,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Sun Stone",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   yanma: {
     num: 193,
@@ -7279,6 +7563,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Yanmega"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   wooper: {
     num: 194,
@@ -7304,6 +7589,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Field"],
     otherFormes: ["Wooper-Paldea"],
     formeOrder: ["Wooper", "Wooper-Paldea"],
+    xpCurveName: "MediumFast",
   },
   wooperpaldea: {
     num: 194,
@@ -7329,6 +7615,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Clodsire"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   quagsire: {
     num: 195,
@@ -7353,6 +7640,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wooper",
     evoLevel: 20,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   espeon: {
     num: 196,
@@ -7381,6 +7669,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evoCondition: "during the day",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   umbreon: {
     num: 197,
@@ -7409,6 +7698,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   murkrow: {
     num: 198,
@@ -7432,6 +7722,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Honchkrow"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   slowking: {
     num: 199,
@@ -7459,6 +7750,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     otherFormes: ["Slowking-Galar"],
     formeOrder: ["Slowking", "Slowking-Galar"],
+    xpCurveName: "MediumFast",
   },
   slowkinggalar: {
     num: 199,
@@ -7486,6 +7778,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Galarica Wreath",
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumFast",
   },
   misdreavus: {
     num: 200,
@@ -7507,6 +7800,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Mismagius"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   unown: {
     num: 201,
@@ -7588,6 +7882,7 @@ export const Pokedex: SpeciesDataTable = {
       "Unown-Exclamation",
       "Unown-Question",
     ],
+    xpCurveName: "MediumFast",
   },
   wobbuffet: {
     num: 202,
@@ -7612,6 +7907,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 15,
     eggGroups: ["Amorphous"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   girafarig: {
     num: 203,
@@ -7635,6 +7931,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Farigiraf"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pineco: {
     num: 204,
@@ -7657,6 +7954,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Forretress"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   forretress: {
     num: 205,
@@ -7680,6 +7978,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Pineco",
     evoLevel: 31,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   dunsparce: {
     num: 206,
@@ -7703,6 +8002,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Dudunsparce", "Dudunsparce-Three-Segment"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   gligar: {
     num: 207,
@@ -7726,6 +8026,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Gliscor"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   steelix: {
     num: 208,
@@ -7753,6 +8054,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Steelix-Mega"],
     formeOrder: ["Steelix", "Steelix-Mega"],
+    xpCurveName: "MediumFast",
   },
   steelixmega: {
     num: 208,
@@ -7776,6 +8078,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Mineral"],
     requiredItem: "Steelixite",
+    xpCurveName: "MediumFast",
   },
   snubbull: {
     num: 209,
@@ -7803,6 +8106,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Granbull"],
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   granbull: {
     num: 210,
@@ -7831,6 +8135,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Snubbull",
     evoLevel: 23,
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   qwilfish: {
     num: 211,
@@ -7855,6 +8160,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     otherFormes: ["Qwilfish-Hisui"],
     formeOrder: ["Qwilfish", "Qwilfish-Hisui"],
+    xpCurveName: "MediumFast",
   },
   qwilfishhisui: {
     num: 211,
@@ -7880,6 +8186,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Overqwil"],
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   scizor: {
     num: 212,
@@ -7907,6 +8214,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Scizor-Mega"],
     formeOrder: ["Scizor", "Scizor-Mega"],
+    xpCurveName: "MediumFast",
   },
   scizormega: {
     num: 212,
@@ -7930,6 +8238,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Bug"],
     requiredItem: "Scizorite",
+    xpCurveName: "MediumFast",
   },
   shuckle: {
     num: 213,
@@ -7952,6 +8261,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 20.5,
     color: "Yellow",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   heracross: {
     num: 214,
@@ -7976,6 +8286,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Heracross-Mega"],
     formeOrder: ["Heracross", "Heracross-Mega"],
+    xpCurveName: "Slow",
   },
   heracrossmega: {
     num: 214,
@@ -7999,6 +8310,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Bug"],
     requiredItem: "Heracronite",
+    xpCurveName: "Slow",
   },
   sneasel: {
     num: 215,
@@ -8024,6 +8336,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Sneasel-Hisui"],
     formeOrder: ["Sneasel", "Sneasel-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   sneaselhisui: {
     num: 215,
@@ -8049,6 +8362,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Sneasler"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   teddiursa: {
     num: 216,
@@ -8072,6 +8386,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Ursaring"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   ursaring: {
     num: 217,
@@ -8097,6 +8412,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Ursaluna"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   slugma: {
     num: 218,
@@ -8120,6 +8436,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Magcargo"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   magcargo: {
     num: 219,
@@ -8144,6 +8461,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Slugma",
     evoLevel: 38,
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   swinub: {
     num: 220,
@@ -8167,6 +8485,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Piloswine"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   piloswine: {
     num: 221,
@@ -8192,6 +8511,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 33,
     evos: ["Mamoswine"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   corsola: {
     num: 222,
@@ -8220,6 +8540,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Water 3"],
     otherFormes: ["Corsola-Galar"],
     formeOrder: ["Corsola", "Corsola-Galar"],
+    xpCurveName: "Fast",
   },
   corsolagalar: {
     num: 222,
@@ -8248,6 +8569,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Cursola"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Fast",
   },
   remoraid: {
     num: 223,
@@ -8271,6 +8593,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Octillery"],
     eggGroups: ["Water 1", "Water 2"],
+    xpCurveName: "MediumFast",
   },
   octillery: {
     num: 224,
@@ -8295,6 +8618,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Remoraid",
     evoLevel: 25,
     eggGroups: ["Water 1", "Water 2"],
+    xpCurveName: "MediumFast",
   },
   delibird: {
     num: 225,
@@ -8317,6 +8641,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 16,
     color: "Red",
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "Fast",
   },
   mantine: {
     num: 226,
@@ -8343,6 +8668,7 @@ export const Pokedex: SpeciesDataTable = {
     evoCondition: "with a Remoraid in party",
     eggGroups: ["Water 1"],
     canHatch: true,
+    xpCurveName: "Slow",
   },
   skarmory: {
     num: 227,
@@ -8367,6 +8693,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Skarmory-Mega"],
     formeOrder: ["Skarmory", "Skarmory-Mega"],
+    xpCurveName: "Slow",
   },
   skarmorymega: {
     num: 227,
@@ -8391,6 +8718,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     requiredItem: "Skarmorite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   houndour: {
     num: 228,
@@ -8414,6 +8742,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Houndoom"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   houndoom: {
     num: 229,
@@ -8440,6 +8769,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Houndoom-Mega"],
     formeOrder: ["Houndoom", "Houndoom-Mega"],
+    xpCurveName: "Slow",
   },
   houndoommega: {
     num: 229,
@@ -8463,6 +8793,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Field"],
     requiredItem: "Houndoominite",
+    xpCurveName: "Slow",
   },
   kingdra: {
     num: 230,
@@ -8488,6 +8819,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Dragon Scale",
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   phanpy: {
     num: 231,
@@ -8510,6 +8842,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Donphan"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   donphan: {
     num: 232,
@@ -8533,6 +8866,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Phanpy",
     evoLevel: 25,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   porygon2: {
     num: 233,
@@ -8560,6 +8894,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Up-Grade",
     evos: ["Porygon-Z"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   stantler: {
     num: 234,
@@ -8583,6 +8918,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Wyrdeer"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   smeargle: {
     num: 235,
@@ -8605,6 +8941,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 58,
     color: "White",
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   tyrogue: {
     num: 236,
@@ -8630,6 +8967,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Hitmonlee", "Hitmonchan", "Hitmontop"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   hitmontop: {
     num: 237,
@@ -8656,6 +8994,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evoCondition: "with an Atk stat equal to its Def stat",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   smoochum: {
     num: 238,
@@ -8681,6 +9020,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Jynx"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   elekid: {
     num: 239,
@@ -8708,6 +9048,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Electabuzz"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   magby: {
     num: 240,
@@ -8735,6 +9076,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Magmar"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   miltank: {
     num: 241,
@@ -8758,6 +9100,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 75.5,
     color: "Pink",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   blissey: {
     num: 242,
@@ -8783,6 +9126,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Chansey",
     evoType: "levelFriendship",
     eggGroups: ["Fairy"],
+    xpCurveName: "Fast",
   },
   raikou: {
     num: 243,
@@ -8806,6 +9150,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   entei: {
     num: 244,
@@ -8829,6 +9174,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   suicune: {
     num: 245,
@@ -8852,6 +9198,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   larvitar: {
     num: 246,
@@ -8874,6 +9221,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Pupitar"],
     eggGroups: ["Monster"],
+    xpCurveName: "Slow",
   },
   pupitar: {
     num: 247,
@@ -8897,6 +9245,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Tyranitar"],
     eggGroups: ["Monster"],
+    xpCurveName: "Slow",
   },
   tyranitar: {
     num: 248,
@@ -8922,6 +9271,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster"],
     otherFormes: ["Tyranitar-Mega"],
     formeOrder: ["Tyranitar", "Tyranitar-Mega"],
+    xpCurveName: "Slow",
   },
   tyranitarmega: {
     num: 248,
@@ -8945,6 +9295,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Monster"],
     requiredItem: "Tyranitarite",
+    xpCurveName: "Slow",
   },
   lugia: {
     num: 249,
@@ -8968,6 +9319,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   hooh: {
     num: 250,
@@ -8991,6 +9343,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   celebi: {
     num: 251,
@@ -9013,6 +9366,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumSlow",
   },
   treecko: {
     num: 252,
@@ -9039,6 +9393,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Grovyle"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   grovyle: {
     num: 253,
@@ -9067,6 +9422,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Sceptile"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   sceptile: {
     num: 254,
@@ -9096,6 +9452,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     otherFormes: ["Sceptile-Mega"],
     formeOrder: ["Sceptile", "Sceptile-Mega"],
+    xpCurveName: "MediumSlow",
   },
   sceptilemega: {
     num: 254,
@@ -9123,6 +9480,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Sceptilite",
+    xpCurveName: "MediumSlow",
   },
   torchic: {
     num: 255,
@@ -9149,6 +9507,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Combusken"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   combusken: {
     num: 256,
@@ -9177,6 +9536,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Blaziken"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   blaziken: {
     num: 257,
@@ -9206,6 +9566,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Blaziken-Mega"],
     formeOrder: ["Blaziken", "Blaziken-Mega"],
+    xpCurveName: "MediumSlow",
   },
   blazikenmega: {
     num: 257,
@@ -9233,6 +9594,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Field"],
     requiredItem: "Blazikenite",
+    xpCurveName: "MediumSlow",
   },
   mudkip: {
     num: 258,
@@ -9259,6 +9621,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Marshtomp"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   marshtomp: {
     num: 259,
@@ -9287,6 +9650,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Swampert"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   swampert: {
     num: 260,
@@ -9316,6 +9680,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Water 1"],
     otherFormes: ["Swampert-Mega"],
     formeOrder: ["Swampert", "Swampert-Mega"],
+    xpCurveName: "MediumSlow",
   },
   swampertmega: {
     num: 260,
@@ -9343,6 +9708,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Water 1"],
     requiredItem: "Swampertite",
+    xpCurveName: "MediumSlow",
   },
   poochyena: {
     num: 261,
@@ -9366,6 +9732,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Mightyena"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   mightyena: {
     num: 262,
@@ -9390,6 +9757,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Poochyena",
     evoLevel: 18,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   zigzagoon: {
     num: 263,
@@ -9415,6 +9783,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Zigzagoon-Galar"],
     formeOrder: ["Zigzagoon", "Zigzagoon-Galar"],
+    xpCurveName: "MediumFast",
   },
   zigzagoongalar: {
     num: 263,
@@ -9440,6 +9809,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Linoone-Galar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   linoone: {
     num: 264,
@@ -9466,6 +9836,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Linoone-Galar"],
     formeOrder: ["Linoone", "Linoone-Galar"],
+    xpCurveName: "MediumFast",
   },
   linoonegalar: {
     num: 264,
@@ -9493,6 +9864,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Obstagoon"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   wurmple: {
     num: 265,
@@ -9515,6 +9887,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Silcoon", "Cascoon"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   silcoon: {
     num: 266,
@@ -9538,6 +9911,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 7,
     evos: ["Beautifly"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   beautifly: {
     num: 267,
@@ -9561,6 +9935,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Silcoon",
     evoLevel: 10,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   cascoon: {
     num: 268,
@@ -9584,6 +9959,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 7,
     evos: ["Dustox"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   dustox: {
     num: 269,
@@ -9607,6 +9983,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cascoon",
     evoLevel: 10,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   lotad: {
     num: 270,
@@ -9630,6 +10007,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Lombre"],
     eggGroups: ["Water 1", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   lombre: {
     num: 271,
@@ -9655,6 +10033,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Ludicolo"],
     eggGroups: ["Water 1", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   ludicolo: {
     num: 272,
@@ -9680,6 +10059,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Water Stone",
     eggGroups: ["Water 1", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   seedot: {
     num: 273,
@@ -9703,6 +10083,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Nuzleaf"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   nuzleaf: {
     num: 274,
@@ -9728,6 +10109,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Shiftry"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   shiftry: {
     num: 275,
@@ -9753,6 +10135,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Leaf Stone",
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   taillow: {
     num: 276,
@@ -9775,6 +10158,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Swellow"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   swellow: {
     num: 277,
@@ -9798,6 +10182,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Taillow",
     evoLevel: 22,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   wingull: {
     num: 278,
@@ -9821,6 +10206,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Pelipper"],
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumFast",
   },
   pelipper: {
     num: 279,
@@ -9845,6 +10231,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wingull",
     evoLevel: 25,
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumFast",
   },
   ralts: {
     num: 280,
@@ -9868,6 +10255,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Kirlia"],
     eggGroups: ["Human-Like", "Amorphous"],
+    xpCurveName: "Slow",
   },
   kirlia: {
     num: 281,
@@ -9893,6 +10281,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Gardevoir", "Gallade"],
     eggGroups: ["Human-Like", "Amorphous"],
+    xpCurveName: "Slow",
   },
   gardevoir: {
     num: 282,
@@ -9919,6 +10308,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like", "Amorphous"],
     otherFormes: ["Gardevoir-Mega"],
     formeOrder: ["Gardevoir", "Gardevoir-Mega"],
+    xpCurveName: "Slow",
   },
   gardevoirmega: {
     num: 282,
@@ -9942,6 +10332,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Amorphous"],
     requiredItem: "Gardevoirite",
+    xpCurveName: "Slow",
   },
   surskit: {
     num: 283,
@@ -9964,6 +10355,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Masquerain"],
     eggGroups: ["Water 1", "Bug"],
+    xpCurveName: "MediumFast",
   },
   masquerain: {
     num: 284,
@@ -9987,6 +10379,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Surskit",
     evoLevel: 22,
     eggGroups: ["Water 1", "Bug"],
+    xpCurveName: "MediumFast",
   },
   shroomish: {
     num: 285,
@@ -10010,6 +10403,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Breloom"],
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "Fluctuating",
   },
   breloom: {
     num: 286,
@@ -10034,6 +10428,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Shroomish",
     evoLevel: 23,
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "Fluctuating",
   },
   slakoth: {
     num: 287,
@@ -10055,6 +10450,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Vigoroth"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   vigoroth: {
     num: 288,
@@ -10078,6 +10474,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Slaking"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   slaking: {
     num: 289,
@@ -10100,6 +10497,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Vigoroth",
     evoLevel: 36,
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   nincada: {
     num: 290,
@@ -10122,6 +10520,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Ninjask", "Shedinja"],
     eggGroups: ["Bug"],
+    xpCurveName: "Unknown",
   },
   ninjask: {
     num: 291,
@@ -10145,6 +10544,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Nincada",
     evoLevel: 20,
     eggGroups: ["Bug"],
+    xpCurveName: "Unknown",
   },
   shedinja: {
     num: 292,
@@ -10169,6 +10569,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Nincada",
     evoLevel: 20,
     eggGroups: ["Mineral"],
+    xpCurveName: "Unknown",
   },
   whismur: {
     num: 293,
@@ -10191,6 +10592,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Loudred"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   loudred: {
     num: 294,
@@ -10215,6 +10617,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Exploud"],
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   exploud: {
     num: 295,
@@ -10238,6 +10641,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Loudred",
     evoLevel: 40,
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "MediumSlow",
   },
   makuhita: {
     num: 296,
@@ -10265,6 +10669,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Hariyama"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "Fluctuating",
   },
   hariyama: {
     num: 297,
@@ -10293,6 +10698,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Makuhita",
     evoLevel: 24,
     eggGroups: ["Human-Like"],
+    xpCurveName: "Fluctuating",
   },
   azurill: {
     num: 298,
@@ -10321,6 +10727,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Marill"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   nosepass: {
     num: 299,
@@ -10344,6 +10751,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Probopass"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   skitty: {
     num: 300,
@@ -10371,6 +10779,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Delcatty"],
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   delcatty: {
     num: 301,
@@ -10400,6 +10809,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Moon Stone",
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   sableye: {
     num: 302,
@@ -10424,6 +10834,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like"],
     otherFormes: ["Sableye-Mega"],
     formeOrder: ["Sableye", "Sableye-Mega"],
+    xpCurveName: "MediumSlow",
   },
   sableyemega: {
     num: 302,
@@ -10447,6 +10858,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Human-Like"],
     requiredItem: "Sablenite",
+    xpCurveName: "MediumSlow",
   },
   mawile: {
     num: 303,
@@ -10471,6 +10883,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     otherFormes: ["Mawile-Mega"],
     formeOrder: ["Mawile", "Mawile-Mega"],
+    xpCurveName: "Fast",
   },
   mawilemega: {
     num: 303,
@@ -10494,6 +10907,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Field", "Fairy"],
     requiredItem: "Mawilite",
+    xpCurveName: "Fast",
   },
   aron: {
     num: 304,
@@ -10517,6 +10931,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Lairon"],
     eggGroups: ["Monster"],
+    xpCurveName: "Slow",
   },
   lairon: {
     num: 305,
@@ -10542,6 +10957,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Aggron"],
     eggGroups: ["Monster"],
+    xpCurveName: "Slow",
   },
   aggron: {
     num: 306,
@@ -10568,6 +10984,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster"],
     otherFormes: ["Aggron-Mega"],
     formeOrder: ["Aggron", "Aggron-Mega"],
+    xpCurveName: "Slow",
   },
   aggronmega: {
     num: 306,
@@ -10591,6 +11008,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Monster"],
     requiredItem: "Aggronite",
+    xpCurveName: "Slow",
   },
   meditite: {
     num: 307,
@@ -10613,6 +11031,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Medicham"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   medicham: {
     num: 308,
@@ -10638,6 +11057,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like"],
     otherFormes: ["Medicham-Mega"],
     formeOrder: ["Medicham", "Medicham-Mega"],
+    xpCurveName: "MediumFast",
   },
   medichammega: {
     num: 308,
@@ -10661,6 +11081,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Human-Like"],
     requiredItem: "Medichamite",
+    xpCurveName: "MediumFast",
   },
   electrike: {
     num: 309,
@@ -10684,6 +11105,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Manectric"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   manectric: {
     num: 310,
@@ -10710,6 +11132,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Manectric-Mega"],
     formeOrder: ["Manectric", "Manectric-Mega"],
+    xpCurveName: "Slow",
   },
   manectricmega: {
     num: 310,
@@ -10733,6 +11156,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Field"],
     requiredItem: "Manectite",
+    xpCurveName: "Slow",
   },
   plusle: {
     num: 311,
@@ -10754,6 +11178,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 4.2,
     color: "Yellow",
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   minun: {
     num: 312,
@@ -10775,6 +11200,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 4.2,
     color: "Yellow",
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   volbeat: {
     num: 313,
@@ -10799,6 +11225,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Bug", "Human-Like"],
     mother: "illumise",
+    xpCurveName: "Unknown",
   },
   illumise: {
     num: 314,
@@ -10822,6 +11249,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 17.7,
     color: "Purple",
     eggGroups: ["Bug", "Human-Like"],
+    xpCurveName: "Fluctuating",
   },
   roselia: {
     num: 315,
@@ -10849,6 +11277,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Roserade"],
     eggGroups: ["Fairy", "Grass"],
     canHatch: true,
+    xpCurveName: "MediumSlow",
   },
   gulpin: {
     num: 316,
@@ -10872,6 +11301,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Swalot"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fluctuating",
   },
   swalot: {
     num: 317,
@@ -10896,6 +11326,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Gulpin",
     evoLevel: 26,
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fluctuating",
   },
   carvanha: {
     num: 318,
@@ -10918,6 +11349,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Sharpedo"],
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   sharpedo: {
     num: 319,
@@ -10943,6 +11375,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     otherFormes: ["Sharpedo-Mega"],
     formeOrder: ["Sharpedo", "Sharpedo-Mega"],
+    xpCurveName: "Slow",
   },
   sharpedomega: {
     num: 319,
@@ -10966,6 +11399,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Water 2"],
     requiredItem: "Sharpedonite",
+    xpCurveName: "Slow",
   },
   wailmer: {
     num: 320,
@@ -10989,6 +11423,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Wailord"],
     eggGroups: ["Field", "Water 2"],
+    xpCurveName: "Fluctuating",
   },
   wailord: {
     num: 321,
@@ -11013,6 +11448,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wailmer",
     evoLevel: 40,
     eggGroups: ["Field", "Water 2"],
+    xpCurveName: "Fluctuating",
   },
   numel: {
     num: 322,
@@ -11036,6 +11472,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Camerupt"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   camerupt: {
     num: 323,
@@ -11062,6 +11499,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Camerupt-Mega"],
     formeOrder: ["Camerupt", "Camerupt-Mega"],
+    xpCurveName: "MediumFast",
   },
   cameruptmega: {
     num: 323,
@@ -11085,6 +11523,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Field"],
     requiredItem: "Cameruptite",
+    xpCurveName: "MediumFast",
   },
   torkoal: {
     num: 324,
@@ -11107,6 +11546,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 80.4,
     color: "Brown",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   spoink: {
     num: 325,
@@ -11130,6 +11570,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Grumpig"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   grumpig: {
     num: 326,
@@ -11154,6 +11595,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Spoink",
     evoLevel: 32,
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   spinda: {
     num: 327,
@@ -11176,6 +11618,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 5,
     color: "Brown",
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "Fast",
   },
   trapinch: {
     num: 328,
@@ -11199,6 +11642,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Vibrava"],
     eggGroups: ["Bug", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   vibrava: {
     num: 329,
@@ -11222,6 +11666,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evos: ["Flygon"],
     eggGroups: ["Bug", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   flygon: {
     num: 330,
@@ -11244,6 +11689,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Vibrava",
     evoLevel: 45,
     eggGroups: ["Bug", "Dragon"],
+    xpCurveName: "MediumSlow",
   },
   cacnea: {
     num: 331,
@@ -11266,6 +11712,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Cacturne"],
     eggGroups: ["Grass", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   cacturne: {
     num: 332,
@@ -11289,6 +11736,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cacnea",
     evoLevel: 32,
     eggGroups: ["Grass", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   swablu: {
     num: 333,
@@ -11311,6 +11759,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Altaria"],
     eggGroups: ["Flying", "Dragon"],
+    xpCurveName: "Unknown",
   },
   altaria: {
     num: 334,
@@ -11336,6 +11785,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying", "Dragon"],
     otherFormes: ["Altaria-Mega"],
     formeOrder: ["Altaria", "Altaria-Mega"],
+    xpCurveName: "Unknown",
   },
   altariamega: {
     num: 334,
@@ -11359,6 +11809,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Flying", "Dragon"],
     requiredItem: "Altarianite",
+    xpCurveName: "Unknown",
   },
   zangoose: {
     num: 335,
@@ -11380,6 +11831,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 40.3,
     color: "White",
     eggGroups: ["Field"],
+    xpCurveName: "Unknown",
   },
   seviper: {
     num: 336,
@@ -11401,6 +11853,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 52.5,
     color: "Black",
     eggGroups: ["Field", "Dragon"],
+    xpCurveName: "Fluctuating",
   },
   lunatone: {
     num: 337,
@@ -11422,6 +11875,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 168,
     color: "Yellow",
     eggGroups: ["Mineral"],
+    xpCurveName: "Fast",
   },
   solrock: {
     num: 338,
@@ -11443,6 +11897,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 154,
     color: "Red",
     eggGroups: ["Mineral"],
+    xpCurveName: "Fast",
   },
   barboach: {
     num: 339,
@@ -11466,6 +11921,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Whiscash"],
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   whiscash: {
     num: 340,
@@ -11490,6 +11946,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Barboach",
     evoLevel: 30,
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   corphish: {
     num: 341,
@@ -11513,6 +11970,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Crawdaunt"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Fluctuating",
   },
   crawdaunt: {
     num: 342,
@@ -11537,6 +11995,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Corphish",
     evoLevel: 30,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Fluctuating",
   },
   baltoy: {
     num: 343,
@@ -11559,6 +12018,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Claydol"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   claydol: {
     num: 344,
@@ -11582,6 +12042,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Baltoy",
     evoLevel: 36,
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   lileep: {
     num: 345,
@@ -11608,6 +12069,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Cradily"],
     eggGroups: ["Water 3"],
+    xpCurveName: "Unknown",
   },
   cradily: {
     num: 346,
@@ -11635,6 +12097,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Lileep",
     evoLevel: 40,
     eggGroups: ["Water 3"],
+    xpCurveName: "Unknown",
   },
   anorith: {
     num: 347,
@@ -11661,6 +12124,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Armaldo"],
     eggGroups: ["Water 3"],
+    xpCurveName: "Unknown",
   },
   armaldo: {
     num: 348,
@@ -11688,6 +12152,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Anorith",
     evoLevel: 40,
     eggGroups: ["Water 3"],
+    xpCurveName: "Unknown",
   },
   feebas: {
     num: 349,
@@ -11711,6 +12176,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Milotic"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "Unknown",
   },
   milotic: {
     num: 350,
@@ -11736,6 +12202,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Prism Scale",
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "Unknown",
   },
   castform: {
     num: 351,
@@ -11763,6 +12230,7 @@ export const Pokedex: SpeciesDataTable = {
       "Castform-Rainy",
       "Castform-Snowy",
     ],
+    xpCurveName: "MediumFast",
   },
   castformsunny: {
     num: 351,
@@ -11787,6 +12255,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Amorphous"],
     requiredAbility: "Forecast",
     battleOnly: "Castform",
+    xpCurveName: "MediumFast",
   },
   castformrainy: {
     num: 351,
@@ -11811,6 +12280,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Amorphous"],
     requiredAbility: "Forecast",
     battleOnly: "Castform",
+    xpCurveName: "MediumFast",
   },
   castformsnowy: {
     num: 351,
@@ -11835,6 +12305,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Amorphous"],
     requiredAbility: "Forecast",
     battleOnly: "Castform",
+    xpCurveName: "MediumFast",
   },
   kecleon: {
     num: 352,
@@ -11856,6 +12327,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 22,
     color: "Green",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   shuppet: {
     num: 353,
@@ -11879,6 +12351,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Banette"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   banette: {
     num: 354,
@@ -11905,6 +12378,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Banette-Mega"],
     formeOrder: ["Banette", "Banette-Mega"],
+    xpCurveName: "Fast",
   },
   banettemega: {
     num: 354,
@@ -11928,6 +12402,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Amorphous"],
     requiredItem: "Banettite",
+    xpCurveName: "Fast",
   },
   duskull: {
     num: 355,
@@ -11950,6 +12425,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Dusclops"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   dusclops: {
     num: 356,
@@ -11974,6 +12450,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 37,
     evos: ["Dusknoir"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   tropius: {
     num: 357,
@@ -11996,6 +12473,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 100,
     color: "Green",
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "Slow",
   },
   chimecho: {
     num: 358,
@@ -12022,6 +12500,7 @@ export const Pokedex: SpeciesDataTable = {
     canHatch: true,
     otherFormes: ["Chimecho-Mega"],
     formeOrder: ["Chimecho", "Chimecho-Mega"],
+    xpCurveName: "Fast",
   },
   chimechomega: {
     num: 358,
@@ -12046,6 +12525,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     requiredItem: "Chimechite",
     gen: 9,
+    xpCurveName: "Fast",
   },
   absol: {
     num: 359,
@@ -12070,6 +12550,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Absol-Mega", "Absol-Mega-Z"],
     formeOrder: ["Absol", "Absol-Mega", "Absol-Mega-Z"],
+    xpCurveName: "MediumSlow",
   },
   absolmega: {
     num: 359,
@@ -12093,6 +12574,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Field"],
     requiredItem: "Absolite",
+    xpCurveName: "MediumSlow",
   },
   absolmegaz: {
     num: 359,
@@ -12117,6 +12599,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Absolite Z",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   wynaut: {
     num: 360,
@@ -12140,6 +12623,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Wobbuffet"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   snorunt: {
     num: 361,
@@ -12163,6 +12647,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Glalie", "Froslass"],
     eggGroups: ["Fairy", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   glalie: {
     num: 362,
@@ -12189,6 +12674,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Mineral"],
     otherFormes: ["Glalie-Mega"],
     formeOrder: ["Glalie", "Glalie-Mega"],
+    xpCurveName: "MediumFast",
   },
   glaliemega: {
     num: 362,
@@ -12212,6 +12698,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Fairy", "Mineral"],
     requiredItem: "Glalitite",
+    xpCurveName: "MediumFast",
   },
   spheal: {
     num: 363,
@@ -12235,6 +12722,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Sealeo"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   sealeo: {
     num: 364,
@@ -12260,6 +12748,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Walrein"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   walrein: {
     num: 365,
@@ -12284,6 +12773,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Sealeo",
     evoLevel: 44,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   clamperl: {
     num: 366,
@@ -12306,6 +12796,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Huntail", "Gorebyss"],
     eggGroups: ["Water 1"],
+    xpCurveName: "Unknown",
   },
   huntail: {
     num: 367,
@@ -12330,6 +12821,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Deep Sea Tooth",
     eggGroups: ["Water 1"],
+    xpCurveName: "Unknown",
   },
   gorebyss: {
     num: 368,
@@ -12354,6 +12846,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Deep Sea Scale",
     eggGroups: ["Water 1"],
+    xpCurveName: "Unknown",
   },
   relicanth: {
     num: 369,
@@ -12380,6 +12873,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 23.4,
     color: "Gray",
     eggGroups: ["Water 1", "Water 2"],
+    xpCurveName: "Slow",
   },
   luvdisc: {
     num: 370,
@@ -12405,6 +12899,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 8.7,
     color: "Pink",
     eggGroups: ["Water 2"],
+    xpCurveName: "Fast",
   },
   bagon: {
     num: 371,
@@ -12427,6 +12922,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Shelgon"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   shelgon: {
     num: 372,
@@ -12451,6 +12947,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evos: ["Salamence"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   salamence: {
     num: 373,
@@ -12476,6 +12973,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Dragon"],
     otherFormes: ["Salamence-Mega"],
     formeOrder: ["Salamence", "Salamence-Mega"],
+    xpCurveName: "Slow",
   },
   salamencemega: {
     num: 373,
@@ -12499,6 +12997,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Dragon"],
     requiredItem: "Salamencite",
+    xpCurveName: "Slow",
   },
   beldum: {
     num: 374,
@@ -12522,6 +13021,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Metang"],
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   metang: {
     num: 375,
@@ -12547,6 +13047,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Metagross"],
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   metagross: {
     num: 376,
@@ -12573,6 +13074,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Metagross-Mega"],
     formeOrder: ["Metagross", "Metagross-Mega"],
+    xpCurveName: "Slow",
   },
   metagrossmega: {
     num: 376,
@@ -12597,6 +13099,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Mineral"],
     requiredItem: "Metagrossite",
+    xpCurveName: "Slow",
   },
   regirock: {
     num: 377,
@@ -12620,6 +13123,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   regice: {
     num: 378,
@@ -12643,6 +13147,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   registeel: {
     num: 379,
@@ -12666,6 +13171,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   latias: {
     num: 380,
@@ -12690,6 +13196,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Latias-Mega"],
     formeOrder: ["Latias", "Latias-Mega"],
+    xpCurveName: "Slow",
   },
   latiasmega: {
     num: 380,
@@ -12714,6 +13221,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     requiredItem: "Latiasite",
+    xpCurveName: "Slow",
   },
   latios: {
     num: 381,
@@ -12738,6 +13246,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Sub-Legendary"],
     otherFormes: ["Latios-Mega"],
     formeOrder: ["Latios", "Latios-Mega"],
+    xpCurveName: "Slow",
   },
   latiosmega: {
     num: 381,
@@ -12762,6 +13271,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     requiredItem: "Latiosite",
+    xpCurveName: "Slow",
   },
   kyogre: {
     num: 382,
@@ -12786,6 +13296,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Kyogre-Primal"],
     formeOrder: ["Kyogre", "Kyogre-Primal"],
+    xpCurveName: "Slow",
   },
   kyogreprimal: {
     num: 382,
@@ -12810,6 +13321,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
     requiredItem: "Blue Orb",
+    xpCurveName: "Slow",
   },
   groudon: {
     num: 383,
@@ -12834,6 +13346,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Groudon-Primal"],
     formeOrder: ["Groudon", "Groudon-Primal"],
+    xpCurveName: "Slow",
   },
   groudonprimal: {
     num: 383,
@@ -12858,6 +13371,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
     requiredItem: "Red Orb",
+    xpCurveName: "Slow",
   },
   rayquaza: {
     num: 384,
@@ -12882,6 +13396,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Rayquaza-Mega"],
     formeOrder: ["Rayquaza", "Rayquaza-Mega"],
+    xpCurveName: "Slow",
   },
   rayquazamega: {
     num: 384,
@@ -12906,6 +13421,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Undiscovered"],
     requiredMove: "Dragon Ascent",
+    xpCurveName: "Slow",
   },
   jirachi: {
     num: 385,
@@ -12928,6 +13444,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   deoxys: {
     num: 386,
@@ -12953,6 +13470,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
     formeOrder: ["Deoxys", "Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
+    xpCurveName: "Slow",
   },
   deoxysattack: {
     num: 386,
@@ -12977,6 +13495,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
     changesFrom: "Deoxys",
+    xpCurveName: "Slow",
   },
   deoxysdefense: {
     num: 386,
@@ -13001,6 +13520,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
     changesFrom: "Deoxys",
+    xpCurveName: "Slow",
   },
   deoxysspeed: {
     num: 386,
@@ -13025,6 +13545,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
     changesFrom: "Deoxys",
+    xpCurveName: "Slow",
   },
   turtwig: {
     num: 387,
@@ -13051,6 +13572,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Grotle"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   grotle: {
     num: 388,
@@ -13079,6 +13601,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Torterra"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   torterra: {
     num: 389,
@@ -13106,6 +13629,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Grotle",
     evoLevel: 32,
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   chimchar: {
     num: 390,
@@ -13132,6 +13656,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Monferno"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   monferno: {
     num: 391,
@@ -13160,6 +13685,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Infernape"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   infernape: {
     num: 392,
@@ -13187,6 +13713,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Monferno",
     evoLevel: 36,
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   piplup: {
     num: 393,
@@ -13213,6 +13740,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Prinplup"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   prinplup: {
     num: 394,
@@ -13241,6 +13769,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Empoleon"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   empoleon: {
     num: 395,
@@ -13268,6 +13797,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Prinplup",
     evoLevel: 36,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   starly: {
     num: 396,
@@ -13290,6 +13820,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Staravia"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   staravia: {
     num: 397,
@@ -13314,6 +13845,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Staraptor"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   staraptor: {
     num: 398,
@@ -13339,6 +13871,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Staraptor-Mega"],
     formeOrder: ["Staraptor", "Staraptor-Mega"],
+    xpCurveName: "MediumSlow",
   },
   staraptormega: {
     num: 398,
@@ -13364,6 +13897,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     requiredItem: "Staraptite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   bidoof: {
     num: 399,
@@ -13387,6 +13921,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Bibarel"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   bibarel: {
     num: 400,
@@ -13411,6 +13946,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Bidoof",
     evoLevel: 15,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   kricketot: {
     num: 401,
@@ -13433,6 +13969,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Kricketune"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   kricketune: {
     num: 402,
@@ -13456,6 +13993,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Kricketot",
     evoLevel: 10,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   shinx: {
     num: 403,
@@ -13479,6 +14017,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Luxio"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   luxio: {
     num: 404,
@@ -13504,6 +14043,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 15,
     evos: ["Luxray"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   luxray: {
     num: 405,
@@ -13528,6 +14068,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Luxio",
     evoLevel: 30,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   budew: {
     num: 406,
@@ -13552,6 +14093,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Roselia"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumSlow",
   },
   roserade: {
     num: 407,
@@ -13577,6 +14119,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Shiny Stone",
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   cranidos: {
     num: 408,
@@ -13603,6 +14146,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Rampardos"],
     eggGroups: ["Monster"],
+    xpCurveName: "Unknown",
   },
   rampardos: {
     num: 409,
@@ -13630,6 +14174,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cranidos",
     evoLevel: 30,
     eggGroups: ["Monster"],
+    xpCurveName: "Unknown",
   },
   shieldon: {
     num: 410,
@@ -13656,6 +14201,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Bastiodon"],
     eggGroups: ["Monster"],
+    xpCurveName: "Unknown",
   },
   bastiodon: {
     num: 411,
@@ -13683,6 +14229,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Shieldon",
     evoLevel: 30,
     eggGroups: ["Monster"],
+    xpCurveName: "Unknown",
   },
   burmy: {
     num: 412,
@@ -13708,6 +14255,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     cosmeticFormes: ["Burmy-Sandy", "Burmy-Trash"],
     formeOrder: ["Burmy", "Burmy-Sandy", "Burmy-Trash"],
+    xpCurveName: "MediumFast",
   },
   burmysandy: {
     isCosmeticForme: true,
@@ -13715,6 +14263,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Burmy",
     forme: "Sandy",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   burmytrash: {
     isCosmeticForme: true,
@@ -13722,6 +14271,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Burmy",
     forme: "Trash",
     color: "Red",
+    xpCurveName: "MediumFast",
   },
   wormadam: {
     num: 413,
@@ -13749,6 +14299,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Wormadam-Sandy", "Wormadam-Trash"],
     formeOrder: ["Wormadam", "Wormadam-Sandy", "Wormadam-Trash"],
+    xpCurveName: "MediumFast",
   },
   wormadamsandy: {
     num: 413,
@@ -13775,6 +14326,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Burmy",
     evoLevel: 20,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   wormadamtrash: {
     num: 413,
@@ -13801,6 +14353,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Burmy",
     evoLevel: 20,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   mothim: {
     num: 414,
@@ -13825,6 +14378,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Burmy",
     evoLevel: 20,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   combee: {
     num: 415,
@@ -13851,6 +14405,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Vespiquen"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   vespiquen: {
     num: 416,
@@ -13875,6 +14430,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Combee",
     evoLevel: 21,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   pachirisu: {
     num: 417,
@@ -13897,6 +14453,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 3.9,
     color: "White",
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   buizel: {
     num: 418,
@@ -13919,6 +14476,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Floatzel"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   floatzel: {
     num: 419,
@@ -13942,6 +14500,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Buizel",
     evoLevel: 26,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   cherubi: {
     num: 420,
@@ -13963,6 +14522,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Cherrim"],
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumFast",
   },
   cherrim: {
     num: 421,
@@ -13988,6 +14548,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Grass"],
     otherFormes: ["Cherrim-Sunshine"],
     formeOrder: ["Cherrim", "Cherrim-Sunshine"],
+    xpCurveName: "MediumFast",
   },
   cherrimsunshine: {
     num: 421,
@@ -14012,6 +14573,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Grass"],
     requiredAbility: "Flower Gift",
     battleOnly: "Cherrim",
+    xpCurveName: "MediumFast",
   },
   shellos: {
     num: 422,
@@ -14038,6 +14600,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Amorphous"],
     cosmeticFormes: ["Shellos-East"],
     formeOrder: ["Shellos", "Shellos-East"],
+    xpCurveName: "MediumFast",
   },
   shelloseast: {
     isCosmeticForme: true,
@@ -14045,6 +14608,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Shellos",
     forme: "East",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   gastrodon: {
     num: 423,
@@ -14072,6 +14636,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Amorphous"],
     cosmeticFormes: ["Gastrodon-East"],
     formeOrder: ["Gastrodon", "Gastrodon-East"],
+    xpCurveName: "MediumFast",
   },
   gastrodoneast: {
     isCosmeticForme: true,
@@ -14079,6 +14644,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Gastrodon",
     forme: "East",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   ambipom: {
     num: 424,
@@ -14104,6 +14670,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Double Hit",
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   drifloon: {
     num: 425,
@@ -14127,6 +14694,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Drifblim"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fluctuating",
   },
   drifblim: {
     num: 426,
@@ -14151,6 +14719,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Drifloon",
     evoLevel: 28,
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fluctuating",
   },
   buneary: {
     num: 427,
@@ -14174,6 +14743,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Lopunny"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumFast",
   },
   lopunny: {
     num: 428,
@@ -14200,6 +14770,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Human-Like"],
     otherFormes: ["Lopunny-Mega"],
     formeOrder: ["Lopunny", "Lopunny-Mega"],
+    xpCurveName: "MediumFast",
   },
   lopunnymega: {
     num: 428,
@@ -14223,6 +14794,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Field", "Human-Like"],
     requiredItem: "Lopunnite",
+    xpCurveName: "MediumFast",
   },
   mismagius: {
     num: 429,
@@ -14246,6 +14818,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Dusk Stone",
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   honchkrow: {
     num: 430,
@@ -14271,6 +14844,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Dusk Stone",
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   glameow: {
     num: 431,
@@ -14298,6 +14872,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Purugly"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   purugly: {
     num: 432,
@@ -14326,6 +14901,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Glameow",
     evoLevel: 38,
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   chingling: {
     num: 433,
@@ -14348,6 +14924,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Chimecho"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   stunky: {
     num: 434,
@@ -14371,6 +14948,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Skuntank"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   skuntank: {
     num: 435,
@@ -14395,6 +14973,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Stunky",
     evoLevel: 34,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   bronzor: {
     num: 436,
@@ -14419,6 +14998,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Bronzong"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   bronzong: {
     num: 437,
@@ -14444,6 +15024,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Bronzor",
     evoLevel: 33,
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   bonsly: {
     num: 438,
@@ -14468,6 +15049,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Sudowoodo"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   mimejr: {
     num: 439,
@@ -14492,6 +15074,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Mr. Mime", "Mr. Mime-Galar"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumFast",
   },
   happiny: {
     num: 440,
@@ -14517,6 +15100,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Chansey"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Fast",
   },
   chatot: {
     num: 441,
@@ -14539,6 +15123,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 1.9,
     color: "Black",
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   spiritomb: {
     num: 442,
@@ -14560,6 +15145,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 108,
     color: "Purple",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   gible: {
     num: 443,
@@ -14582,6 +15168,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Gabite"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "Slow",
   },
   gabite: {
     num: 444,
@@ -14606,6 +15193,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 24,
     evos: ["Garchomp"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "Slow",
   },
   garchomp: {
     num: 445,
@@ -14631,6 +15219,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     otherFormes: ["Garchomp-Mega", "Garchomp-Mega-Z"],
     formeOrder: ["Garchomp", "Garchomp-Mega", "Garchomp-Mega-Z"],
+    xpCurveName: "Slow",
   },
   garchompmega: {
     num: 445,
@@ -14654,6 +15243,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Garchompite",
+    xpCurveName: "Slow",
   },
   garchompmegaz: {
     num: 445,
@@ -14678,6 +15268,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Garchompite Z",
     gen: 9,
+    xpCurveName: "Slow",
   },
   munchlax: {
     num: 446,
@@ -14706,6 +15297,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Snorlax"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Slow",
   },
   riolu: {
     num: 447,
@@ -14734,6 +15326,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Lucario"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumSlow",
   },
   lucario: {
     num: 448,
@@ -14765,6 +15358,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Human-Like"],
     otherFormes: ["Lucario-Mega", "Lucario-Mega-Z"],
     formeOrder: ["Lucario", "Lucario-Mega", "Lucario-Mega-Z"],
+    xpCurveName: "MediumSlow",
   },
   lucariomega: {
     num: 448,
@@ -14792,6 +15386,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Field", "Human-Like"],
     requiredItem: "Lucarionite",
+    xpCurveName: "MediumSlow",
   },
   lucariomegaz: {
     num: 448,
@@ -14820,6 +15415,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Human-Like"],
     requiredItem: "Lucarionite Z",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   hippopotas: {
     num: 449,
@@ -14842,6 +15438,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Hippowdon"],
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   hippowdon: {
     num: 450,
@@ -14865,6 +15462,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Hippopotas",
     evoLevel: 34,
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   skorupi: {
     num: 451,
@@ -14888,6 +15486,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Drapion"],
     eggGroups: ["Bug", "Water 3"],
+    xpCurveName: "Slow",
   },
   drapion: {
     num: 452,
@@ -14912,6 +15511,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Skorupi",
     evoLevel: 40,
     eggGroups: ["Bug", "Water 3"],
+    xpCurveName: "Slow",
   },
   croagunk: {
     num: 453,
@@ -14935,6 +15535,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Toxicroak"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   toxicroak: {
     num: 454,
@@ -14959,6 +15560,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Croagunk",
     evoLevel: 37,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   carnivine: {
     num: 455,
@@ -14979,6 +15581,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 27,
     color: "Green",
     eggGroups: ["Grass"],
+    xpCurveName: "Slow",
   },
   finneon: {
     num: 456,
@@ -15002,6 +15605,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Lumineon"],
     eggGroups: ["Water 2"],
+    xpCurveName: "Unknown",
   },
   lumineon: {
     num: 457,
@@ -15026,6 +15630,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Finneon",
     evoLevel: 31,
     eggGroups: ["Water 2"],
+    xpCurveName: "Unknown",
   },
   mantyke: {
     num: 458,
@@ -15050,6 +15655,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Mantine"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "Slow",
   },
   snover: {
     num: 459,
@@ -15072,6 +15678,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Abomasnow"],
     eggGroups: ["Monster", "Grass"],
+    xpCurveName: "Slow",
   },
   abomasnow: {
     num: 460,
@@ -15097,6 +15704,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Grass"],
     otherFormes: ["Abomasnow-Mega"],
     formeOrder: ["Abomasnow", "Abomasnow-Mega"],
+    xpCurveName: "Slow",
   },
   abomasnowmega: {
     num: 460,
@@ -15120,6 +15728,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Monster", "Grass"],
     requiredItem: "Abomasite",
+    xpCurveName: "Slow",
   },
   weavile: {
     num: 461,
@@ -15145,6 +15754,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Razor Claw",
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   magnezone: {
     num: 462,
@@ -15171,6 +15781,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Thunder Stone",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   lickilicky: {
     num: 463,
@@ -15196,6 +15807,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Rollout",
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   rhyperior: {
     num: 464,
@@ -15221,6 +15833,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Protector",
     eggGroups: ["Monster", "Field"],
+    xpCurveName: "Slow",
   },
   tangrowth: {
     num: 465,
@@ -15246,6 +15859,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Ancient Power",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   electivire: {
     num: 466,
@@ -15274,6 +15888,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Electirizer",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   magmortar: {
     num: 467,
@@ -15302,6 +15917,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Magmarizer",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   togekiss: {
     num: 468,
@@ -15331,6 +15947,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Shiny Stone",
     eggGroups: ["Flying", "Fairy"],
+    xpCurveName: "Fast",
   },
   yanmega: {
     num: 469,
@@ -15356,6 +15973,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Ancient Power",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   leafeon: {
     num: 470,
@@ -15384,6 +16002,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Leaf Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   glaceon: {
     num: 471,
@@ -15412,6 +16031,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Ice Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   gliscor: {
     num: 472,
@@ -15438,6 +16058,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Razor Fang",
     evoCondition: "at night",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   mamoswine: {
     num: 473,
@@ -15463,6 +16084,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Ancient Power",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   porygonz: {
     num: 474,
@@ -15489,6 +16111,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Dubious Disc",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   gallade: {
     num: 475,
@@ -15517,6 +16140,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like", "Amorphous"],
     otherFormes: ["Gallade-Mega"],
     formeOrder: ["Gallade", "Gallade-Mega"],
+    xpCurveName: "Slow",
   },
   gallademega: {
     num: 475,
@@ -15541,6 +16165,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Amorphous"],
     requiredItem: "Galladite",
+    xpCurveName: "Slow",
   },
   probopass: {
     num: 476,
@@ -15566,6 +16191,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelExtra",
     evoCondition: "near a special magnetic field",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   dusknoir: {
     num: 477,
@@ -15590,6 +16216,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Reaper Cloth",
     eggGroups: ["Amorphous"],
+    xpCurveName: "Fast",
   },
   froslass: {
     num: 478,
@@ -15617,6 +16244,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Mineral"],
     otherFormes: ["Froslass-Mega"],
     formeOrder: ["Froslass", "Froslass-Mega"],
+    xpCurveName: "MediumFast",
   },
   froslassmega: {
     num: 478,
@@ -15642,6 +16270,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Mineral"],
     requiredItem: "Froslassite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   rotom: {
     num: 479,
@@ -15678,6 +16307,7 @@ export const Pokedex: SpeciesDataTable = {
       "Rotom-Fan",
       "Rotom-Mow",
     ],
+    xpCurveName: "MediumFast",
   },
   rotomheat: {
     num: 479,
@@ -15702,6 +16332,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
     changesFrom: "Rotom",
+    xpCurveName: "MediumFast",
   },
   rotomwash: {
     num: 479,
@@ -15726,6 +16357,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
     changesFrom: "Rotom",
+    xpCurveName: "MediumFast",
   },
   rotomfrost: {
     num: 479,
@@ -15750,6 +16382,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
     changesFrom: "Rotom",
+    xpCurveName: "MediumFast",
   },
   rotomfan: {
     num: 479,
@@ -15774,6 +16407,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
     changesFrom: "Rotom",
+    xpCurveName: "MediumFast",
   },
   rotommow: {
     num: 479,
@@ -15798,6 +16432,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
     changesFrom: "Rotom",
+    xpCurveName: "MediumFast",
   },
   uxie: {
     num: 480,
@@ -15820,6 +16455,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   mesprit: {
     num: 481,
@@ -15842,6 +16478,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   azelf: {
     num: 482,
@@ -15864,6 +16501,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   dialga: {
     num: 483,
@@ -15889,6 +16527,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Dialga-Origin"],
     formeOrder: ["Dialga", "Dialga-Origin"],
+    xpCurveName: "Slow",
   },
   dialgaorigin: {
     num: 483,
@@ -15916,6 +16555,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Adamant Crystal",
     changesFrom: "Dialga",
     gen: 8,
+    xpCurveName: "Slow",
   },
   palkia: {
     num: 484,
@@ -15941,6 +16581,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Palkia-Origin"],
     formeOrder: ["Palkia", "Palkia-Origin"],
+    xpCurveName: "Slow",
   },
   palkiaorigin: {
     num: 484,
@@ -15968,6 +16609,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Lustrous Globe",
     changesFrom: "Palkia",
     gen: 8,
+    xpCurveName: "Slow",
   },
   heatran: {
     num: 485,
@@ -15992,6 +16634,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Heatran-Mega"],
     formeOrder: ["Heatran", "Heatran-Mega"],
+    xpCurveName: "Slow",
   },
   heatranmega: {
     num: 485,
@@ -16018,6 +16661,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Heatranite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   regigigas: {
     num: 486,
@@ -16040,6 +16684,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   giratina: {
     num: 487,
@@ -16066,6 +16711,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Restricted Legendary"],
     otherFormes: ["Giratina-Origin"],
     formeOrder: ["Giratina", "Giratina-Origin"],
+    xpCurveName: "Slow",
   },
   giratinaorigin: {
     num: 487,
@@ -16091,6 +16737,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Griseous Core",
     changesFrom: "Giratina",
+    xpCurveName: "Slow",
   },
   cresselia: {
     num: 488,
@@ -16113,6 +16760,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   phione: {
     num: 489,
@@ -16135,6 +16783,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Mythical"],
     eggGroups: ["Water 1", "Fairy"],
+    xpCurveName: "Slow",
   },
   manaphy: {
     num: 490,
@@ -16157,6 +16806,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Mythical"],
     eggGroups: ["Water 1", "Fairy"],
+    xpCurveName: "Slow",
   },
   darkrai: {
     num: 491,
@@ -16181,6 +16831,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Darkrai-Mega"],
     formeOrder: ["Darkrai", "Darkrai-Mega"],
+    xpCurveName: "Slow",
   },
   darkraimega: {
     num: 491,
@@ -16207,6 +16858,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Darkranite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   shaymin: {
     num: 492,
@@ -16232,6 +16884,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Shaymin-Sky"],
     formeOrder: ["Shaymin", "Shaymin-Sky"],
+    xpCurveName: "MediumSlow",
   },
   shayminsky: {
     num: 492,
@@ -16256,6 +16909,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Undiscovered"],
     changesFrom: "Shaymin",
+    xpCurveName: "MediumSlow",
   },
   arceus: {
     num: 493,
@@ -16318,6 +16972,7 @@ export const Pokedex: SpeciesDataTable = {
       "Arceus-Dark",
       "Arceus-Fairy",
     ],
+    xpCurveName: "Slow",
   },
   arceusbug: {
     num: 493,
@@ -16343,6 +16998,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Insect Plate", "Buginium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusdark: {
     num: 493,
@@ -16368,6 +17024,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Dread Plate", "Darkinium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusdragon: {
     num: 493,
@@ -16393,6 +17050,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Draco Plate", "Dragonium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceuselectric: {
     num: 493,
@@ -16418,6 +17076,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Zap Plate", "Electrium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusfairy: {
     num: 493,
@@ -16444,6 +17103,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItems: ["Pixie Plate", "Fairium Z"],
     changesFrom: "Arceus",
     gen: 6,
+    xpCurveName: "Slow",
   },
   arceusfighting: {
     num: 493,
@@ -16469,6 +17129,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Fist Plate", "Fightinium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusfire: {
     num: 493,
@@ -16494,6 +17155,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Flame Plate", "Firium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusflying: {
     num: 493,
@@ -16519,6 +17181,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Sky Plate", "Flyinium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusghost: {
     num: 493,
@@ -16544,6 +17207,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Spooky Plate", "Ghostium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusgrass: {
     num: 493,
@@ -16569,6 +17233,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Meadow Plate", "Grassium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusground: {
     num: 493,
@@ -16594,6 +17259,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Earth Plate", "Groundium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusice: {
     num: 493,
@@ -16619,6 +17285,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Icicle Plate", "Icium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceuspoison: {
     num: 493,
@@ -16644,6 +17311,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Toxic Plate", "Poisonium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceuspsychic: {
     num: 493,
@@ -16669,6 +17337,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Mind Plate", "Psychium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceusrock: {
     num: 493,
@@ -16694,6 +17363,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Stone Plate", "Rockium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceussteel: {
     num: 493,
@@ -16719,6 +17389,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Iron Plate", "Steelium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   arceuswater: {
     num: 493,
@@ -16744,6 +17415,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItems: ["Splash Plate", "Waterium Z"],
     changesFrom: "Arceus",
+    xpCurveName: "Slow",
   },
   victini: {
     num: 494,
@@ -16766,6 +17438,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   snivy: {
     num: 495,
@@ -16792,6 +17465,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Servine"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   servine: {
     num: 496,
@@ -16820,6 +17494,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Serperior"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   serperior: {
     num: 497,
@@ -16847,6 +17522,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Servine",
     evoLevel: 36,
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   tepig: {
     num: 498,
@@ -16873,6 +17549,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Pignite"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   pignite: {
     num: 499,
@@ -16901,6 +17578,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Emboar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   emboar: {
     num: 500,
@@ -16930,6 +17608,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Emboar-Mega"],
     formeOrder: ["Emboar", "Emboar-Mega"],
+    xpCurveName: "MediumSlow",
   },
   emboarmega: {
     num: 500,
@@ -16958,6 +17637,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Emboarite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   oshawott: {
     num: 501,
@@ -16984,6 +17664,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Dewott"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   dewott: {
     num: 502,
@@ -17012,6 +17693,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Samurott", "Samurott-Hisui"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   samurott: {
     num: 503,
@@ -17041,6 +17723,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Samurott-Hisui"],
     formeOrder: ["Samurott", "Samurott-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   samurotthisui: {
     num: 503,
@@ -17070,6 +17753,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Dewott",
     evoLevel: 36,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   patrat: {
     num: 504,
@@ -17093,6 +17777,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Watchog"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   watchog: {
     num: 505,
@@ -17117,6 +17802,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Patrat",
     evoLevel: 20,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   lillipup: {
     num: 506,
@@ -17140,6 +17826,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Herdier"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   herdier: {
     num: 507,
@@ -17165,6 +17852,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Stoutland"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   stoutland: {
     num: 508,
@@ -17189,6 +17877,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Herdier",
     evoLevel: 32,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   purrloin: {
     num: 509,
@@ -17212,6 +17901,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Liepard"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   liepard: {
     num: 510,
@@ -17236,6 +17926,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Purrloin",
     evoLevel: 20,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pansage: {
     num: 511,
@@ -17262,6 +17953,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Simisage"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   simisage: {
     num: 512,
@@ -17290,6 +17982,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Leaf Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pansear: {
     num: 513,
@@ -17316,6 +18009,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Simisear"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   simisear: {
     num: 514,
@@ -17344,6 +18038,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Fire Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   panpour: {
     num: 515,
@@ -17370,6 +18065,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Simipour"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   simipour: {
     num: 516,
@@ -17398,6 +18094,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Water Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   munna: {
     num: 517,
@@ -17421,6 +18118,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Musharna"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   musharna: {
     num: 518,
@@ -17446,6 +18144,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Moon Stone",
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   pidove: {
     num: 519,
@@ -17469,6 +18168,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Tranquill"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   tranquill: {
     num: 520,
@@ -17494,6 +18194,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 21,
     evos: ["Unfezant"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   unfezant: {
     num: 521,
@@ -17518,6 +18219,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tranquill",
     evoLevel: 32,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   blitzle: {
     num: 522,
@@ -17541,6 +18243,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Zebstrika"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   zebstrika: {
     num: 523,
@@ -17565,6 +18268,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Blitzle",
     evoLevel: 27,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   roggenrola: {
     num: 524,
@@ -17588,6 +18292,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Boldore"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   boldore: {
     num: 525,
@@ -17613,6 +18318,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Gigalith"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   gigalith: {
     num: 526,
@@ -17637,6 +18343,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Boldore",
     evoType: "trade",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   woobat: {
     num: 527,
@@ -17660,6 +18367,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Swoobat"],
     eggGroups: ["Flying", "Field"],
+    xpCurveName: "MediumFast",
   },
   swoobat: {
     num: 528,
@@ -17684,6 +18392,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Woobat",
     evoType: "levelFriendship",
     eggGroups: ["Flying", "Field"],
+    xpCurveName: "MediumFast",
   },
   drilbur: {
     num: 529,
@@ -17707,6 +18416,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Excadrill"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   excadrill: {
     num: 530,
@@ -17733,6 +18443,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Excadrill-Mega"],
     formeOrder: ["Excadrill", "Excadrill-Mega"],
+    xpCurveName: "MediumFast",
   },
   excadrillmega: {
     num: 530,
@@ -17757,6 +18468,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Excadrite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   audino: {
     num: 531,
@@ -17781,6 +18493,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy"],
     otherFormes: ["Audino-Mega"],
     formeOrder: ["Audino", "Audino-Mega"],
+    xpCurveName: "Fast",
   },
   audinomega: {
     num: 531,
@@ -17804,6 +18517,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Fairy"],
     requiredItem: "Audinite",
+    xpCurveName: "Fast",
   },
   timburr: {
     num: 532,
@@ -17831,6 +18545,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Gurdurr"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   gurdurr: {
     num: 533,
@@ -17860,6 +18575,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Conkeldurr"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   conkeldurr: {
     num: 534,
@@ -17888,6 +18604,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Gurdurr",
     evoType: "trade",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   tympole: {
     num: 535,
@@ -17911,6 +18628,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Palpitoad"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   palpitoad: {
     num: 536,
@@ -17936,6 +18654,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Seismitoad"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   seismitoad: {
     num: 537,
@@ -17960,6 +18679,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Palpitoad",
     evoLevel: 36,
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   throh: {
     num: 538,
@@ -17983,6 +18703,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 55.5,
     color: "Red",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   sawk: {
     num: 539,
@@ -18006,6 +18727,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 51,
     color: "Blue",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   sewaddle: {
     num: 540,
@@ -18029,6 +18751,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Swadloon"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   swadloon: {
     num: 541,
@@ -18054,6 +18777,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Leavanny"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   leavanny: {
     num: 542,
@@ -18078,6 +18802,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Swadloon",
     evoType: "levelFriendship",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   venipede: {
     num: 543,
@@ -18101,6 +18826,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Whirlipede"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   whirlipede: {
     num: 544,
@@ -18126,6 +18852,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 22,
     evos: ["Scolipede"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumSlow",
   },
   scolipede: {
     num: 545,
@@ -18152,6 +18879,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Scolipede-Mega"],
     formeOrder: ["Scolipede", "Scolipede-Mega"],
+    xpCurveName: "MediumSlow",
   },
   scolipedemega: {
     num: 545,
@@ -18178,6 +18906,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     requiredItem: "Scolipite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   cottonee: {
     num: 546,
@@ -18201,6 +18930,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Whimsicott"],
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumFast",
   },
   whimsicott: {
     num: 547,
@@ -18226,6 +18956,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Sun Stone",
     eggGroups: ["Fairy", "Grass"],
+    xpCurveName: "MediumFast",
   },
   petilil: {
     num: 548,
@@ -18250,6 +18981,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Lilligant", "Lilligant-Hisui"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   lilligant: {
     num: 549,
@@ -18278,6 +19010,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     otherFormes: ["Lilligant-Hisui"],
     formeOrder: ["Lilligant", "Lilligant-Hisui"],
+    xpCurveName: "MediumFast",
   },
   lilliganthisui: {
     num: 549,
@@ -18306,6 +19039,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Sun Stone",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   basculin: {
     num: 550,
@@ -18331,6 +19065,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     otherFormes: ["Basculin-Blue-Striped", "Basculin-White-Striped"],
     formeOrder: ["Basculin", "Basculin-Blue-Striped", "Basculin-White-Striped"],
+    xpCurveName: "MediumFast",
   },
   basculinbluestriped: {
     num: 550,
@@ -18355,6 +19090,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 18,
     color: "Green",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   basculinwhitestriped: {
     num: 550,
@@ -18381,6 +19117,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Basculegion", "Basculegion-F"],
     eggGroups: ["Water 2"],
     gen: 8,
+    xpCurveName: "MediumFast",
   },
   sandile: {
     num: 551,
@@ -18404,6 +19141,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Krokorok"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   krokorok: {
     num: 552,
@@ -18429,6 +19167,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 29,
     evos: ["Krookodile"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   krookodile: {
     num: 553,
@@ -18453,6 +19192,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Krokorok",
     evoLevel: 40,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   darumaka: {
     num: 554,
@@ -18477,6 +19217,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Darumaka-Galar"],
     formeOrder: ["Darumaka", "Darumaka-Galar"],
+    xpCurveName: "MediumSlow",
   },
   darumakagalar: {
     num: 554,
@@ -18501,6 +19242,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Darmanitan-Galar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   darmanitan: {
     num: 555,
@@ -18532,6 +19274,7 @@ export const Pokedex: SpeciesDataTable = {
       "Darmanitan-Galar",
       "Darmanitan-Galar-Zen",
     ],
+    xpCurveName: "MediumSlow",
   },
   darmanitanzen: {
     num: 555,
@@ -18556,6 +19299,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredAbility: "Zen Mode",
     battleOnly: "Darmanitan",
+    xpCurveName: "MediumSlow",
   },
   darmanitangalar: {
     num: 555,
@@ -18582,6 +19326,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Ice Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   darmanitangalarzen: {
     num: 555,
@@ -18606,6 +19351,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredAbility: "Zen Mode",
     battleOnly: "Darmanitan-Galar",
+    xpCurveName: "MediumSlow",
   },
   maractus: {
     num: 556,
@@ -18628,6 +19374,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 28,
     color: "Green",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   dwebble: {
     num: 557,
@@ -18651,6 +19398,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Crustle"],
     eggGroups: ["Bug", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   crustle: {
     num: 558,
@@ -18675,6 +19423,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Dwebble",
     evoLevel: 34,
     eggGroups: ["Bug", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   scraggy: {
     num: 559,
@@ -18698,6 +19447,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Scrafty"],
     eggGroups: ["Field", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   scrafty: {
     num: 560,
@@ -18724,6 +19474,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Dragon"],
     otherFormes: ["Scrafty-Mega"],
     formeOrder: ["Scrafty", "Scrafty-Mega"],
+    xpCurveName: "MediumFast",
   },
   scraftymega: {
     num: 560,
@@ -18750,6 +19501,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Dragon"],
     requiredItem: "Scraftinite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   sigilyph: {
     num: 561,
@@ -18772,6 +19524,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 14,
     color: "Black",
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   yamask: {
     num: 562,
@@ -18795,6 +19548,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral", "Amorphous"],
     otherFormes: ["Yamask-Galar"],
     formeOrder: ["Yamask", "Yamask-Galar"],
+    xpCurveName: "MediumFast",
   },
   yamaskgalar: {
     num: 562,
@@ -18818,6 +19572,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Runerigus"],
     eggGroups: ["Mineral", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   cofagrigus: {
     num: 563,
@@ -18840,6 +19595,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Yamask",
     evoLevel: 34,
     eggGroups: ["Mineral", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   tirtouga: {
     num: 564,
@@ -18867,6 +19623,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Carracosta"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   carracosta: {
     num: 565,
@@ -18895,6 +19652,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tirtouga",
     evoLevel: 37,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   archen: {
     num: 566,
@@ -18920,6 +19678,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Archeops"],
     eggGroups: ["Flying", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   archeops: {
     num: 567,
@@ -18946,6 +19705,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Archen",
     evoLevel: 37,
     eggGroups: ["Flying", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   trubbish: {
     num: 568,
@@ -18969,6 +19729,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Garbodor"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   garbodor: {
     num: 569,
@@ -18994,6 +19755,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 36,
     eggGroups: ["Mineral"],
     canGigantamax: "G-Max Malodor",
+    xpCurveName: "MediumFast",
   },
   garbodorgmax: {
     num: 569,
@@ -19019,6 +19781,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Mineral"],
     changesFrom: "Garbodor",
+    xpCurveName: "MediumFast",
   },
   zorua: {
     num: 570,
@@ -19046,6 +19809,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Zorua-Hisui"],
     formeOrder: ["Zorua", "Zorua-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   zoruahisui: {
     num: 570,
@@ -19073,6 +19837,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Zoroark-Hisui"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   zoroark: {
     num: 571,
@@ -19101,6 +19866,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Zoroark-Hisui"],
     formeOrder: ["Zoroark", "Zoroark-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   zoroarkhisui: {
     num: 571,
@@ -19129,6 +19895,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Zorua-Hisui",
     evoLevel: 30,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   minccino: {
     num: 572,
@@ -19156,6 +19923,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Cinccino"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   cinccino: {
     num: 573,
@@ -19185,6 +19953,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Shiny Stone",
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   gothita: {
     num: 574,
@@ -19212,6 +19981,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Gothorita"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   gothorita: {
     num: 575,
@@ -19241,6 +20011,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Gothitelle"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   gothitelle: {
     num: 576,
@@ -19269,6 +20040,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Gothorita",
     evoLevel: 41,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   solosis: {
     num: 577,
@@ -19292,6 +20064,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Duosion"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   duosion: {
     num: 578,
@@ -19317,6 +20090,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Reuniclus"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   reuniclus: {
     num: 579,
@@ -19341,6 +20115,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Duosion",
     evoLevel: 41,
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   ducklett: {
     num: 580,
@@ -19364,6 +20139,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Swanna"],
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumFast",
   },
   swanna: {
     num: 581,
@@ -19388,6 +20164,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Ducklett",
     evoLevel: 35,
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumFast",
   },
   vanillite: {
     num: 582,
@@ -19411,6 +20188,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Vanillish"],
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   vanillish: {
     num: 583,
@@ -19436,6 +20214,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evos: ["Vanilluxe"],
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   vanilluxe: {
     num: 584,
@@ -19460,6 +20239,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Vanillish",
     evoLevel: 47,
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   deerling: {
     num: 585,
@@ -19491,6 +20271,7 @@ export const Pokedex: SpeciesDataTable = {
       "Deerling-Autumn",
       "Deerling-Winter",
     ],
+    xpCurveName: "MediumFast",
   },
   deerlingsummer: {
     isCosmeticForme: true,
@@ -19498,6 +20279,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Deerling",
     forme: "Summer",
     color: "Green",
+    xpCurveName: "MediumFast",
   },
   deerlingautumn: {
     isCosmeticForme: true,
@@ -19505,6 +20287,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Deerling",
     forme: "Autumn",
     color: "Red",
+    xpCurveName: "MediumFast",
   },
   deerlingwinter: {
     isCosmeticForme: true,
@@ -19512,6 +20295,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Deerling",
     forme: "Winter",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   sawsbuck: {
     num: 586,
@@ -19544,6 +20328,7 @@ export const Pokedex: SpeciesDataTable = {
       "Sawsbuck-Autumn",
       "Sawsbuck-Winter",
     ],
+    xpCurveName: "MediumFast",
   },
   emolga: {
     num: 587,
@@ -19565,6 +20350,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 5,
     color: "White",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   karrablast: {
     num: 588,
@@ -19588,6 +20374,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Escavalier"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   escavalier: {
     num: 589,
@@ -19613,6 +20400,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoCondition: "with a Shelmet",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   foongus: {
     num: 590,
@@ -19635,6 +20423,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Amoonguss"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   amoonguss: {
     num: 591,
@@ -19658,6 +20447,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Foongus",
     evoLevel: 39,
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   frillish: {
     num: 592,
@@ -19681,6 +20471,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Jellicent"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   jellicent: {
     num: 593,
@@ -19705,6 +20496,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Frillish",
     evoLevel: 40,
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   alomomola: {
     num: 594,
@@ -19727,6 +20519,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 31.6,
     color: "Pink",
     eggGroups: ["Water 1", "Water 2"],
+    xpCurveName: "Fast",
   },
   joltik: {
     num: 595,
@@ -19750,6 +20543,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Galvantula"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   galvantula: {
     num: 596,
@@ -19774,6 +20568,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Joltik",
     evoLevel: 36,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   ferroseed: {
     num: 597,
@@ -19795,6 +20590,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Ferrothorn"],
     eggGroups: ["Grass", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   ferrothorn: {
     num: 598,
@@ -19818,6 +20614,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Ferroseed",
     evoLevel: 40,
     eggGroups: ["Grass", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   klink: {
     num: 599,
@@ -19842,6 +20639,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Klang"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   klang: {
     num: 600,
@@ -19868,6 +20666,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 38,
     evos: ["Klinklang"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   klinklang: {
     num: 601,
@@ -19893,6 +20692,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Klang",
     evoLevel: 49,
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   tynamo: {
     num: 602,
@@ -19914,6 +20714,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Eelektrik"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Slow",
   },
   eelektrik: {
     num: 603,
@@ -19937,6 +20738,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 39,
     evos: ["Eelektross"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "Slow",
   },
   eelektross: {
     num: 604,
@@ -19962,6 +20764,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Eelektross-Mega"],
     formeOrder: ["Eelektross", "Eelektross-Mega"],
+    xpCurveName: "Slow",
   },
   eelektrossmega: {
     num: 604,
@@ -19986,6 +20789,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     requiredItem: "Eelektrossite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   elgyem: {
     num: 605,
@@ -20009,6 +20813,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Beheeyem"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   beheeyem: {
     num: 606,
@@ -20033,6 +20838,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Elgyem",
     evoLevel: 42,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   litwick: {
     num: 607,
@@ -20056,6 +20862,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Lampent"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   lampent: {
     num: 608,
@@ -20081,6 +20888,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 41,
     evos: ["Chandelure"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumSlow",
   },
   chandelure: {
     num: 609,
@@ -20108,6 +20916,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     otherFormes: ["Chandelure-Mega"],
     formeOrder: ["Chandelure", "Chandelure-Mega"],
+    xpCurveName: "MediumSlow",
   },
   chandeluremega: {
     num: 609,
@@ -20132,6 +20941,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     requiredItem: "Chandelurite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   axew: {
     num: 610,
@@ -20155,6 +20965,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Fraxure"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "Slow",
   },
   fraxure: {
     num: 611,
@@ -20180,6 +20991,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 38,
     evos: ["Haxorus"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "Slow",
   },
   haxorus: {
     num: 612,
@@ -20204,6 +21016,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Fraxure",
     evoLevel: 48,
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "Slow",
   },
   cubchoo: {
     num: 613,
@@ -20227,6 +21040,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Beartic"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   beartic: {
     num: 614,
@@ -20251,6 +21065,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cubchoo",
     evoLevel: 37,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   cryogonal: {
     num: 615,
@@ -20272,6 +21087,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 148,
     color: "Blue",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   shelmet: {
     num: 616,
@@ -20295,6 +21111,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Accelgor"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   accelgor: {
     num: 617,
@@ -20320,6 +21137,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoCondition: "with a Karrablast",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   stunfisk: {
     num: 618,
@@ -20344,6 +21162,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Amorphous"],
     otherFormes: ["Stunfisk-Galar"],
     formeOrder: ["Stunfisk", "Stunfisk-Galar"],
+    xpCurveName: "MediumFast",
   },
   stunfiskgalar: {
     num: 618,
@@ -20366,6 +21185,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 20.5,
     color: "Green",
     eggGroups: ["Water 1", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   mienfoo: {
     num: 619,
@@ -20389,6 +21209,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Mienshao"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   mienshao: {
     num: 620,
@@ -20413,6 +21234,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Mienfoo",
     evoLevel: 50,
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   druddigon: {
     num: 621,
@@ -20435,6 +21257,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 139,
     color: "Red",
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   golett: {
     num: 622,
@@ -20459,6 +21282,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Golurk"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   golurk: {
     num: 623,
@@ -20486,6 +21310,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Golurk-Mega"],
     formeOrder: ["Golurk", "Golurk-Mega"],
+    xpCurveName: "MediumFast",
   },
   golurkmega: {
     num: 623,
@@ -20511,6 +21336,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     requiredItem: "Golurkite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   pawniard: {
     num: 624,
@@ -20534,6 +21360,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Bisharp"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   bisharp: {
     num: 625,
@@ -20559,6 +21386,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 52,
     evos: ["Kingambit"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   bouffalant: {
     num: 626,
@@ -20581,6 +21409,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 94.6,
     color: "Brown",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   rufflet: {
     num: 627,
@@ -20605,6 +21434,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Braviary", "Braviary-Hisui"],
     eggGroups: ["Flying"],
+    xpCurveName: "Slow",
   },
   braviary: {
     num: 628,
@@ -20632,6 +21462,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Braviary-Hisui"],
     formeOrder: ["Braviary", "Braviary-Hisui"],
+    xpCurveName: "Slow",
   },
   braviaryhisui: {
     num: 628,
@@ -20659,6 +21490,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Rufflet",
     evoLevel: 54,
     eggGroups: ["Flying"],
+    xpCurveName: "Slow",
   },
   vullaby: {
     num: 629,
@@ -20683,6 +21515,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Mandibuzz"],
     eggGroups: ["Flying"],
+    xpCurveName: "Slow",
   },
   mandibuzz: {
     num: 630,
@@ -20708,6 +21541,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Vullaby",
     evoLevel: 54,
     eggGroups: ["Flying"],
+    xpCurveName: "Slow",
   },
   heatmor: {
     num: 631,
@@ -20730,6 +21564,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 58,
     color: "Red",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   durant: {
     num: 632,
@@ -20752,6 +21587,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 33,
     color: "Gray",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   deino: {
     num: 633,
@@ -20773,6 +21609,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Zweilous"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   zweilous: {
     num: 634,
@@ -20796,6 +21633,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 50,
     evos: ["Hydreigon"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   hydreigon: {
     num: 635,
@@ -20818,6 +21656,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Zweilous",
     evoLevel: 64,
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   larvesta: {
     num: 636,
@@ -20840,6 +21679,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Volcarona"],
     eggGroups: ["Bug"],
+    xpCurveName: "Slow",
   },
   volcarona: {
     num: 637,
@@ -20863,6 +21703,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Larvesta",
     evoLevel: 59,
     eggGroups: ["Bug"],
+    xpCurveName: "Slow",
   },
   cobalion: {
     num: 638,
@@ -20885,6 +21726,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   terrakion: {
     num: 639,
@@ -20907,6 +21749,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   virizion: {
     num: 640,
@@ -20929,6 +21772,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   tornadus: {
     num: 641,
@@ -20955,6 +21799,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Tornadus-Therian"],
     formeOrder: ["Tornadus", "Tornadus-Therian"],
+    xpCurveName: "Slow",
   },
   tornadustherian: {
     num: 641,
@@ -20979,6 +21824,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Undiscovered"],
     changesFrom: "Tornadus",
+    xpCurveName: "Slow",
   },
   thundurus: {
     num: 642,
@@ -21005,6 +21851,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Thundurus-Therian"],
     formeOrder: ["Thundurus", "Thundurus-Therian"],
+    xpCurveName: "Slow",
   },
   thundurustherian: {
     num: 642,
@@ -21029,6 +21876,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
     changesFrom: "Thundurus",
+    xpCurveName: "Slow",
   },
   reshiram: {
     num: 643,
@@ -21051,6 +21899,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   zekrom: {
     num: 644,
@@ -21073,6 +21922,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   landorus: {
     num: 645,
@@ -21099,6 +21949,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Landorus-Therian"],
     formeOrder: ["Landorus", "Landorus-Therian"],
+    xpCurveName: "Slow",
   },
   landorustherian: {
     num: 645,
@@ -21123,6 +21974,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Undiscovered"],
     changesFrom: "Landorus",
+    xpCurveName: "Slow",
   },
   kyurem: {
     num: 646,
@@ -21147,6 +21999,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Restricted Legendary"],
     otherFormes: ["Kyurem-Black", "Kyurem-White"],
     formeOrder: ["Kyurem", "Kyurem-White", "Kyurem-Black"],
+    xpCurveName: "Slow",
   },
   kyuremblack: {
     num: 646,
@@ -21171,6 +22024,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Undiscovered"],
     changesFrom: "Kyurem",
+    xpCurveName: "Slow",
   },
   kyuremwhite: {
     num: 646,
@@ -21195,6 +22049,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Undiscovered"],
     changesFrom: "Kyurem",
+    xpCurveName: "Slow",
   },
   keldeo: {
     num: 647,
@@ -21220,6 +22075,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Keldeo-Resolute"],
     formeOrder: ["Keldeo", "Keldeo-Resolute"],
+    xpCurveName: "Slow",
   },
   keldeoresolute: {
     num: 647,
@@ -21245,6 +22101,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredMove: "Secret Sword",
     changesFrom: "Keldeo",
+    xpCurveName: "Slow",
   },
   meloetta: {
     num: 648,
@@ -21270,6 +22127,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Meloetta-Pirouette"],
     formeOrder: ["Meloetta", "Meloetta-Pirouette"],
+    xpCurveName: "Slow",
   },
   meloettapirouette: {
     num: 648,
@@ -21295,6 +22153,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredMove: "Relic Song",
     battleOnly: "Meloetta",
+    xpCurveName: "Slow",
   },
   genesect: {
     num: 649,
@@ -21330,6 +22189,7 @@ export const Pokedex: SpeciesDataTable = {
       "Genesect-Burn",
       "Genesect-Chill",
     ],
+    xpCurveName: "Slow",
   },
   genesectdouse: {
     num: 649,
@@ -21355,6 +22215,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Douse Drive",
     changesFrom: "Genesect",
+    xpCurveName: "Slow",
   },
   genesectshock: {
     num: 649,
@@ -21380,6 +22241,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Shock Drive",
     changesFrom: "Genesect",
+    xpCurveName: "Slow",
   },
   genesectburn: {
     num: 649,
@@ -21405,6 +22267,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Burn Drive",
     changesFrom: "Genesect",
+    xpCurveName: "Slow",
   },
   genesectchill: {
     num: 649,
@@ -21430,6 +22293,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Chill Drive",
     changesFrom: "Genesect",
+    xpCurveName: "Slow",
   },
   chespin: {
     num: 650,
@@ -21456,6 +22320,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Quilladin"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   quilladin: {
     num: 651,
@@ -21484,6 +22349,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Chesnaught"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   chesnaught: {
     num: 652,
@@ -21513,6 +22379,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Chesnaught-Mega"],
     formeOrder: ["Chesnaught", "Chesnaught-Mega"],
+    xpCurveName: "MediumSlow",
   },
   chesnaughtmega: {
     num: 652,
@@ -21541,6 +22408,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Chesnaughtite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   fennekin: {
     num: 653,
@@ -21567,6 +22435,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Braixen"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   braixen: {
     num: 654,
@@ -21595,6 +22464,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Delphox"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   delphox: {
     num: 655,
@@ -21624,6 +22494,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Delphox-Mega"],
     formeOrder: ["Delphox", "Delphox-Mega"],
+    xpCurveName: "MediumSlow",
   },
   delphoxmega: {
     num: 655,
@@ -21652,6 +22523,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Delphoxite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   froakie: {
     num: 656,
@@ -21678,6 +22550,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Frogadier"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   frogadier: {
     num: 657,
@@ -21706,6 +22579,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Greninja"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumSlow",
   },
   greninja: {
     num: 658,
@@ -21736,6 +22610,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1"],
     otherFormes: ["Greninja-Bond", "Greninja-Ash", "Greninja-Mega"],
     formeOrder: ["Greninja", "Greninja-Bond", "Greninja-Ash", "Greninja-Mega"],
+    xpCurveName: "MediumSlow",
   },
   greninjabond: {
     num: 658,
@@ -21760,6 +22635,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
     gen: 7,
+    xpCurveName: "MediumSlow",
   },
   greninjaash: {
     num: 658,
@@ -21786,6 +22662,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredAbility: "Battle Bond",
     battleOnly: "Greninja-Bond",
     gen: 7,
+    xpCurveName: "MediumSlow",
   },
   greninjamega: {
     num: 658,
@@ -21814,6 +22691,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1"],
     requiredItem: "Greninjite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   bunnelby: {
     num: 659,
@@ -21837,6 +22715,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Diggersby"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   diggersby: {
     num: 660,
@@ -21861,6 +22740,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Bunnelby",
     evoLevel: 20,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   fletchling: {
     num: 661,
@@ -21883,6 +22763,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Fletchinder"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   fletchinder: {
     num: 662,
@@ -21907,6 +22788,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Talonflame"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   talonflame: {
     num: 663,
@@ -21930,6 +22812,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Fletchinder",
     evoLevel: 35,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   scatterbug: {
     num: 664,
@@ -21953,6 +22836,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Spewpa"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   spewpa: {
     num: 665,
@@ -21977,6 +22861,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 9,
     evos: ["Vivillon", "Vivillon-Fancy"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   vivillon: {
     num: 666,
@@ -22044,6 +22929,7 @@ export const Pokedex: SpeciesDataTable = {
       "Vivillon-Fancy",
       "Vivillon-Pokeball",
     ],
+    xpCurveName: "MediumFast",
   },
   vivillonicysnow: {
     isCosmeticForme: true,
@@ -22051,6 +22937,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Icy Snow",
     color: "White",
+    xpCurveName: "MediumFast",
   },
   vivillonpolar: {
     isCosmeticForme: true,
@@ -22058,6 +22945,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Polar",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   vivillontundra: {
     isCosmeticForme: true,
@@ -22065,6 +22953,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Tundra",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   vivilloncontinental: {
     isCosmeticForme: true,
@@ -22072,6 +22961,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Continental",
     color: "Yellow",
+    xpCurveName: "MediumFast",
   },
   vivillongarden: {
     isCosmeticForme: true,
@@ -22079,6 +22969,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Garden",
     color: "Green",
+    xpCurveName: "MediumFast",
   },
   vivillonelegant: {
     isCosmeticForme: true,
@@ -22086,6 +22977,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Elegant",
     color: "Purple",
+    xpCurveName: "MediumFast",
   },
   vivillonmodern: {
     isCosmeticForme: true,
@@ -22093,6 +22985,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Modern",
     color: "Red",
+    xpCurveName: "MediumFast",
   },
   vivillonmarine: {
     isCosmeticForme: true,
@@ -22100,6 +22993,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Marine",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   vivillonarchipelago: {
     isCosmeticForme: true,
@@ -22107,6 +23001,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Archipelago",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   vivillonhighplains: {
     isCosmeticForme: true,
@@ -22114,6 +23009,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "High Plains",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   vivillonsandstorm: {
     isCosmeticForme: true,
@@ -22121,6 +23017,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Sandstorm",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   vivillonriver: {
     isCosmeticForme: true,
@@ -22128,6 +23025,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "River",
     color: "Brown",
+    xpCurveName: "MediumFast",
   },
   vivillonmonsoon: {
     isCosmeticForme: true,
@@ -22135,6 +23033,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Monsoon",
     color: "Gray",
+    xpCurveName: "MediumFast",
   },
   vivillonsavanna: {
     isCosmeticForme: true,
@@ -22142,6 +23041,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Savanna",
     color: "Green",
+    xpCurveName: "MediumFast",
   },
   vivillonsun: {
     isCosmeticForme: true,
@@ -22149,6 +23049,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Sun",
     color: "Red",
+    xpCurveName: "MediumFast",
   },
   vivillonocean: {
     isCosmeticForme: true,
@@ -22156,6 +23057,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Ocean",
     color: "Red",
+    xpCurveName: "MediumFast",
   },
   vivillonjungle: {
     isCosmeticForme: true,
@@ -22163,6 +23065,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Vivillon",
     forme: "Jungle",
     color: "Green",
+    xpCurveName: "MediumFast",
   },
   vivillonfancy: {
     num: 666,
@@ -22189,6 +23092,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Spewpa",
     evoLevel: 12,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   vivillonpokeball: {
     num: 666,
@@ -22213,6 +23117,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 17,
     color: "Red",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   litleo: {
     num: 667,
@@ -22240,6 +23145,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Pyroar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   pyroar: {
     num: 668,
@@ -22270,6 +23176,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Pyroar-Mega"],
     formeOrder: ["Pyroar", "Pyroar-Mega"],
+    xpCurveName: "MediumSlow",
   },
   pyroarmega: {
     num: 668,
@@ -22300,6 +23207,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Pyroarite",
     gen: 9,
+    xpCurveName: "MediumSlow",
   },
   flabebe: {
     num: 669,
@@ -22337,6 +23245,7 @@ export const Pokedex: SpeciesDataTable = {
       "Flabébé-Blue",
       "Flabébé-White",
     ],
+    xpCurveName: "MediumFast",
   },
   floette: {
     num: 670,
@@ -22379,6 +23288,7 @@ export const Pokedex: SpeciesDataTable = {
       "Floette-Eternal",
       "Floette-Mega",
     ],
+    xpCurveName: "MediumFast",
   },
   floetteeternal: {
     num: 670,
@@ -22403,6 +23313,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 0.9,
     color: "White",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   floettemega: {
     num: 670,
@@ -22429,6 +23340,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Floettite",
     battleOnly: "Floette-Eternal",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   florges: {
     num: 671,
@@ -22468,6 +23380,7 @@ export const Pokedex: SpeciesDataTable = {
       "Florges-Blue",
       "Florges-White",
     ],
+    xpCurveName: "MediumFast",
   },
   skiddo: {
     num: 672,
@@ -22490,6 +23403,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Gogoat"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   gogoat: {
     num: 673,
@@ -22513,6 +23427,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Skiddo",
     evoLevel: 32,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pancham: {
     num: 674,
@@ -22536,6 +23451,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Pangoro"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumFast",
   },
   pangoro: {
     num: 675,
@@ -22561,6 +23477,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evoCondition: "with a Dark-type in the party",
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumFast",
   },
   furfrou: {
     num: 676,
@@ -22605,6 +23522,7 @@ export const Pokedex: SpeciesDataTable = {
       "Furfrou-Kabuki",
       "Furfrou-Pharaoh",
     ],
+    xpCurveName: "MediumFast",
   },
   espurr: {
     num: 677,
@@ -22628,6 +23546,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Meowstic", "Meowstic-F"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   meowstic: {
     num: 678,
@@ -22661,6 +23580,7 @@ export const Pokedex: SpeciesDataTable = {
       "Meowstic-M-Mega",
       "Meowstic-F-Mega",
     ],
+    xpCurveName: "MediumFast",
   },
   meowsticf: {
     num: 678,
@@ -22688,6 +23608,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Espurr",
     evoLevel: 25,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   meowsticmmega: {
     num: 678,
@@ -22714,6 +23635,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Meowsticite",
     battleOnly: "Meowstic",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   meowsticfmega: {
     num: 678,
@@ -22740,6 +23662,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Meowsticite",
     battleOnly: "Meowstic-F",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   honedge: {
     num: 679,
@@ -22761,6 +23684,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Doublade"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   doublade: {
     num: 680,
@@ -22784,6 +23708,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evos: ["Aegislash"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   aegislash: {
     num: 681,
@@ -22810,6 +23735,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Aegislash-Blade"],
     formeOrder: ["Aegislash", "Aegislash-Blade"],
+    xpCurveName: "MediumFast",
   },
   aegislashblade: {
     num: 681,
@@ -22834,6 +23760,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     requiredAbility: "Stance Change",
     battleOnly: "Aegislash",
+    xpCurveName: "MediumFast",
   },
   spritzee: {
     num: 682,
@@ -22856,6 +23783,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Aromatisse"],
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   aromatisse: {
     num: 683,
@@ -22880,6 +23808,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Sachet",
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   swirlix: {
     num: 684,
@@ -22902,6 +23831,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Slurpuff"],
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   slurpuff: {
     num: 685,
@@ -22926,6 +23856,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     evoItem: "Whipped Dream",
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumFast",
   },
   inkay: {
     num: 686,
@@ -22949,6 +23880,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Malamar"],
     eggGroups: ["Water 1", "Water 2"],
+    xpCurveName: "MediumFast",
   },
   malamar: {
     num: 687,
@@ -22976,6 +23908,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Water 2"],
     otherFormes: ["Malamar-Mega"],
     formeOrder: ["Malamar", "Malamar-Mega"],
+    xpCurveName: "MediumFast",
   },
   malamarmega: {
     num: 687,
@@ -23002,6 +23935,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Water 2"],
     requiredItem: "Malamarite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   binacle: {
     num: 688,
@@ -23025,6 +23959,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Barbaracle"],
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   barbaracle: {
     num: 689,
@@ -23051,6 +23986,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     otherFormes: ["Barbaracle-Mega"],
     formeOrder: ["Barbaracle", "Barbaracle-Mega"],
+    xpCurveName: "MediumFast",
   },
   barbaraclemega: {
     num: 689,
@@ -23077,6 +24013,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     requiredItem: "Barbaracite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   skrelp: {
     num: 690,
@@ -23100,6 +24037,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Dragalge"],
     eggGroups: ["Water 1", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   dragalge: {
     num: 691,
@@ -23126,6 +24064,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Dragon"],
     otherFormes: ["Dragalge-Mega"],
     formeOrder: ["Dragalge", "Dragalge-Mega"],
+    xpCurveName: "MediumFast",
   },
   dragalgemega: {
     num: 691,
@@ -23152,6 +24091,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Dragon"],
     requiredItem: "Dragalgite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   clauncher: {
     num: 692,
@@ -23173,6 +24113,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Clawitzer"],
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Slow",
   },
   clawitzer: {
     num: 693,
@@ -23195,6 +24136,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Clauncher",
     evoLevel: 37,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Slow",
   },
   helioptile: {
     num: 694,
@@ -23218,6 +24160,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Heliolisk"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   heliolisk: {
     num: 695,
@@ -23243,6 +24186,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Sun Stone",
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   tyrunt: {
     num: 696,
@@ -23269,6 +24213,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Tyrantrum"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   tyrantrum: {
     num: 697,
@@ -23297,6 +24242,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 39,
     evoCondition: "during the day",
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   amaura: {
     num: 698,
@@ -23323,6 +24269,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Aurorus"],
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   aurorus: {
     num: 699,
@@ -23351,6 +24298,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 39,
     evoCondition: "at night",
     eggGroups: ["Monster"],
+    xpCurveName: "MediumFast",
   },
   sylveon: {
     num: 700,
@@ -23379,6 +24327,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelExtra",
     evoCondition: "with a Fairy-type move and two levels of Affection",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   hawlucha: {
     num: 701,
@@ -23403,6 +24352,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying", "Human-Like"],
     otherFormes: ["Hawlucha-Mega"],
     formeOrder: ["Hawlucha", "Hawlucha-Mega"],
+    xpCurveName: "MediumFast",
   },
   hawluchamega: {
     num: 701,
@@ -23427,6 +24377,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying", "Human-Like"],
     requiredItem: "Hawluchanite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   dedenne: {
     num: 702,
@@ -23449,6 +24400,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2.2,
     color: "Yellow",
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   carbink: {
     num: 703,
@@ -23471,6 +24423,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 5.7,
     color: "Gray",
     eggGroups: ["Fairy", "Mineral"],
+    xpCurveName: "Slow",
   },
   goomy: {
     num: 704,
@@ -23494,6 +24447,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Sliggoo", "Sliggoo-Hisui"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   sliggoo: {
     num: 705,
@@ -23521,6 +24475,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Dragon"],
     otherFormes: ["Sliggoo-Hisui"],
     formeOrder: ["Sliggoo", "Sliggoo-Hisui"],
+    xpCurveName: "Slow",
   },
   sliggoohisui: {
     num: 705,
@@ -23548,6 +24503,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 40,
     evos: ["Goodra-Hisui"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   goodra: {
     num: 706,
@@ -23575,6 +24531,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Dragon"],
     otherFormes: ["Goodra-Hisui"],
     formeOrder: ["Goodra", "Goodra-Hisui"],
+    xpCurveName: "Slow",
   },
   goodrahisui: {
     num: 706,
@@ -23602,6 +24559,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 50,
     evoCondition: "during rain",
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   klefki: {
     num: 707,
@@ -23623,6 +24581,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 3,
     color: "Gray",
     eggGroups: ["Mineral"],
+    xpCurveName: "Fast",
   },
   phantump: {
     num: 708,
@@ -23646,6 +24605,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Trevenant"],
     eggGroups: ["Grass", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   trevenant: {
     num: 709,
@@ -23670,6 +24630,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Phantump",
     evoType: "trade",
     eggGroups: ["Grass", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   pumpkaboo: {
     num: 710,
@@ -23701,6 +24662,7 @@ export const Pokedex: SpeciesDataTable = {
       "Pumpkaboo-Large",
       "Pumpkaboo-Super",
     ],
+    xpCurveName: "MediumFast",
   },
   pumpkaboosmall: {
     num: 710,
@@ -23726,6 +24688,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Gourgeist-Small"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   pumpkaboolarge: {
     num: 710,
@@ -23751,6 +24714,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Gourgeist-Large"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   pumpkaboosuper: {
     num: 710,
@@ -23776,6 +24740,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Gourgeist-Super"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   gourgeist: {
     num: 711,
@@ -23808,6 +24773,7 @@ export const Pokedex: SpeciesDataTable = {
       "Gourgeist-Large",
       "Gourgeist-Super",
     ],
+    xpCurveName: "MediumFast",
   },
   gourgeistsmall: {
     num: 711,
@@ -23834,6 +24800,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Pumpkaboo-Small",
     evoType: "trade",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   gourgeistlarge: {
     num: 711,
@@ -23860,6 +24827,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Pumpkaboo-Large",
     evoType: "trade",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   gourgeistsuper: {
     num: 711,
@@ -23886,6 +24854,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Pumpkaboo-Super",
     evoType: "trade",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   bergmite: {
     num: 712,
@@ -23909,6 +24878,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Avalugg", "Avalugg-Hisui"],
     eggGroups: ["Monster", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   avalugg: {
     num: 713,
@@ -23935,6 +24905,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Mineral"],
     otherFormes: ["Avalugg-Hisui"],
     formeOrder: ["Avalugg", "Avalugg-Hisui"],
+    xpCurveName: "MediumFast",
   },
   avalugghisui: {
     num: 713,
@@ -23961,6 +24932,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Bergmite",
     evoLevel: 37,
     eggGroups: ["Monster", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   noibat: {
     num: 714,
@@ -23984,6 +24956,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Noivern"],
     eggGroups: ["Flying", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   noivern: {
     num: 715,
@@ -24008,6 +24981,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Noibat",
     evoLevel: 48,
     eggGroups: ["Flying", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   xerneas: {
     num: 716,
@@ -24033,6 +25007,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Restricted Legendary"],
     otherFormes: ["Xerneas-Neutral"],
     formeOrder: ["Xerneas-Neutral", "Xerneas"],
+    xpCurveName: "Slow",
   },
   xerneasneutral: {
     num: 716,
@@ -24056,6 +25031,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 215,
     color: "Blue",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   yveltal: {
     num: 717,
@@ -24078,6 +25054,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   zygarde: {
     num: 718,
@@ -24111,6 +25088,7 @@ export const Pokedex: SpeciesDataTable = {
       "Zygarde-Complete",
       "Zygarde-Mega",
     ],
+    xpCurveName: "Slow",
   },
   zygarde10: {
     num: 718,
@@ -24137,6 +25115,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     changesFrom: "Zygarde",
     gen: 7,
+    xpCurveName: "Slow",
   },
   zygardecomplete: {
     num: 718,
@@ -24163,6 +25142,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredAbility: "Power Construct",
     battleOnly: ["Zygarde", "Zygarde-10%"],
     gen: 7,
+    xpCurveName: "Slow",
   },
   zygardemega: {
     num: 718,
@@ -24189,6 +25169,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Zygardite",
     battleOnly: ["Zygarde", "Zygarde-10%"],
     gen: 9,
+    xpCurveName: "Slow",
   },
   diancie: {
     num: 719,
@@ -24213,6 +25194,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Diancie-Mega"],
     formeOrder: ["Diancie", "Diancie-Mega"],
+    xpCurveName: "Slow",
   },
   dianciemega: {
     num: 719,
@@ -24237,6 +25219,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Undiscovered"],
     requiredItem: "Diancite",
+    xpCurveName: "Slow",
   },
   hoopa: {
     num: 720,
@@ -24262,6 +25245,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Hoopa-Unbound"],
     formeOrder: ["Hoopa", "Hoopa-Unbound"],
+    xpCurveName: "Slow",
   },
   hoopaunbound: {
     num: 720,
@@ -24286,6 +25270,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     changesFrom: "Hoopa",
+    xpCurveName: "Slow",
   },
   volcanion: {
     num: 721,
@@ -24308,6 +25293,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   rowlet: {
     num: 722,
@@ -24334,6 +25320,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Dartrix"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   dartrix: {
     num: 723,
@@ -24362,6 +25349,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Decidueye", "Decidueye-Hisui"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   decidueye: {
     num: 724,
@@ -24391,6 +25379,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Flying"],
     otherFormes: ["Decidueye-Hisui"],
     formeOrder: ["Decidueye", "Decidueye-Hisui"],
+    xpCurveName: "MediumSlow",
   },
   decidueyehisui: {
     num: 724,
@@ -24420,6 +25409,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Dartrix",
     evoLevel: 36,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   litten: {
     num: 725,
@@ -24446,6 +25436,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Torracat"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   torracat: {
     num: 726,
@@ -24474,6 +25465,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Incineroar"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   incineroar: {
     num: 727,
@@ -24501,6 +25493,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Torracat",
     evoLevel: 34,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   popplio: {
     num: 728,
@@ -24527,6 +25520,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Brionne"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   brionne: {
     num: 729,
@@ -24555,6 +25549,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 17,
     evos: ["Primarina"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   primarina: {
     num: 730,
@@ -24582,6 +25577,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Brionne",
     evoLevel: 34,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   pikipek: {
     num: 731,
@@ -24605,6 +25601,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Trumbeak"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   trumbeak: {
     num: 732,
@@ -24630,6 +25627,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 14,
     evos: ["Toucannon"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   toucannon: {
     num: 733,
@@ -24654,6 +25652,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Trumbeak",
     evoLevel: 28,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumFast",
   },
   yungoos: {
     num: 734,
@@ -24677,6 +25676,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Gumshoos"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   gumshoos: {
     num: 735,
@@ -24704,6 +25704,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Gumshoos-Totem"],
     formeOrder: ["Gumshoos", "Gumshoos-Totem"],
+    xpCurveName: "MediumFast",
   },
   gumshoostotem: {
     num: 735,
@@ -24726,6 +25727,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 60,
     color: "Brown",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   grubbin: {
     num: 736,
@@ -24747,6 +25749,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Charjabug"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   charjabug: {
     num: 737,
@@ -24770,6 +25773,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 20,
     evos: ["Vikavolt"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   vikavolt: {
     num: 738,
@@ -24795,6 +25799,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug"],
     otherFormes: ["Vikavolt-Totem"],
     formeOrder: ["Vikavolt", "Vikavolt-Totem"],
+    xpCurveName: "MediumFast",
   },
   vikavolttotem: {
     num: 738,
@@ -24817,6 +25822,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 147.5,
     color: "Blue",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   crabrawler: {
     num: 739,
@@ -24840,6 +25846,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Crabominable"],
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   crabominable: {
     num: 740,
@@ -24867,6 +25874,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     otherFormes: ["Crabominable-Mega"],
     formeOrder: ["Crabominable", "Crabominable-Mega"],
+    xpCurveName: "MediumFast",
   },
   crabominablemega: {
     num: 740,
@@ -24891,6 +25899,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 3"],
     requiredItem: "Crabominite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   oricorio: {
     num: 741,
@@ -24923,6 +25932,7 @@ export const Pokedex: SpeciesDataTable = {
       "Oricorio-Pa'u",
       "Oricorio-Sensu",
     ],
+    xpCurveName: "MediumFast",
   },
   oricoriopompom: {
     num: 741,
@@ -24950,6 +25960,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Flying"],
     changesFrom: "Oricorio",
+    xpCurveName: "MediumFast",
   },
   oricoriopau: {
     num: 741,
@@ -24977,6 +25988,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Flying"],
     changesFrom: "Oricorio",
+    xpCurveName: "MediumFast",
   },
   oricoriosensu: {
     num: 741,
@@ -25004,6 +26016,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Flying"],
     changesFrom: "Oricorio",
+    xpCurveName: "MediumFast",
   },
   cutiefly: {
     num: 742,
@@ -25027,6 +26040,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Ribombee"],
     eggGroups: ["Bug", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   ribombee: {
     num: 743,
@@ -25053,6 +26067,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug", "Fairy"],
     otherFormes: ["Ribombee-Totem"],
     formeOrder: ["Ribombee", "Ribombee-Totem"],
+    xpCurveName: "MediumFast",
   },
   ribombeetotem: {
     num: 743,
@@ -25075,6 +26090,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2,
     color: "Yellow",
     eggGroups: ["Bug", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   rockruff: {
     num: 744,
@@ -25102,6 +26118,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Rockruff-Dusk"],
     formeOrder: ["Rockruff", "Rockruff-Dusk"],
+    xpCurveName: "MediumFast",
   },
   rockruffdusk: {
     num: 744,
@@ -25125,6 +26142,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Lycanroc-Dusk"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   lycanroc: {
     num: 745,
@@ -25153,6 +26171,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Lycanroc-Midnight", "Lycanroc-Dusk"],
     formeOrder: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
+    xpCurveName: "MediumFast",
   },
   lycanrocmidnight: {
     num: 745,
@@ -25180,6 +26199,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   lycanrocdusk: {
     num: 745,
@@ -25205,6 +26225,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evoCondition: "from a special Rockruff during the evening",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   wishiwashi: {
     num: 746,
@@ -25228,6 +26249,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     otherFormes: ["Wishiwashi-School"],
     formeOrder: ["Wishiwashi", "Wishiwashi-School"],
+    xpCurveName: "Fast",
   },
   wishiwashischool: {
     num: 746,
@@ -25252,6 +26274,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     requiredAbility: "Schooling",
     battleOnly: "Wishiwashi",
+    xpCurveName: "Fast",
   },
   mareanie: {
     num: 747,
@@ -25275,6 +26298,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Toxapex"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumFast",
   },
   toxapex: {
     num: 748,
@@ -25299,6 +26323,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Mareanie",
     evoLevel: 38,
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumFast",
   },
   mudbray: {
     num: 749,
@@ -25322,6 +26347,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Mudsdale"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   mudsdale: {
     num: 750,
@@ -25346,6 +26372,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Mudbray",
     evoLevel: 30,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   dewpider: {
     num: 751,
@@ -25368,6 +26395,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Araquanid"],
     eggGroups: ["Water 1", "Bug"],
+    xpCurveName: "MediumFast",
   },
   araquanid: {
     num: 752,
@@ -25393,6 +26421,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Bug"],
     otherFormes: ["Araquanid-Totem"],
     formeOrder: ["Araquanid", "Araquanid-Totem"],
+    xpCurveName: "MediumFast",
   },
   araquanidtotem: {
     num: 752,
@@ -25415,6 +26444,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 217.5,
     color: "Green",
     eggGroups: ["Water 1", "Bug"],
+    xpCurveName: "MediumFast",
   },
   fomantis: {
     num: 753,
@@ -25437,6 +26467,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Lurantis"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   lurantis: {
     num: 754,
@@ -25463,6 +26494,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     otherFormes: ["Lurantis-Totem"],
     formeOrder: ["Lurantis", "Lurantis-Totem"],
+    xpCurveName: "MediumFast",
   },
   lurantistotem: {
     num: 754,
@@ -25485,6 +26517,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 58,
     color: "Pink",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   morelull: {
     num: 755,
@@ -25508,6 +26541,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Shiinotic"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   shiinotic: {
     num: 756,
@@ -25532,6 +26566,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Morelull",
     evoLevel: 24,
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   salandit: {
     num: 757,
@@ -25558,6 +26593,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Salazzle"],
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   salazzle: {
     num: 758,
@@ -25584,6 +26620,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     otherFormes: ["Salazzle-Totem"],
     formeOrder: ["Salazzle", "Salazzle-Totem"],
+    xpCurveName: "MediumFast",
   },
   salazzletotem: {
     num: 758,
@@ -25607,6 +26644,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 81,
     color: "Black",
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   stufful: {
     num: 759,
@@ -25630,6 +26668,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Bewear"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   bewear: {
     num: 760,
@@ -25654,6 +26693,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Stufful",
     evoLevel: 27,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   bounsweet: {
     num: 761,
@@ -25678,6 +26718,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Steenee"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   steenee: {
     num: 762,
@@ -25704,6 +26745,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Tsareena"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   tsareena: {
     num: 763,
@@ -25730,6 +26772,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Stomp",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   comfey: {
     num: 764,
@@ -25756,6 +26799,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 0.3,
     color: "Green",
     eggGroups: ["Grass"],
+    xpCurveName: "Fast",
   },
   oranguru: {
     num: 765,
@@ -25778,6 +26822,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 76,
     color: "White",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   passimian: {
     num: 766,
@@ -25799,6 +26844,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 82.8,
     color: "White",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   wimpod: {
     num: 767,
@@ -25820,6 +26866,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Golisopod"],
     eggGroups: ["Bug", "Water 3"],
+    xpCurveName: "MediumFast",
   },
   golisopod: {
     num: 768,
@@ -25844,6 +26891,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug", "Water 3"],
     otherFormes: ["Golisopod-Mega"],
     formeOrder: ["Golisopod", "Golisopod-Mega"],
+    xpCurveName: "MediumFast",
   },
   golisopodmega: {
     num: 768,
@@ -25868,6 +26916,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Bug", "Water 3"],
     requiredItem: "Golisopite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   sandygast: {
     num: 769,
@@ -25890,6 +26939,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Palossand"],
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   palossand: {
     num: 770,
@@ -25913,6 +26963,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Sandygast",
     evoLevel: 42,
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   pyukumuku: {
     num: 771,
@@ -25934,6 +26985,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 1.2,
     color: "Black",
     eggGroups: ["Water 1"],
+    xpCurveName: "Fast",
   },
   typenull: {
     num: 772,
@@ -25957,6 +27009,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Sub-Legendary"],
     evos: ["Silvally"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   silvally: {
     num: 773,
@@ -26021,6 +27074,7 @@ export const Pokedex: SpeciesDataTable = {
       "Silvally-Dark",
       "Silvally-Fairy",
     ],
+    xpCurveName: "Slow",
   },
   silvallybug: {
     num: 773,
@@ -26046,6 +27100,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Bug Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallydark: {
     num: 773,
@@ -26071,6 +27126,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Dark Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallydragon: {
     num: 773,
@@ -26096,6 +27152,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Dragon Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyelectric: {
     num: 773,
@@ -26121,6 +27178,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Electric Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyfairy: {
     num: 773,
@@ -26146,6 +27204,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Fairy Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyfighting: {
     num: 773,
@@ -26171,6 +27230,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Fighting Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyfire: {
     num: 773,
@@ -26196,6 +27256,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Fire Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyflying: {
     num: 773,
@@ -26221,6 +27282,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Flying Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyghost: {
     num: 773,
@@ -26246,6 +27308,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Ghost Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallygrass: {
     num: 773,
@@ -26271,6 +27334,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Grass Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyground: {
     num: 773,
@@ -26296,6 +27360,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Ground Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyice: {
     num: 773,
@@ -26321,6 +27386,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Ice Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallypoison: {
     num: 773,
@@ -26346,6 +27412,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Poison Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallypsychic: {
     num: 773,
@@ -26371,6 +27438,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Psychic Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallyrock: {
     num: 773,
@@ -26396,6 +27464,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Rock Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallysteel: {
     num: 773,
@@ -26421,6 +27490,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Steel Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   silvallywater: {
     num: 773,
@@ -26446,6 +27516,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Water Memory",
     changesFrom: "Silvally",
+    xpCurveName: "Slow",
   },
   minior: {
     num: 774,
@@ -26493,6 +27564,7 @@ export const Pokedex: SpeciesDataTable = {
       "Minior-Indigo",
       "Minior-Violet",
     ],
+    xpCurveName: "MediumSlow",
   },
   miniororange: {
     isCosmeticForme: true,
@@ -26500,6 +27572,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Orange",
     color: "Red",
+    xpCurveName: "MediumSlow",
   },
   minioryellow: {
     isCosmeticForme: true,
@@ -26507,6 +27580,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Yellow",
     color: "Yellow",
+    xpCurveName: "MediumSlow",
   },
   miniorgreen: {
     isCosmeticForme: true,
@@ -26514,6 +27588,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Green",
     color: "Green",
+    xpCurveName: "MediumSlow",
   },
   miniorblue: {
     isCosmeticForme: true,
@@ -26521,6 +27596,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Blue",
     color: "Blue",
+    xpCurveName: "MediumSlow",
   },
   miniorindigo: {
     isCosmeticForme: true,
@@ -26528,6 +27604,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Indigo",
     color: "Blue",
+    xpCurveName: "MediumSlow",
   },
   miniorviolet: {
     isCosmeticForme: true,
@@ -26535,6 +27612,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Minior",
     forme: "Violet",
     color: "Purple",
+    xpCurveName: "MediumSlow",
   },
   miniormeteor: {
     num: 774,
@@ -26560,6 +27638,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     requiredAbility: "Shields Down",
     battleOnly: "Minior",
+    xpCurveName: "MediumSlow",
   },
   komala: {
     num: 775,
@@ -26580,6 +27659,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 19.9,
     color: "Blue",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   turtonator: {
     num: 776,
@@ -26600,6 +27680,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 212,
     color: "Red",
     eggGroups: ["Monster", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   togedemaru: {
     num: 777,
@@ -26624,6 +27705,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     otherFormes: ["Togedemaru-Totem"],
     formeOrder: ["Togedemaru", "Togedemaru-Totem"],
+    xpCurveName: "MediumFast",
   },
   togedemarutotem: {
     num: 777,
@@ -26646,6 +27728,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 13,
     color: "Gray",
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "MediumFast",
   },
   mimikyu: {
     num: 778,
@@ -26674,6 +27757,7 @@ export const Pokedex: SpeciesDataTable = {
       "Mimikyu-Totem",
       "Mimikyu-Busted-Totem",
     ],
+    xpCurveName: "MediumFast",
   },
   mimikyubusted: {
     num: 778,
@@ -26698,6 +27782,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     requiredAbility: "Disguise",
     battleOnly: "Mimikyu",
+    xpCurveName: "MediumFast",
   },
   mimikyutotem: {
     num: 778,
@@ -26720,6 +27805,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2.8,
     color: "Yellow",
     eggGroups: ["Amorphous"],
+    xpCurveName: "MediumFast",
   },
   mimikyubustedtotem: {
     num: 778,
@@ -26744,6 +27830,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous"],
     requiredAbility: "Disguise",
     battleOnly: "Mimikyu-Totem",
+    xpCurveName: "MediumFast",
   },
   bruxish: {
     num: 779,
@@ -26766,6 +27853,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 19,
     color: "Pink",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   drampa: {
     num: 780,
@@ -26790,6 +27878,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     otherFormes: ["Drampa-Mega"],
     formeOrder: ["Drampa", "Drampa-Mega"],
+    xpCurveName: "MediumFast",
   },
   drampamega: {
     num: 780,
@@ -26814,6 +27903,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Dragon"],
     requiredItem: "Drampanite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   dhelmise: {
     num: 781,
@@ -26835,6 +27925,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 210,
     color: "Green",
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   jangmoo: {
     num: 782,
@@ -26858,6 +27949,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Hakamo-o"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   hakamoo: {
     num: 783,
@@ -26883,6 +27975,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evos: ["Kommo-o"],
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   kommoo: {
     num: 784,
@@ -26909,6 +28002,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Dragon"],
     otherFormes: ["Kommo-o-Totem"],
     formeOrder: ["Kommo-o", "Kommo-o-Totem"],
+    xpCurveName: "Slow",
   },
   kommoototem: {
     num: 784,
@@ -26931,6 +28025,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 207.5,
     color: "Gray",
     eggGroups: ["Dragon"],
+    xpCurveName: "Slow",
   },
   tapukoko: {
     num: 785,
@@ -26954,6 +28049,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   tapulele: {
     num: 786,
@@ -26977,6 +28073,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   tapubulu: {
     num: 787,
@@ -27000,6 +28097,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   tapufini: {
     num: 788,
@@ -27023,6 +28121,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   cosmog: {
     num: 789,
@@ -27046,6 +28145,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Cosmoem"],
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   cosmoem: {
     num: 790,
@@ -27071,6 +28171,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 43,
     evos: ["Solgaleo", "Lunala"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   solgaleo: {
     num: 791,
@@ -27095,6 +28196,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cosmoem",
     evoLevel: 53,
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   lunala: {
     num: 792,
@@ -27119,6 +28221,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Cosmoem",
     evoLevel: 53,
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   nihilego: {
     num: 793,
@@ -27141,6 +28244,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   buzzwole: {
     num: 794,
@@ -27163,6 +28267,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   pheromosa: {
     num: 795,
@@ -27185,6 +28290,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   xurkitree: {
     num: 796,
@@ -27207,6 +28313,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   celesteela: {
     num: 797,
@@ -27229,6 +28336,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   kartana: {
     num: 798,
@@ -27251,6 +28359,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   guzzlord: {
     num: 799,
@@ -27273,6 +28382,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   necrozma: {
     num: 800,
@@ -27306,6 +28416,7 @@ export const Pokedex: SpeciesDataTable = {
       "Necrozma-Dawn-Wings",
       "Necrozma-Ultra",
     ],
+    xpCurveName: "Slow",
   },
   necrozmaduskmane: {
     num: 800,
@@ -27330,6 +28441,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Undiscovered"],
     changesFrom: "Necrozma",
+    xpCurveName: "Slow",
   },
   necrozmadawnwings: {
     num: 800,
@@ -27354,6 +28466,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
     changesFrom: "Necrozma",
+    xpCurveName: "Slow",
   },
   necrozmaultra: {
     num: 800,
@@ -27379,6 +28492,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Ultranecrozium Z",
     battleOnly: ["Necrozma-Dawn-Wings", "Necrozma-Dusk-Mane"],
+    xpCurveName: "Slow",
   },
   magearna: {
     num: 801,
@@ -27412,6 +28526,7 @@ export const Pokedex: SpeciesDataTable = {
       "Magearna-Mega",
       "Magearna-Original-Mega",
     ],
+    xpCurveName: "Slow",
   },
   magearnaoriginal: {
     num: 801,
@@ -27435,6 +28550,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 80.5,
     color: "Red",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   magearnamega: {
     num: 801,
@@ -27460,6 +28576,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Magearnite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   magearnaoriginalmega: {
     num: 801,
@@ -27486,6 +28603,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Magearnite",
     battleOnly: "Magearna-Original",
     gen: 9,
+    xpCurveName: "Slow",
   },
   marshadow: {
     num: 802,
@@ -27508,6 +28626,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   poipole: {
     num: 803,
@@ -27531,6 +28650,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Ultra Beast"],
     evos: ["Naganadel"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   naganadel: {
     num: 804,
@@ -27556,6 +28676,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Dragon Pulse",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   stakataka: {
     num: 805,
@@ -27578,6 +28699,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   blacephalon: {
     num: 806,
@@ -27600,6 +28722,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   zeraora: {
     num: 807,
@@ -27624,6 +28747,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Zeraora-Mega"],
     formeOrder: ["Zeraora", "Zeraora-Mega"],
+    xpCurveName: "Slow",
   },
   zeraoramega: {
     num: 807,
@@ -27650,6 +28774,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     requiredItem: "Zeraorite",
     gen: 9,
+    xpCurveName: "Slow",
   },
   meltan: {
     num: 808,
@@ -27672,6 +28797,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   melmetal: {
     num: 809,
@@ -27695,6 +28821,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
     canGigantamax: "G-Max Meltdown",
+    xpCurveName: "Slow",
   },
   melmetalgmax: {
     num: 809,
@@ -27719,6 +28846,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Undiscovered"],
     changesFrom: "Melmetal",
+    xpCurveName: "Slow",
   },
   grookey: {
     num: 810,
@@ -27745,6 +28873,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Thwackey"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   thwackey: {
     num: 811,
@@ -27773,6 +28902,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Rillaboom"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   rillaboom: {
     num: 812,
@@ -27801,6 +28931,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     eggGroups: ["Field", "Grass"],
     canGigantamax: "G-Max Drum Solo",
+    xpCurveName: "MediumSlow",
   },
   rillaboomgmax: {
     num: 812,
@@ -27829,6 +28960,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Field", "Grass"],
     changesFrom: "Rillaboom",
+    xpCurveName: "MediumSlow",
   },
   scorbunny: {
     num: 813,
@@ -27855,6 +28987,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Raboot"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   raboot: {
     num: 814,
@@ -27883,6 +29016,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Cinderace"],
     eggGroups: ["Field", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   cinderace: {
     num: 815,
@@ -27911,6 +29045,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     eggGroups: ["Field", "Human-Like"],
     canGigantamax: "G-Max Fireball",
+    xpCurveName: "MediumSlow",
   },
   cinderacegmax: {
     num: 815,
@@ -27939,6 +29074,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Field", "Human-Like"],
     changesFrom: "Cinderace",
+    xpCurveName: "MediumSlow",
   },
   sobble: {
     num: 816,
@@ -27965,6 +29101,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Drizzile"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   drizzile: {
     num: 817,
@@ -27993,6 +29130,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Inteleon"],
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumSlow",
   },
   inteleon: {
     num: 818,
@@ -28021,6 +29159,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     eggGroups: ["Water 1", "Field"],
     canGigantamax: "G-Max Hydrosnipe",
+    xpCurveName: "MediumSlow",
   },
   inteleongmax: {
     num: 818,
@@ -28049,6 +29188,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Water 1", "Field"],
     changesFrom: "Inteleon",
+    xpCurveName: "MediumSlow",
   },
   skwovet: {
     num: 819,
@@ -28071,6 +29211,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Greedent"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   greedent: {
     num: 820,
@@ -28094,6 +29235,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Skwovet",
     evoLevel: 24,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   rookidee: {
     num: 821,
@@ -28117,6 +29259,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Corvisquire"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   corvisquire: {
     num: 822,
@@ -28142,6 +29285,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Corviknight"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   corviknight: {
     num: 823,
@@ -28167,6 +29311,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 38,
     eggGroups: ["Flying"],
     canGigantamax: "G-Max Wind Rage",
+    xpCurveName: "MediumSlow",
   },
   corviknightgmax: {
     num: 823,
@@ -28192,6 +29337,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Flying"],
     changesFrom: "Corviknight",
+    xpCurveName: "MediumSlow",
   },
   blipbug: {
     num: 824,
@@ -28215,6 +29361,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Dottler"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   dottler: {
     num: 825,
@@ -28240,6 +29387,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 10,
     evos: ["Orbeetle"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   orbeetle: {
     num: 826,
@@ -28265,6 +29413,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     eggGroups: ["Bug"],
     canGigantamax: "G-Max Gravitas",
+    xpCurveName: "MediumFast",
   },
   orbeetlegmax: {
     num: 826,
@@ -28290,6 +29439,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Bug"],
     changesFrom: "Orbeetle",
+    xpCurveName: "MediumFast",
   },
   nickit: {
     num: 827,
@@ -28313,6 +29463,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Thievul"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   thievul: {
     num: 828,
@@ -28337,6 +29488,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Nickit",
     evoLevel: 18,
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   gossifleur: {
     num: 829,
@@ -28360,6 +29512,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Eldegoss"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   eldegoss: {
     num: 830,
@@ -28384,6 +29537,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Gossifleur",
     evoLevel: 20,
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   wooloo: {
     num: 831,
@@ -28407,6 +29561,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Dubwool"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   dubwool: {
     num: 832,
@@ -28431,6 +29586,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wooloo",
     evoLevel: 24,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   chewtle: {
     num: 833,
@@ -28454,6 +29610,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Drednaw"],
     eggGroups: ["Monster", "Water 1"],
+    xpCurveName: "MediumFast",
   },
   drednaw: {
     num: 834,
@@ -28479,6 +29636,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 22,
     eggGroups: ["Monster", "Water 1"],
     canGigantamax: "G-Max Stonesurge",
+    xpCurveName: "MediumFast",
   },
   drednawgmax: {
     num: 834,
@@ -28504,6 +29662,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Monster", "Water 1"],
     changesFrom: "Drednaw",
+    xpCurveName: "MediumFast",
   },
   yamper: {
     num: 835,
@@ -28526,6 +29685,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Boltund"],
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   boltund: {
     num: 836,
@@ -28549,6 +29709,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Yamper",
     evoLevel: 25,
     eggGroups: ["Field"],
+    xpCurveName: "Fast",
   },
   rolycoly: {
     num: 837,
@@ -28572,6 +29733,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Carkol"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   carkol: {
     num: 838,
@@ -28597,6 +29759,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Coalossal"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   coalossal: {
     num: 839,
@@ -28622,6 +29785,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Mineral"],
     canGigantamax: "G-Max Volcalith",
+    xpCurveName: "MediumSlow",
   },
   coalossalgmax: {
     num: 839,
@@ -28647,6 +29811,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Mineral"],
     changesFrom: "Coalossal",
+    xpCurveName: "MediumSlow",
   },
   applin: {
     num: 840,
@@ -28670,6 +29835,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Flapple", "Appletun", "Dipplin"],
     eggGroups: ["Grass", "Dragon"],
+    xpCurveName: "Unknown",
   },
   flapple: {
     num: 841,
@@ -28696,6 +29862,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Tart Apple",
     eggGroups: ["Grass", "Dragon"],
     canGigantamax: "G-Max Tartness",
+    xpCurveName: "Unknown",
   },
   flapplegmax: {
     num: 841,
@@ -28721,6 +29888,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Grass", "Dragon"],
     changesFrom: "Flapple",
+    xpCurveName: "Unknown",
   },
   appletun: {
     num: 842,
@@ -28747,6 +29915,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Sweet Apple",
     eggGroups: ["Grass", "Dragon"],
     canGigantamax: "G-Max Sweetness",
+    xpCurveName: "Unknown",
   },
   appletungmax: {
     num: 842,
@@ -28772,6 +29941,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Grass", "Dragon"],
     changesFrom: "Appletun",
+    xpCurveName: "Unknown",
   },
   silicobra: {
     num: 843,
@@ -28795,6 +29965,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Sandaconda"],
     eggGroups: ["Field", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   sandaconda: {
     num: 844,
@@ -28820,6 +29991,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 36,
     eggGroups: ["Field", "Dragon"],
     canGigantamax: "G-Max Sandblast",
+    xpCurveName: "MediumFast",
   },
   sandacondagmax: {
     num: 844,
@@ -28845,6 +30017,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Field", "Dragon"],
     changesFrom: "Sandaconda",
+    xpCurveName: "MediumFast",
   },
   cramorant: {
     num: 845,
@@ -28867,6 +30040,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Flying"],
     otherFormes: ["Cramorant-Gulping", "Cramorant-Gorging"],
     formeOrder: ["Cramorant", "Cramorant-Gulping", "Cramorant-Gorging"],
+    xpCurveName: "MediumFast",
   },
   cramorantgulping: {
     num: 845,
@@ -28891,6 +30065,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Flying"],
     requiredAbility: "Gulp Missile",
     battleOnly: "Cramorant",
+    xpCurveName: "MediumFast",
   },
   cramorantgorging: {
     num: 845,
@@ -28915,6 +30090,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Flying"],
     requiredAbility: "Gulp Missile",
     battleOnly: "Cramorant",
+    xpCurveName: "MediumFast",
   },
   arrokuda: {
     num: 846,
@@ -28937,6 +30113,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Barraskewda"],
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   barraskewda: {
     num: 847,
@@ -28960,6 +30137,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Arrokuda",
     evoLevel: 26,
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   toxel: {
     num: 848,
@@ -28984,6 +30162,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Toxtricity", "Toxtricity-Low-Key"],
     eggGroups: ["Undiscovered"],
     canHatch: true,
+    xpCurveName: "MediumSlow",
   },
   toxtricity: {
     num: 849,
@@ -29012,6 +30191,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Toxtricity-Low-Key"],
     formeOrder: ["Toxtricity", "Toxtricity-Low-Key"],
     canGigantamax: "G-Max Stun Shock",
+    xpCurveName: "MediumSlow",
   },
   toxtricitylowkey: {
     num: 849,
@@ -29039,6 +30219,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     eggGroups: ["Human-Like"],
     canGigantamax: "G-Max Stun Shock",
+    xpCurveName: "MediumSlow",
   },
   toxtricitygmax: {
     num: 849,
@@ -29064,6 +30245,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Human-Like"],
     changesFrom: "Toxtricity",
+    xpCurveName: "MediumSlow",
   },
   toxtricitylowkeygmax: {
     num: 849,
@@ -29090,6 +30272,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Human-Like"],
     battleOnly: "Toxtricity-Low-Key",
     changesFrom: "Toxtricity-Low-Key",
+    xpCurveName: "MediumSlow",
   },
   sizzlipede: {
     num: 850,
@@ -29113,6 +30296,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Centiskorch"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   centiskorch: {
     num: 851,
@@ -29138,6 +30322,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 28,
     eggGroups: ["Bug"],
     canGigantamax: "G-Max Centiferno",
+    xpCurveName: "MediumFast",
   },
   centiskorchgmax: {
     num: 851,
@@ -29163,6 +30348,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Bug"],
     changesFrom: "Centiskorch",
+    xpCurveName: "MediumFast",
   },
   clobbopus: {
     num: 852,
@@ -29185,6 +30371,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Grapploct"],
     eggGroups: ["Water 1", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   grapploct: {
     num: 853,
@@ -29209,6 +30396,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Taunt",
     eggGroups: ["Water 1", "Human-Like"],
+    xpCurveName: "MediumSlow",
   },
   sinistea: {
     num: 854,
@@ -29235,6 +30423,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral", "Amorphous"],
     otherFormes: ["Sinistea-Antique"],
     formeOrder: ["Sinistea", "Sinistea-Antique"],
+    xpCurveName: "MediumFast",
   },
   sinisteaantique: {
     num: 854,
@@ -29260,6 +30449,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     evos: ["Polteageist-Antique"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   polteageist: {
     num: 855,
@@ -29288,6 +30478,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral", "Amorphous"],
     otherFormes: ["Polteageist-Antique"],
     formeOrder: ["Polteageist", "Polteageist-Antique"],
+    xpCurveName: "MediumFast",
   },
   polteageistantique: {
     num: 855,
@@ -29315,6 +30506,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Chipped Pot",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   hatenna: {
     num: 856,
@@ -29339,6 +30531,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Hattrem"],
     eggGroups: ["Fairy"],
+    xpCurveName: "Slow",
   },
   hattrem: {
     num: 857,
@@ -29365,6 +30558,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Hatterene"],
     eggGroups: ["Fairy"],
+    xpCurveName: "Slow",
   },
   hatterene: {
     num: 858,
@@ -29391,6 +30585,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 42,
     eggGroups: ["Fairy"],
     canGigantamax: "G-Max Smite",
+    xpCurveName: "Slow",
   },
   hatterenegmax: {
     num: 858,
@@ -29417,6 +30612,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Fairy"],
     changesFrom: "Hatterene",
+    xpCurveName: "Slow",
   },
   impidimp: {
     num: 859,
@@ -29441,6 +30637,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Morgrem"],
     eggGroups: ["Fairy", "Human-Like"],
+    xpCurveName: "MediumFast",
   },
   morgrem: {
     num: 860,
@@ -29467,6 +30664,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     evos: ["Grimmsnarl"],
     eggGroups: ["Fairy", "Human-Like"],
+    xpCurveName: "MediumFast",
   },
   grimmsnarl: {
     num: 861,
@@ -29493,6 +30691,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 42,
     eggGroups: ["Fairy", "Human-Like"],
     canGigantamax: "G-Max Snooze",
+    xpCurveName: "MediumFast",
   },
   grimmsnarlgmax: {
     num: 861,
@@ -29519,6 +30718,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Fairy", "Human-Like"],
     changesFrom: "Grimmsnarl",
+    xpCurveName: "MediumFast",
   },
   obstagoon: {
     num: 862,
@@ -29544,6 +30744,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   perrserker: {
     num: 863,
@@ -29568,6 +30769,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Meowth-Galar",
     evoLevel: 28,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   cursola: {
     num: 864,
@@ -29595,6 +30797,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Corsola-Galar",
     evoLevel: 38,
     eggGroups: ["Water 1", "Water 3"],
+    xpCurveName: "Fast",
   },
   sirfetchd: {
     num: 865,
@@ -29619,6 +30822,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Land 3 critical hits in 1 battle",
     eggGroups: ["Flying", "Field"],
+    xpCurveName: "MediumFast",
   },
   mrrime: {
     num: 866,
@@ -29643,6 +30847,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Mr. Mime-Galar",
     evoLevel: 42,
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   runerigus: {
     num: 867,
@@ -29667,6 +30872,7 @@ export const Pokedex: SpeciesDataTable = {
     evoCondition:
       "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl",
     eggGroups: ["Mineral", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   milcery: {
     num: 868,
@@ -29690,6 +30896,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Alcremie"],
     eggGroups: ["Fairy", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   alcremie: {
     num: 869,
@@ -29738,6 +30945,7 @@ export const Pokedex: SpeciesDataTable = {
       "Alcremie-Rainbow-Swirl",
     ],
     canGigantamax: "G-Max Finale",
+    xpCurveName: "MediumFast",
   },
   alcremierubycream: {
     isCosmeticForme: true,
@@ -29745,6 +30953,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Ruby-Cream",
     color: "Pink",
+    xpCurveName: "MediumFast",
   },
   alcremiematchacream: {
     isCosmeticForme: true,
@@ -29752,6 +30961,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Matcha-Cream",
     color: "Green",
+    xpCurveName: "MediumFast",
   },
   alcremiemintcream: {
     isCosmeticForme: true,
@@ -29759,6 +30969,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Mint-Cream",
     color: "Blue",
+    xpCurveName: "MediumFast",
   },
   alcremielemoncream: {
     isCosmeticForme: true,
@@ -29766,6 +30977,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Lemon-Cream",
     color: "Yellow",
+    xpCurveName: "MediumFast",
   },
   alcremierubyswirl: {
     isCosmeticForme: true,
@@ -29773,6 +30985,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Ruby-Swirl",
     color: "Yellow",
+    xpCurveName: "MediumFast",
   },
   alcremiecaramelswirl: {
     isCosmeticForme: true,
@@ -29780,6 +30993,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Caramel-Swirl",
     color: "Yellow",
+    xpCurveName: "MediumFast",
   },
   alcremierainbowswirl: {
     isCosmeticForme: true,
@@ -29787,6 +31001,7 @@ export const Pokedex: SpeciesDataTable = {
     baseSpecies: "Alcremie",
     forme: "Rainbow-Swirl",
     color: "Yellow",
+    xpCurveName: "MediumFast",
   },
   alcremiegmax: {
     num: 869,
@@ -29812,6 +31027,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     eggGroups: ["Fairy", "Amorphous"],
     changesFrom: "Alcremie",
+    xpCurveName: "MediumFast",
   },
   falinks: {
     num: 870,
@@ -29836,6 +31052,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Mineral"],
     otherFormes: ["Falinks-Mega"],
     formeOrder: ["Falinks", "Falinks-Mega"],
+    xpCurveName: "MediumFast",
   },
   falinksmega: {
     num: 870,
@@ -29862,6 +31079,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Fairy", "Mineral"],
     requiredItem: "Falinksite",
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   pincurchin: {
     num: 871,
@@ -29883,6 +31101,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 1,
     color: "Purple",
     eggGroups: ["Water 1", "Amorphous"],
+    xpCurveName: "MediumFast",
   },
   snom: {
     num: 872,
@@ -29905,6 +31124,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Frosmoth"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   frosmoth: {
     num: 873,
@@ -29929,6 +31149,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelFriendship",
     evoCondition: "at night",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   stonjourner: {
     num: 874,
@@ -29949,6 +31170,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 520,
     color: "Gray",
     eggGroups: ["Mineral"],
+    xpCurveName: "Slow",
   },
   eiscue: {
     num: 875,
@@ -29972,6 +31194,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Field"],
     otherFormes: ["Eiscue-Noice"],
     formeOrder: ["Eiscue", "Eiscue-Noice"],
+    xpCurveName: "Slow",
   },
   eiscuenoice: {
     num: 875,
@@ -29996,6 +31219,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 1", "Field"],
     requiredAbility: "Ice Face",
     battleOnly: "Eiscue",
+    xpCurveName: "Slow",
   },
   indeedee: {
     num: 876,
@@ -30023,6 +31247,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Indeedee-F"],
     formeOrder: ["Indeedee", "Indeedee-F"],
     mother: "indeedeef",
+    xpCurveName: "Fast",
   },
   indeedeef: {
     num: 876,
@@ -30048,6 +31273,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 28,
     color: "Purple",
     eggGroups: ["Fairy"],
+    xpCurveName: "Fast",
   },
   morpeko: {
     num: 877,
@@ -30071,6 +31297,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     otherFormes: ["Morpeko-Hangry"],
     formeOrder: ["Morpeko", "Morpeko-Hangry"],
+    xpCurveName: "MediumFast",
   },
   morpekohangry: {
     num: 877,
@@ -30095,6 +31322,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Fairy"],
     requiredAbility: "Hunger Switch",
     battleOnly: "Morpeko",
+    xpCurveName: "MediumFast",
   },
   cufant: {
     num: 878,
@@ -30117,6 +31345,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Copperajah"],
     eggGroups: ["Field", "Mineral"],
+    xpCurveName: "MediumFast",
   },
   copperajah: {
     num: 879,
@@ -30141,6 +31370,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Field", "Mineral"],
     canGigantamax: "G-Max Steelsurge",
+    xpCurveName: "MediumFast",
   },
   copperajahgmax: {
     num: 879,
@@ -30165,6 +31395,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Field", "Mineral"],
     changesFrom: "Copperajah",
+    xpCurveName: "MediumFast",
   },
   dracozolt: {
     num: 880,
@@ -30188,6 +31419,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 190,
     color: "Green",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   arctozolt: {
     num: 881,
@@ -30211,6 +31443,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 150,
     color: "Blue",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   dracovish: {
     num: 882,
@@ -30234,6 +31467,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 215,
     color: "Green",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   arctovish: {
     num: 883,
@@ -30257,6 +31491,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 175,
     color: "Blue",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   duraludon: {
     num: 884,
@@ -30281,6 +31516,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Archaludon"],
     eggGroups: ["Mineral", "Dragon"],
     canGigantamax: "G-Max Depletion",
+    xpCurveName: "MediumFast",
   },
   duraludongmax: {
     num: 884,
@@ -30306,6 +31542,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Mineral", "Dragon"],
     changesFrom: "Duraludon",
+    xpCurveName: "MediumFast",
   },
   dreepy: {
     num: 885,
@@ -30329,6 +31566,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Drakloak"],
     eggGroups: ["Amorphous", "Dragon"],
+    xpCurveName: "Slow",
   },
   drakloak: {
     num: 886,
@@ -30354,6 +31592,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 50,
     evos: ["Dragapult"],
     eggGroups: ["Amorphous", "Dragon"],
+    xpCurveName: "Slow",
   },
   dragapult: {
     num: 887,
@@ -30378,6 +31617,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Drakloak",
     evoLevel: 60,
     eggGroups: ["Amorphous", "Dragon"],
+    xpCurveName: "Slow",
   },
   zacian: {
     num: 888,
@@ -30404,6 +31644,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Zacian-Crowned"],
     formeOrder: ["Zacian", "Zacian-Crowned"],
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   zaciancrowned: {
     num: 888,
@@ -30430,6 +31671,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Rusted Sword",
     battleOnly: "Zacian",
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   zamazenta: {
     num: 889,
@@ -30456,6 +31698,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Zamazenta-Crowned"],
     formeOrder: ["Zamazenta", "Zamazenta-Crowned"],
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   zamazentacrowned: {
     num: 889,
@@ -30482,6 +31725,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Rusted Shield",
     battleOnly: "Zamazenta",
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   eternatus: {
     num: 890,
@@ -30507,6 +31751,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Eternatus-Eternamax"],
     formeOrder: ["Eternatus", "Eternatus-Eternamax"],
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   eternatuseternamax: {
     num: 890,
@@ -30531,6 +31776,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Undiscovered"],
     cannotDynamax: true,
+    xpCurveName: "Slow",
   },
   kubfu: {
     num: 891,
@@ -30557,6 +31803,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Sub-Legendary"],
     evos: ["Urshifu", "Urshifu-Rapid-Strike"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   urshifu: {
     num: 892,
@@ -30589,6 +31836,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Urshifu-Rapid-Strike"],
     formeOrder: ["Urshifu", "Urshifu-Rapid-Strike"],
     canGigantamax: "G-Max One Blow",
+    xpCurveName: "Slow",
   },
   urshifurapidstrike: {
     num: 892,
@@ -30619,6 +31867,7 @@ export const Pokedex: SpeciesDataTable = {
     evoCondition: "Defeat the Rapid Strike Tower",
     eggGroups: ["Undiscovered"],
     canGigantamax: "G-Max Rapid Flow",
+    xpCurveName: "Slow",
   },
   urshifugmax: {
     num: 892,
@@ -30646,6 +31895,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     eggGroups: ["Undiscovered"],
     changesFrom: "Urshifu",
+    xpCurveName: "Slow",
   },
   urshifurapidstrikegmax: {
     num: 892,
@@ -30674,6 +31924,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     battleOnly: "Urshifu-Rapid-Strike",
     changesFrom: "Urshifu-Rapid-Strike",
+    xpCurveName: "Slow",
   },
   zarude: {
     num: 893,
@@ -30698,6 +31949,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Mythical"],
     otherFormes: ["Zarude-Dada"],
     formeOrder: ["Zarude", "Zarude-Dada"],
+    xpCurveName: "Slow",
   },
   zarudedada: {
     num: 893,
@@ -30721,6 +31973,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 70,
     color: "Black",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   regieleki: {
     num: 894,
@@ -30743,6 +31996,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   regidrago: {
     num: 895,
@@ -30765,6 +32019,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   glastrier: {
     num: 896,
@@ -30787,6 +32042,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   spectrier: {
     num: 897,
@@ -30809,6 +32065,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   calyrex: {
     num: 898,
@@ -30833,6 +32090,7 @@ export const Pokedex: SpeciesDataTable = {
     tags: ["Restricted Legendary"],
     otherFormes: ["Calyrex-Ice", "Calyrex-Shadow"],
     formeOrder: ["Calyrex", "Calyrex-Ice", "Calyrex-Shadow"],
+    xpCurveName: "Slow",
   },
   calyrexice: {
     num: 898,
@@ -30857,6 +32115,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Undiscovered"],
     changesFrom: "Calyrex",
+    xpCurveName: "Slow",
   },
   calyrexshadow: {
     num: 898,
@@ -30881,6 +32140,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     eggGroups: ["Undiscovered"],
     changesFrom: "Calyrex",
+    xpCurveName: "Slow",
   },
   wyrdeer: {
     num: 899,
@@ -30906,6 +32166,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Use Agile style Psyshield Bash 20 times",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   kleavor: {
     num: 900,
@@ -30931,6 +32192,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoCondition: "Black Augurite",
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   ursaluna: {
     num: 901,
@@ -30958,6 +32220,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field"],
     otherFormes: ["Ursaluna-Bloodmoon"],
     formeOrder: ["Ursaluna", "Ursaluna-Bloodmoon"],
+    xpCurveName: "MediumFast",
   },
   ursalunabloodmoon: {
     num: 901,
@@ -30982,6 +32245,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     eggGroups: ["Field"],
     gen: 9,
+    xpCurveName: "MediumFast",
   },
   basculegion: {
     num: 902,
@@ -31011,6 +32275,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     otherFormes: ["Basculegion-F"],
     formeOrder: ["Basculegion", "Basculegion-F"],
+    xpCurveName: "MediumFast",
   },
   basculegionf: {
     num: 902,
@@ -31039,6 +32304,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Receive 294+ recoil without fainting",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   sneasler: {
     num: 903,
@@ -31065,6 +32331,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Razor Claw",
     evoCondition: "during the day",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   overqwil: {
     num: 904,
@@ -31090,6 +32357,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Use Strong style Barb Barrage 20 times",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumFast",
   },
   enamorus: {
     num: 905,
@@ -31116,6 +32384,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ["Enamorus-Therian"],
     formeOrder: ["Enamorus", "Enamorus-Therian"],
+    xpCurveName: "Slow",
   },
   enamorustherian: {
     num: 905,
@@ -31140,6 +32409,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Undiscovered"],
     changesFrom: "Enamorus",
+    xpCurveName: "Slow",
   },
   sprigatito: {
     num: 906,
@@ -31166,6 +32436,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Floragato"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   floragato: {
     num: 907,
@@ -31194,6 +32465,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Meowscarada"],
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   meowscarada: {
     num: 908,
@@ -31221,6 +32493,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Floragato",
     evoLevel: 36,
     eggGroups: ["Field", "Grass"],
+    xpCurveName: "MediumSlow",
   },
   fuecoco: {
     num: 909,
@@ -31247,6 +32520,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Crocalor"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   crocalor: {
     num: 910,
@@ -31275,6 +32549,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Skeledirge"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   skeledirge: {
     num: 911,
@@ -31302,6 +32577,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Crocalor",
     evoLevel: 36,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   quaxly: {
     num: 912,
@@ -31328,6 +32604,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Quaxwell"],
     eggGroups: ["Flying", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   quaxwell: {
     num: 913,
@@ -31356,6 +32633,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 16,
     evos: ["Quaquaval"],
     eggGroups: ["Flying", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   quaquaval: {
     num: 914,
@@ -31383,6 +32661,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Quaxwell",
     evoLevel: 36,
     eggGroups: ["Flying", "Water 1"],
+    xpCurveName: "MediumSlow",
   },
   lechonk: {
     num: 915,
@@ -31406,6 +32685,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Oinkologne", "Oinkologne-F"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   oinkologne: {
     num: 916,
@@ -31434,6 +32714,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Oinkologne-F"],
     formeOrder: ["Oinkologne", "Oinkologne-F"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   oinkolognef: {
     num: 916,
@@ -31461,6 +32742,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Lechonk",
     evoLevel: 18,
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   tarountula: {
     num: 917,
@@ -31483,6 +32765,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Spidops"],
     eggGroups: ["Bug"],
+    xpCurveName: "Unknown",
   },
   spidops: {
     num: 918,
@@ -31506,6 +32789,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tarountula",
     evoLevel: 15,
     eggGroups: ["Bug"],
+    xpCurveName: "Unknown",
   },
   nymble: {
     num: 919,
@@ -31528,6 +32812,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Lokix"],
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   lokix: {
     num: 920,
@@ -31551,6 +32836,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Nymble",
     evoLevel: 24,
     eggGroups: ["Bug"],
+    xpCurveName: "MediumFast",
   },
   pawmi: {
     num: 921,
@@ -31574,6 +32860,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Pawmo"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pawmo: {
     num: 922,
@@ -31599,6 +32886,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 18,
     evos: ["Pawmot"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   pawmot: {
     num: 923,
@@ -31624,6 +32912,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "walk 1000 steps in Let's Go",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   tandemaus: {
     num: 924,
@@ -31648,6 +32937,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Maushold", "Maushold-Four"],
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   maushold: {
     num: 925,
@@ -31676,6 +32966,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Maushold-Four"],
     formeOrder: ["Maushold", "Maushold-Four"],
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   mausholdfour: {
     num: 925,
@@ -31703,6 +32994,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tandemaus",
     evoLevel: 25,
     eggGroups: ["Field", "Fairy"],
+    xpCurveName: "Fast",
   },
   fidough: {
     num: 926,
@@ -31725,6 +33017,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Dachsbun"],
     eggGroups: ["Field", "Mineral"],
+    xpCurveName: "MediumSlow",
   },
   dachsbun: {
     num: 927,
@@ -31748,6 +33041,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Fidough",
     evoLevel: 26,
     eggGroups: ["Field", "Mineral"],
+    xpCurveName: "MediumSlow",
   },
   smoliv: {
     num: 928,
@@ -31770,6 +33064,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Dolliv"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   dolliv: {
     num: 929,
@@ -31794,6 +33089,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 25,
     evos: ["Arboliva"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   arboliva: {
     num: 930,
@@ -31817,6 +33113,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Dolliv",
     evoLevel: 35,
     eggGroups: ["Grass"],
+    xpCurveName: "MediumSlow",
   },
   squawkabilly: {
     num: 931,
@@ -31851,6 +33148,7 @@ export const Pokedex: SpeciesDataTable = {
       "Squawkabilly-White",
     ],
     eggGroups: ["Flying"],
+    xpCurveName: "Unknown",
   },
   squawkabillyblue: {
     num: 931,
@@ -31875,6 +33173,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2.4,
     color: "Blue",
     eggGroups: ["Flying"],
+    xpCurveName: "Unknown",
   },
   squawkabillyyellow: {
     num: 931,
@@ -31899,6 +33198,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2.4,
     color: "Yellow",
     eggGroups: ["Flying"],
+    xpCurveName: "Unknown",
   },
   squawkabillywhite: {
     num: 931,
@@ -31923,6 +33223,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 2.4,
     color: "White",
     eggGroups: ["Flying"],
+    xpCurveName: "Unknown",
   },
   nacli: {
     num: 932,
@@ -31946,6 +33247,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Naclstack"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   naclstack: {
     num: 933,
@@ -31971,6 +33273,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 24,
     evos: ["Garganacl"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   garganacl: {
     num: 934,
@@ -31995,6 +33298,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Naclstack",
     evoLevel: 38,
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   charcadet: {
     num: 935,
@@ -32017,6 +33321,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     evos: ["Armarouge", "Ceruledge"],
     eggGroups: ["Human-Like"],
+    xpCurveName: "Slow",
   },
   armarouge: {
     num: 936,
@@ -32041,6 +33346,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Auspicious Armor",
     eggGroups: ["Human-Like"],
+    xpCurveName: "Slow",
   },
   ceruledge: {
     num: 937,
@@ -32065,6 +33371,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Malicious Armor",
     eggGroups: ["Human-Like"],
+    xpCurveName: "Slow",
   },
   tadbulb: {
     num: 938,
@@ -32088,6 +33395,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Bellibolt"],
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumFast",
   },
   bellibolt: {
     num: 939,
@@ -32113,6 +33421,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Thunder Stone",
     eggGroups: ["Water 1"],
+    xpCurveName: "MediumFast",
   },
   wattrel: {
     num: 940,
@@ -32136,6 +33445,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     evos: ["Kilowattrel"],
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumSlow",
   },
   kilowattrel: {
     num: 941,
@@ -32160,6 +33470,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wattrel",
     evoLevel: 25,
     eggGroups: ["Water 1", "Flying"],
+    xpCurveName: "MediumSlow",
   },
   maschiff: {
     num: 942,
@@ -32183,6 +33494,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Mabosstiff"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   mabosstiff: {
     num: 943,
@@ -32207,6 +33519,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Maschiff",
     evoLevel: 30,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   shroodle: {
     num: 944,
@@ -32230,6 +33543,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Grafaiai"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   grafaiai: {
     num: 945,
@@ -32254,6 +33568,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Shroodle",
     evoLevel: 28,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   bramblin: {
     num: 946,
@@ -32276,6 +33591,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Brambleghast"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   brambleghast: {
     num: 947,
@@ -32300,6 +33616,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Walk 1000 steps in Let's Go",
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   toedscool: {
     num: 948,
@@ -32321,6 +33638,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Toedscruel"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   toedscruel: {
     num: 949,
@@ -32343,6 +33661,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Toedscool",
     evoLevel: 30,
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   klawf: {
     num: 950,
@@ -32365,6 +33684,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 79,
     color: "Red",
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   capsakid: {
     num: 951,
@@ -32388,6 +33708,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Scovillain"],
     eggGroups: ["Grass"],
+    xpCurveName: "MediumFast",
   },
   scovillain: {
     num: 952,
@@ -32415,6 +33736,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Grass"],
     otherFormes: ["Scovillain-Mega"],
     formeOrder: ["Scovillain", "Scovillain-Mega"],
+    xpCurveName: "MediumFast",
   },
   scovillainmega: {
     num: 952,
@@ -32438,6 +33760,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Grass"],
     requiredItem: "Scovillainite",
+    xpCurveName: "MediumFast",
   },
   rellor: {
     num: 953,
@@ -32460,6 +33783,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     evos: ["Rabsca"],
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   rabsca: {
     num: 954,
@@ -32484,6 +33808,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "walk 1000 steps in Let's Go",
     eggGroups: ["Bug"],
+    xpCurveName: "Fast",
   },
   flittle: {
     num: 955,
@@ -32507,6 +33832,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Yellow",
     evos: ["Espathra"],
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   espathra: {
     num: 956,
@@ -32531,6 +33857,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Flittle",
     evoLevel: 35,
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   tinkatink: {
     num: 957,
@@ -32555,6 +33882,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     evos: ["Tinkatuff"],
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumSlow",
   },
   tinkatuff: {
     num: 958,
@@ -32581,6 +33909,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 24,
     evos: ["Tinkaton"],
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumSlow",
   },
   tinkaton: {
     num: 959,
@@ -32606,6 +33935,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Tinkatuff",
     evoLevel: 38,
     eggGroups: ["Fairy"],
+    xpCurveName: "MediumSlow",
   },
   wiglett: {
     num: 960,
@@ -32629,6 +33959,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Wugtrio"],
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   wugtrio: {
     num: 961,
@@ -32653,6 +33984,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wiglett",
     evoLevel: 26,
     eggGroups: ["Water 3"],
+    xpCurveName: "MediumFast",
   },
   bombirdier: {
     num: 962,
@@ -32675,6 +34007,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 42.9,
     color: "White",
     eggGroups: ["Flying"],
+    xpCurveName: "Slow",
   },
   finizen: {
     num: 963,
@@ -32696,6 +34029,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Palafin"],
     eggGroups: ["Field", "Water 2"],
+    xpCurveName: "Slow",
   },
   palafin: {
     num: 964,
@@ -32721,6 +34055,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Palafin-Hero"],
     formeOrder: ["Palafin", "Palafin-Hero"],
     eggGroups: ["Field", "Water 2"],
+    xpCurveName: "Slow",
   },
   palafinhero: {
     num: 964,
@@ -32745,6 +34080,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Field", "Water 2"],
     requiredAbility: "Zero to Hero",
     battleOnly: "Palafin",
+    xpCurveName: "Slow",
   },
   varoom: {
     num: 965,
@@ -32767,6 +34103,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Revavroom"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   revavroom: {
     num: 966,
@@ -32790,6 +34127,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Varoom",
     evoLevel: 40,
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumFast",
   },
   cyclizar: {
     num: 967,
@@ -32811,6 +34149,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 63,
     color: "Green",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   orthworm: {
     num: 968,
@@ -32832,6 +34171,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 310,
     color: "Pink",
     eggGroups: ["Field"],
+    xpCurveName: "Slow",
   },
   glimmet: {
     num: 969,
@@ -32854,6 +34194,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     evos: ["Glimmora"],
     eggGroups: ["Mineral"],
+    xpCurveName: "MediumSlow",
   },
   glimmora: {
     num: 970,
@@ -32879,6 +34220,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral"],
     otherFormes: ["Glimmora-Mega"],
     formeOrder: ["Glimmora", "Glimmora-Mega"],
+    xpCurveName: "MediumSlow",
   },
   glimmoramega: {
     num: 970,
@@ -32902,6 +34244,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Mineral"],
     requiredItem: "Glimmoranite",
+    xpCurveName: "MediumSlow",
   },
   greavard: {
     num: 971,
@@ -32924,6 +34267,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Houndstone"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   houndstone: {
     num: 972,
@@ -32948,6 +34292,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     evoCondition: "at night",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   flamigo: {
     num: 973,
@@ -32970,6 +34315,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 37,
     color: "Pink",
     eggGroups: ["Flying"],
+    xpCurveName: "MediumSlow",
   },
   cetoddle: {
     num: 974,
@@ -32993,6 +34339,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     evos: ["Cetitan"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   cetitan: {
     num: 975,
@@ -33018,6 +34365,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Ice Stone",
     eggGroups: ["Field"],
+    xpCurveName: "MediumSlow",
   },
   veluza: {
     num: 976,
@@ -33039,6 +34387,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 90,
     color: "Gray",
     eggGroups: ["Water 2"],
+    xpCurveName: "Fast",
   },
   dondozo: {
     num: 977,
@@ -33061,6 +34410,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 220,
     color: "Blue",
     eggGroups: ["Water 2"],
+    xpCurveName: "Slow",
   },
   tatsugiri: {
     num: 978,
@@ -33098,6 +34448,7 @@ export const Pokedex: SpeciesDataTable = {
       "Tatsugiri-Droopy-Mega",
       "Tatsugiri-Stretchy-Mega",
     ],
+    xpCurveName: "MediumSlow",
   },
   tatsugiridroopy: {
     num: 978,
@@ -33121,6 +34472,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 8,
     color: "Pink",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumSlow",
   },
   tatsugiristretchy: {
     num: 978,
@@ -33144,6 +34496,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 8,
     color: "Yellow",
     eggGroups: ["Water 2"],
+    xpCurveName: "MediumSlow",
   },
   tatsugiricurlymega: {
     num: 978,
@@ -33169,6 +34522,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     requiredItem: "Tatsugirinite",
     battleOnly: "Tatsugiri",
+    xpCurveName: "MediumSlow",
   },
   tatsugiridroopymega: {
     num: 978,
@@ -33194,6 +34548,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     requiredItem: "Tatsugirinite",
     battleOnly: "Tatsugiri-Droopy",
+    xpCurveName: "MediumSlow",
   },
   tatsugiristretchymega: {
     num: 978,
@@ -33219,6 +34574,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Water 2"],
     requiredItem: "Tatsugirinite",
     battleOnly: "Tatsugiri-Stretchy",
+    xpCurveName: "MediumSlow",
   },
   annihilape: {
     num: 979,
@@ -33244,6 +34600,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Use Rage Fist 20 times and level-up",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   clodsire: {
     num: 980,
@@ -33268,6 +34625,7 @@ export const Pokedex: SpeciesDataTable = {
     prevo: "Wooper-Paldea",
     evoLevel: 20,
     eggGroups: ["Water 1", "Field"],
+    xpCurveName: "MediumFast",
   },
   farigiraf: {
     num: 981,
@@ -33293,6 +34651,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Twin Beam",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   dudunsparce: {
     num: 982,
@@ -33321,6 +34680,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Dudunsparce-Three-Segment"],
     formeOrder: ["Dudunsparce", "Dudunsparce-Three-Segment"],
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   dudunsparcethreesegment: {
     num: 982,
@@ -33348,6 +34708,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Hyper Drill",
     eggGroups: ["Field"],
+    xpCurveName: "MediumFast",
   },
   kingambit: {
     num: 983,
@@ -33373,6 +34734,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Defeat 3 Bisharp leading Pawniard and level-up",
     eggGroups: ["Human-Like"],
+    xpCurveName: "MediumFast",
   },
   greattusk: {
     num: 984,
@@ -33395,6 +34757,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   screamtail: {
     num: 985,
@@ -33417,6 +34780,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   brutebonnet: {
     num: 986,
@@ -33439,6 +34803,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   fluttermane: {
     num: 987,
@@ -33461,6 +34826,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   slitherwing: {
     num: 988,
@@ -33483,6 +34849,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   sandyshocks: {
     num: 989,
@@ -33505,6 +34872,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   irontreads: {
     num: 990,
@@ -33527,6 +34895,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironbundle: {
     num: 991,
@@ -33549,6 +34918,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironhands: {
     num: 992,
@@ -33571,6 +34941,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironjugulis: {
     num: 993,
@@ -33593,6 +34964,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironmoth: {
     num: 994,
@@ -33615,6 +34987,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironthorns: {
     num: 995,
@@ -33637,6 +35010,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   frigibax: {
     num: 996,
@@ -33659,6 +35033,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Arctibax"],
     eggGroups: ["Dragon", "Mineral"],
+    xpCurveName: "Slow",
   },
   arctibax: {
     num: 997,
@@ -33683,6 +35058,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     evos: ["Baxcalibur"],
     eggGroups: ["Dragon", "Mineral"],
+    xpCurveName: "Slow",
   },
   baxcalibur: {
     num: 998,
@@ -33708,6 +35084,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Dragon", "Mineral"],
     otherFormes: ["Baxcalibur-Mega"],
     formeOrder: ["Baxcalibur", "Baxcalibur-Mega"],
+    xpCurveName: "Slow",
   },
   baxcaliburmega: {
     num: 998,
@@ -33732,6 +35109,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Dragon", "Mineral"],
     requiredItem: "Baxcalibrite",
+    xpCurveName: "Slow",
   },
   gimmighoul: {
     num: 999,
@@ -33757,6 +35135,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Gimmighoul-Roaming"],
     formeOrder: ["Gimmighoul", "Gimmighoul-Roaming"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   gimmighoulroaming: {
     num: 999,
@@ -33781,6 +35160,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Gray",
     evos: ["Gholdengo"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   gholdengo: {
     num: 1000,
@@ -33805,6 +35185,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "other",
     evoCondition: "Level up with 999 Coins in the bag",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   wochien: {
     num: 1001,
@@ -33827,6 +35208,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   chienpao: {
     num: 1002,
@@ -33849,6 +35231,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   tinglu: {
     num: 1003,
@@ -33871,6 +35254,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Brown",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   chiyu: {
     num: 1004,
@@ -33893,6 +35277,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   roaringmoon: {
     num: 1005,
@@ -33915,6 +35300,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironvaliant: {
     num: 1006,
@@ -33937,6 +35323,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   koraidon: {
     num: 1007,
@@ -33959,6 +35346,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Red",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   miraidon: {
     num: 1008,
@@ -33981,6 +35369,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     tags: ["Restricted Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   walkingwake: {
     num: 1009,
@@ -34003,6 +35392,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironleaves: {
     num: 1010,
@@ -34025,6 +35415,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     tags: ["Paradox"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   dipplin: {
     num: 1011,
@@ -34051,6 +35442,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Syrupy Apple",
     eggGroups: ["Grass", "Dragon"],
+    xpCurveName: "Unknown",
   },
   poltchageist: {
     num: 1012,
@@ -34077,6 +35469,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral", "Amorphous"],
     otherFormes: ["Poltchageist-Artisan"],
     formeOrder: ["Poltchageist", "Poltchageist-Artisan"],
+    xpCurveName: "MediumFast",
   },
   poltchageistartisan: {
     num: 1012,
@@ -34102,6 +35495,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Green",
     evos: ["Sinistcha-Masterpiece"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   sinistcha: {
     num: 1013,
@@ -34130,6 +35524,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Mineral", "Amorphous"],
     otherFormes: ["Sinistcha-Masterpiece"],
     formeOrder: ["Sinistcha", "Sinistcha-Masterpiece"],
+    xpCurveName: "MediumFast",
   },
   sinistchamasterpiece: {
     num: 1013,
@@ -34157,6 +35552,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Masterpiece Teacup",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "MediumFast",
   },
   okidogi: {
     num: 1014,
@@ -34180,6 +35576,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   munkidori: {
     num: 1015,
@@ -34203,6 +35600,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   fezandipiti: {
     num: 1016,
@@ -34226,6 +35624,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Black",
     tags: ["Sub-Legendary"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ogerpon: {
     num: 1017,
@@ -34269,6 +35668,7 @@ export const Pokedex: SpeciesDataTable = {
       "Ogerpon-Cornerstone-Tera",
     ],
     requiredTeraType: "Grass",
+    xpCurveName: "Slow",
   },
   ogerponwellspring: {
     num: 1017,
@@ -34295,6 +35695,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Wellspring Mask",
     changesFrom: "Ogerpon",
     requiredTeraType: "Water",
+    xpCurveName: "Slow",
   },
   ogerponhearthflame: {
     num: 1017,
@@ -34321,6 +35722,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Hearthflame Mask",
     changesFrom: "Ogerpon",
     requiredTeraType: "Fire",
+    xpCurveName: "Slow",
   },
   ogerponcornerstone: {
     num: 1017,
@@ -34347,6 +35749,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Cornerstone Mask",
     changesFrom: "Ogerpon",
     requiredTeraType: "Rock",
+    xpCurveName: "Slow",
   },
   ogerpontealtera: {
     num: 1017,
@@ -34372,6 +35775,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     battleOnly: "Ogerpon",
     requiredTeraType: "Grass",
+    xpCurveName: "Slow",
   },
   ogerponwellspringtera: {
     num: 1017,
@@ -34398,6 +35802,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Wellspring Mask",
     battleOnly: "Ogerpon-Wellspring",
     requiredTeraType: "Water",
+    xpCurveName: "Slow",
   },
   ogerponhearthflametera: {
     num: 1017,
@@ -34424,6 +35829,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Hearthflame Mask",
     battleOnly: "Ogerpon-Hearthflame",
     requiredTeraType: "Fire",
+    xpCurveName: "Slow",
   },
   ogerponcornerstonetera: {
     num: 1017,
@@ -34450,6 +35856,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Cornerstone Mask",
     battleOnly: "Ogerpon-Cornerstone",
     requiredTeraType: "Rock",
+    xpCurveName: "Slow",
   },
   archaludon: {
     num: 1018,
@@ -34475,6 +35882,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "useItem",
     evoItem: "Metal Alloy",
     eggGroups: ["Mineral", "Dragon"],
+    xpCurveName: "MediumFast",
   },
   hydrapple: {
     num: 1019,
@@ -34500,6 +35908,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "levelMove",
     evoMove: "Dragon Cheer",
     eggGroups: ["Grass", "Dragon"],
+    xpCurveName: "Unknown",
   },
   gougingfire: {
     num: 1020,
@@ -34521,6 +35930,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 590,
     color: "Brown",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ragingbolt: {
     num: 1021,
@@ -34542,6 +35952,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 480,
     color: "Yellow",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironboulder: {
     num: 1022,
@@ -34563,6 +35974,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 162.5,
     color: "Gray",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   ironcrown: {
     num: 1023,
@@ -34584,6 +35996,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 156,
     color: "Blue",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   terapagos: {
     num: 1024,
@@ -34608,6 +36021,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Terapagos-Terastal", "Terapagos-Stellar"],
     formeOrder: ["Terapagos", "Terapagos-Terastal", "Terapagos-Stellar"],
     requiredTeraType: "Stellar",
+    xpCurveName: "Slow",
   },
   terapagosterastal: {
     num: 1024,
@@ -34632,6 +36046,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     battleOnly: "Terapagos",
     requiredTeraType: "Stellar",
+    xpCurveName: "Slow",
   },
   terapagosstellar: {
     num: 1024,
@@ -34656,6 +36071,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     battleOnly: "Terapagos",
     requiredTeraType: "Stellar",
+    xpCurveName: "Slow",
   },
   pecharunt: {
     num: 1025,
@@ -34678,6 +36094,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     tags: ["Mythical"],
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Slow",
   },
   missingno: {
     num: 0,
@@ -34698,6 +36115,7 @@ export const Pokedex: SpeciesDataTable = {
     weightkg: 1590.8,
     color: "Gray",
     eggGroups: ["Undiscovered"],
+    xpCurveName: "Unknown",
   },
   syclar: {
     num: -1,
@@ -34722,6 +36140,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Syclant"],
     eggGroups: ["Bug"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   syclant: {
     num: -2,
@@ -34747,6 +36166,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     eggGroups: ["Bug"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   revenankh: {
     num: -3,
@@ -34770,6 +36190,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Amorphous", "Human-Like"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   embirch: {
     num: -4,
@@ -34794,6 +36215,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Flarelm"],
     eggGroups: ["Monster", "Dragon"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   flarelm: {
     num: -5,
@@ -34820,6 +36242,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Pyroak"],
     eggGroups: ["Monster", "Dragon"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   pyroak: {
     num: -6,
@@ -34845,6 +36268,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 38,
     eggGroups: ["Monster", "Dragon"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   breezi: {
     num: -7,
@@ -34869,6 +36293,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Fidgit"],
     eggGroups: ["Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   fidgit: {
     num: -8,
@@ -34894,6 +36319,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 33,
     eggGroups: ["Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   rebble: {
     num: -9,
@@ -34919,6 +36345,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Tactite"],
     eggGroups: ["Mineral"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   tactite: {
     num: -10,
@@ -34946,6 +36373,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Stratagem"],
     eggGroups: ["Mineral"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   stratagem: {
     num: -11,
@@ -34972,6 +36400,7 @@ export const Pokedex: SpeciesDataTable = {
     evoType: "trade",
     eggGroups: ["Mineral"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   privatyke: {
     num: -12,
@@ -34995,6 +36424,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Arghonaut"],
     eggGroups: ["Water 1", "Water 3"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   arghonaut: {
     num: -13,
@@ -35019,6 +36449,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 37,
     eggGroups: ["Water 1", "Water 3"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   kitsunoh: {
     num: -14,
@@ -35045,6 +36476,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Metal Coat",
     eggGroups: ["Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   cyclohm: {
     num: -15,
@@ -35070,6 +36502,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 43,
     eggGroups: ["Dragon", "Monster"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   colossoil: {
     num: -16,
@@ -35095,6 +36528,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 39,
     eggGroups: ["Water 2", "Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   krilowatt: {
     num: -17,
@@ -35120,6 +36554,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 15,
     eggGroups: ["Water 1", "Fairy"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   voodoll: {
     num: -18,
@@ -35144,6 +36579,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Voodoom"],
     eggGroups: ["Human-Like", "Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   voodoom: {
     num: -19,
@@ -35169,6 +36605,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     eggGroups: ["Human-Like", "Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   scratchet: {
     num: -20,
@@ -35193,6 +36630,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Tomohawk"],
     eggGroups: ["Field", "Flying"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   tomohawk: {
     num: -21,
@@ -35218,6 +36656,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 23,
     eggGroups: ["Field", "Flying"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   necturine: {
     num: -22,
@@ -35242,6 +36681,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Necturna"],
     eggGroups: ["Grass", "Field"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   necturna: {
     num: -23,
@@ -35267,6 +36707,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 31,
     eggGroups: ["Grass", "Field"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   mollux: {
     num: -24,
@@ -35289,6 +36730,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Fairy", "Field"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   cupra: {
     num: -25,
@@ -35313,6 +36755,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Argalis"],
     eggGroups: ["Bug"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   argalis: {
     num: -26,
@@ -35339,6 +36782,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Aurumoth"],
     eggGroups: ["Bug"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   aurumoth: {
     num: -27,
@@ -35364,6 +36808,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 50,
     eggGroups: ["Bug"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   brattler: {
     num: -28,
@@ -35388,6 +36833,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Malaconda"],
     eggGroups: ["Grass", "Dragon"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   malaconda: {
     num: -29,
@@ -35413,6 +36859,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 33,
     eggGroups: ["Grass", "Dragon"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   cawdet: {
     num: -30,
@@ -35437,6 +36884,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Cawmodore"],
     eggGroups: ["Flying"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   cawmodore: {
     num: -31,
@@ -35462,6 +36910,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 33,
     eggGroups: ["Flying"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   volkritter: {
     num: -32,
@@ -35486,6 +36935,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Volkraken"],
     eggGroups: ["Water 1", "Water 2"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   volkraken: {
     num: -33,
@@ -35511,6 +36961,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Water 1", "Water 2"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   snugglow: {
     num: -34,
@@ -35535,6 +36986,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Plasmanta"],
     eggGroups: ["Water 1", "Water 2"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   plasmanta: {
     num: -35,
@@ -35560,6 +37012,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 29,
     eggGroups: ["Water 1", "Water 2"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   floatoy: {
     num: -36,
@@ -35584,6 +37037,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Caimanoe"],
     eggGroups: ["Water 1", "Field"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   caimanoe: {
     num: -37,
@@ -35610,6 +37064,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Naviathan"],
     eggGroups: ["Water 1", "Field"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   naviathan: {
     num: -38,
@@ -35635,6 +37090,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 40,
     eggGroups: ["Water 1", "Field"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   crucibelle: {
     num: -39,
@@ -35664,6 +37120,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Crucibelle-Mega"],
     formeOrder: ["Crucibelle", "Crucibelle-Mega"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   crucibellemega: {
     num: -39,
@@ -35692,6 +37149,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Amorphous", "Mineral"],
     requiredItem: "Crucibellite",
     gen: 6,
+    xpCurveName: "Unknown",
   },
   pluffle: {
     num: -40,
@@ -35716,6 +37174,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Kerfluffle"],
     eggGroups: ["Fairy", "Human-Like"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   kerfluffle: {
     num: -41,
@@ -35742,6 +37201,7 @@ export const Pokedex: SpeciesDataTable = {
     evoMove: "Play Rough",
     eggGroups: ["Fairy", "Human-Like"],
     gen: 6,
+    xpCurveName: "Unknown",
   },
   pajantom: {
     num: -42,
@@ -35763,6 +37223,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Purple",
     eggGroups: ["Dragon", "Monster"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   mumbao: {
     num: -43,
@@ -35787,6 +37248,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Jumbao"],
     eggGroups: ["Grass"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   jumbao: {
     num: -44,
@@ -35813,6 +37275,7 @@ export const Pokedex: SpeciesDataTable = {
     evoCondition: "during the day",
     eggGroups: ["Grass"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   fawnifer: {
     num: -45,
@@ -35840,6 +37303,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Electrelk"],
     eggGroups: ["Field"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   electrelk: {
     num: -46,
@@ -35869,6 +37333,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Caribolt"],
     eggGroups: ["Field"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   caribolt: {
     num: -47,
@@ -35897,6 +37362,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Field"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   smogecko: {
     num: -48,
@@ -35924,6 +37390,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Smoguana"],
     eggGroups: ["Field", "Monster"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   smoguana: {
     num: -49,
@@ -35953,6 +37420,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Smokomodo"],
     eggGroups: ["Field", "Monster"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   smokomodo: {
     num: -50,
@@ -35981,6 +37449,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 36,
     eggGroups: ["Field", "Monster"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   swirlpool: {
     num: -51,
@@ -36008,6 +37477,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Coribalis"],
     eggGroups: ["Water 1", "Fairy"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   coribalis: {
     num: -52,
@@ -36037,6 +37507,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Snaelstrom"],
     eggGroups: ["Water 1", "Fairy"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   snaelstrom: {
     num: -53,
@@ -36065,6 +37536,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Water 1", "Fairy"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   justyke: {
     num: -54,
@@ -36090,6 +37562,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Equilibra"],
     eggGroups: ["Mineral"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   equilibra: {
     num: -55,
@@ -36116,6 +37589,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 32,
     eggGroups: ["Mineral"],
     gen: 7,
+    xpCurveName: "Unknown",
   },
   solotl: {
     num: -56,
@@ -36140,6 +37614,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Astrolotl"],
     eggGroups: ["Dragon", "Fairy"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   astrolotl: {
     num: -57,
@@ -36165,6 +37640,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 35,
     eggGroups: ["Dragon", "Fairy"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   miasmite: {
     num: -58,
@@ -36189,6 +37665,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Miasmaw"],
     eggGroups: ["Bug", "Dragon"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   miasmaw: {
     num: -59,
@@ -36214,6 +37691,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 30,
     eggGroups: ["Bug", "Dragon"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   chromera: {
     num: -60,
@@ -36237,6 +37715,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     tags: ["Sub-Legendary"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   nohface: {
     num: -61,
@@ -36261,6 +37740,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Kitsunoh"],
     eggGroups: ["Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   monohm: {
     num: -62,
@@ -36285,6 +37765,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Duohm"],
     eggGroups: ["Dragon", "Monster"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   duohm: {
     num: -63,
@@ -36311,6 +37792,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Cyclohm"],
     eggGroups: ["Dragon", "Monster"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   dorsoil: {
     num: -64,
@@ -36335,6 +37817,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Colossoil"],
     eggGroups: ["Water 2", "Field"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   protowatt: {
     num: -65,
@@ -36359,6 +37842,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Krilowatt"],
     eggGroups: ["Water 1", "Fairy"],
     gen: 4,
+    xpCurveName: "Unknown",
   },
   venomicon: {
     num: -66,
@@ -36385,6 +37869,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Venomicon-Epilogue"],
     formeOrder: ["Venomicon", "Venomicon-Epilogue"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   venomiconepilogue: {
     num: -66,
@@ -36411,6 +37896,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredItem: "Vile Vial",
     changesFrom: "Venomicon",
     gen: 8,
+    xpCurveName: "Unknown",
   },
   saharascal: {
     num: -67,
@@ -36435,6 +37921,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Saharaja"],
     eggGroups: ["Field"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   saharaja: {
     num: -68,
@@ -36461,6 +37948,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Shiny Stone",
     eggGroups: ["Field"],
     gen: 8,
+    xpCurveName: "Unknown",
   },
   ababo: {
     num: -69,
@@ -36490,6 +37978,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     canHatch: true,
     gen: 9,
+    xpCurveName: "Unknown",
   },
   scattervein: {
     num: -70,
@@ -36521,6 +38010,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Monster", "Fairy"],
     canHatch: true,
     gen: 9,
+    xpCurveName: "Unknown",
   },
   hemogoblin: {
     num: -71,
@@ -36551,6 +38041,7 @@ export const Pokedex: SpeciesDataTable = {
     evoItem: "Fire Stone",
     eggGroups: ["Monster", "Fairy"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   cresceidon: {
     num: -72,
@@ -36574,6 +38065,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Amorphous", "Water 3"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   chuggon: {
     num: -73,
@@ -36598,6 +38090,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Draggalong"],
     eggGroups: ["Dragon", "Mineral"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   draggalong: {
     num: -74,
@@ -36624,6 +38117,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Chuggalong"],
     eggGroups: ["Dragon", "Mineral"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   chuggalong: {
     num: -75,
@@ -36649,6 +38143,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 46,
     eggGroups: ["Dragon", "Mineral"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   flox: {
     num: -76,
@@ -36673,6 +38168,7 @@ export const Pokedex: SpeciesDataTable = {
     evos: ["Shox"],
     eggGroups: ["Field"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   shox: {
     num: -77,
@@ -36698,6 +38194,7 @@ export const Pokedex: SpeciesDataTable = {
     evoLevel: 34,
     eggGroups: ["Field"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   ramnarok: {
     num: -78,
@@ -36724,6 +38221,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Ramnarok-Radiant"],
     formeOrder: ["Ramnarok", "Ramnarok-Radiant"],
     gen: 9,
+    xpCurveName: "Unknown",
   },
   ramnarokradiant: {
     num: -78,
@@ -36750,6 +38248,7 @@ export const Pokedex: SpeciesDataTable = {
     requiredMove: "Polar Flare",
     battleOnly: "Ramnarok",
     gen: 9,
+    xpCurveName: "Unknown",
   },
   pokestarsmeargle: {
     num: -5000,
@@ -36773,6 +38272,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Field"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarufo: {
     num: -5001,
@@ -36797,6 +38297,7 @@ export const Pokedex: SpeciesDataTable = {
     otherFormes: ["Pokestar UFO-2", "Pokestar UFO-PropU2"],
     cosmeticFormes: ["Pokestar UFO-PropU1"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarufo2: {
     num: -5001,
@@ -36821,6 +38322,7 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Undiscovered"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarbrycenman: {
     num: -5002,
@@ -36844,6 +38346,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Brycen-Man-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarmt: {
     num: -5003,
@@ -36867,6 +38370,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar MT-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarmt2: {
     num: -5004,
@@ -36890,6 +38394,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar MT2-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestartransport: {
     num: -5005,
@@ -36913,6 +38418,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Transport-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestargiant: {
     num: -5006,
@@ -36940,6 +38446,7 @@ export const Pokedex: SpeciesDataTable = {
       "Pokestar Giant-PropO2",
     ],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarhumanoid: {
     num: -5007,
@@ -36962,6 +38469,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Humanoid-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarmonster: {
     num: -5008,
@@ -36984,6 +38492,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Monster-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarf00: {
     num: -5009,
@@ -37006,6 +38515,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar F-00-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarf002: {
     num: -5010,
@@ -37028,6 +38538,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar F-002-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarspirit: {
     num: -5011,
@@ -37050,6 +38561,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Spirit-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarblackdoor: {
     num: -5012,
@@ -37073,6 +38585,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Black Door-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarwhitedoor: {
     num: -5013,
@@ -37096,6 +38609,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar White Door-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarblackbelt: {
     num: -5014,
@@ -37119,6 +38633,7 @@ export const Pokedex: SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     cosmeticFormes: ["Pokestar Black Belt-Prop"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
   pokestarufopropu2: {
     num: -5001,
@@ -37143,5 +38658,6 @@ export const Pokedex: SpeciesDataTable = {
     color: "White",
     eggGroups: ["Undiscovered"],
     gen: 5,
+    xpCurveName: "Unknown",
   },
 };

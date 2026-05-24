@@ -1,3 +1,4 @@
+import type { XpCurveName } from "../training/xp-curves";
 import type {
   BasicEffect,
   EventInfo,
@@ -33,6 +34,7 @@ export interface SpeciesData extends Partial<Species> {
   baseStats: StatsTable;
   eggGroups: string[];
   weightkg: number;
+  xpCurveName: XpCurveName;
 }
 
 export function isSpeciesData(data: any): data is SpeciesData {

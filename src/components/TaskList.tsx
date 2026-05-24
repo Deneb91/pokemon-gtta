@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Pokedex, PokemonSpecies } from "../lib/pokedex";
 import type { IDEntry } from "../lib/pokedex/misc-types";
-import type { Task } from "../lib/types";
 import "../styles/TaskList.css";
 import { PokemonAutocomplete } from "./PokemonAutocomplete";
+import { getSpeciesForTask, type Task } from "../lib/tasks";
 
 interface TaskListProps {
   tasks: Task[];
@@ -30,7 +29,7 @@ export const TaskList = ({
         id: `task-${Date.now()}`,
         title,
         completed: false,
-        reward: new PokemonSpecies(Pokedex[selectedReward]),
+        reward: selectedReward,
         createdAt: Date.now(),
       };
       onAddTask(newTask);
@@ -102,7 +101,7 @@ export const TaskList = ({
                   <div className="task-info">
                     <span className="task-title">{task.title}</span>
                     <span className="task-reward">
-                      🎁 Earns {task.reward.name}
+                      🎁 Earns {getSpeciesForTask(task).name}
                     </span>
                   </div>
                 </div>

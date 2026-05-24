@@ -4,5 +4,4 @@
 - [ ] Add sprites
 - [ ] Protect save : check schema on load (so we don't destroy it on on loading after an update) + import + export
 - [ ] XP curve
-
-# Implements evo
+- [ ] Gender for pokemons

@@ -1,4 +1,6 @@
-import type { AppState, Task, Pokemon } from "./types";
+import { addXp } from "./pokedex";
+import { createTaskRewardPokemon, type Task } from "./tasks";
+import type { AppState } from "./types";
 
 const STORAGE_KEY = "pokemon-gtta-state";
 
@@ -8,10 +10,13 @@ export const getInitialState = (): AppState => ({
   totalTasksCompleted: 0,
 });
 
+function deserializeState(serialized: string): AppState {
+  return JSON.parse(serialized);
+}
 export const loadState = (): AppState => {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    return stored ? JSON.parse(stored) : getInitialState();
+    return stored ? deserializeState(stored) : getInitialState();
   } catch {
     return getInitialState();
   }
@@ -44,14 +49,7 @@ export const completeTask = (state: AppState, taskId: string): AppState => {
   const newPokemons = [...state.pokemons];
 
   if (task && !task.completed) {
-    const newPokemon: Pokemon = {
-      id: `pokemon-${Date.now()}`,
-      name: task.reward.name,
-      level: 1,
-      experience: 0,
-      capturedAt: Date.now(),
-      species: task.reward,
-    };
+    const newPokemon = createTaskRewardPokemon(task);
     newPokemons.push(newPokemon);
   }
 
@@ -70,13 +68,7 @@ export const trainPokemon = (
 ): AppState => {
   const updatedPokemons = state.pokemons.map((pokemon) => {
     if (pokemon.id === pokemonId) {
-      const newExp = pokemon.experience + experience;
-      const newLevel = Math.floor(newExp / 100) + 1;
-      return {
-        ...pokemon,
-        experience: newExp,
-        level: newLevel,
-      };
+      return addXp(pokemon, experience);
     }
     return pokemon;
   });
