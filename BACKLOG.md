@@ -3,8 +3,8 @@
 - [ ] fix button not working on Deneb's computer
 - [x] Add sprites
 - [x] XP curve
-- [-] Protect save :
-  - [ ] check schema on load (so we don't destroy it on on loading after an update)
+- [x] Protect save :
+  - [x] check schema on load (so we don't destroy it on on loading after an update)
   - [x] import + export
 
 # Next
