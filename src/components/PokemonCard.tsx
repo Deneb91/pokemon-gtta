@@ -4,28 +4,12 @@ import {
   getXpForCurrentLevel,
   type Pokemon,
 } from "../lib/pokedex";
+import { PokemonSprite } from "./PokemonSprite";
 
 interface PokemonCardProps {
   pokemon: Pokemon;
   onTrain: (pokemonId: string) => void;
 }
-
-const getPokemonEmoji = (name: string): string => {
-  const emojiMap: { [key: string]: string } = {
-    Bulbasaur: "🌱",
-    Charmander: "🔥",
-    Squirtle: "💧",
-    Pikachu: "⚡",
-    Psyduck: "🦆",
-    Growlithe: "🐕",
-    Oddish: "👽",
-    Poliwag: "🐸",
-    Abra: "✨",
-    Machop: "💪",
-  };
-
-  return emojiMap[name] || "👾";
-};
 
 export const PokemonCard = ({ pokemon, onTrain }: PokemonCardProps) => {
   const currentLevelExp = getXpForCurrentLevel(pokemon);
@@ -33,7 +17,9 @@ export const PokemonCard = ({ pokemon, onTrain }: PokemonCardProps) => {
   const levelProgress = currentLevelExp / expToNextLevel;
   return (
     <div className="pokemon-card">
-      <div className="pokemon-emoji">{getPokemonEmoji(pokemon.name)}</div>
+      <div className="pokemon-sprite-container">
+        <PokemonSprite pokemon={pokemon} />
+      </div>
       <div className="pokemon-info">
         <h3>{pokemon.name}</h3>
         <p className="pokemon-type">Type: {getTypes(pokemon).join(" / ")}</p>
