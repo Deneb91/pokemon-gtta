@@ -87,6 +87,36 @@
   color: #333;
 }
 
+.pokemon-name-editable {
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.pokemon-name-editable:hover {
+  background-color: #f0f0f0;
+}
+
+.pokemon-name-input {
+  margin: 0 0 8px 0;
+  font-size: 1.3em;
+  color: #333;
+  border: 2px solid #667eea;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-weight: bold;
+  font-family: inherit;
+  width: 90%;
+  text-align: center;
+  outline: none;
+}
+
+.pokemon-name-input:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.3);
+}
+
 .pokemon-type {
   color: #666;
   font-size: 0.9em;

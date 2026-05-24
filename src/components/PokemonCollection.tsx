@@ -5,11 +5,13 @@ import type { Pokemon } from "../lib/pokedex";
 interface PokemonCollectionProps {
   pokemons: Pokemon[];
   onTrain: (pokemonId: string) => void;
+  onUpdateName: (pokemonId: string, newName: string) => void;
 }
 
 export const PokemonCollection = ({
   pokemons,
   onTrain,
+  onUpdateName,
 }: PokemonCollectionProps) => {
   const getTotalExp = () => {
     return pokemons.reduce((total, p) => total + p.experience, 0);
@@ -39,7 +41,12 @@ export const PokemonCollection = ({
       ) : (
         <div className="pokemon-grid">
           {pokemons.map((pokemon) => (
-            <PokemonCard key={pokemon.id} pokemon={pokemon} onTrain={onTrain} />
+            <PokemonCard
+              key={pokemon.id}
+              pokemon={pokemon}
+              onTrain={onTrain}
+              onUpdateName={onUpdateName}
+            />
           ))}
         </div>
       )}

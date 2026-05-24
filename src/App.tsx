@@ -10,6 +10,7 @@ import {
   loadState,
   saveState,
   trainPokemon,
+  updatePokemonName,
 } from "./lib/storage";
 import type { Task } from "./lib/tasks";
 import type { AppState } from "./lib/types";
@@ -57,6 +58,10 @@ function App() {
     setState(trainPokemon(state, pokemonId, 10));
   };
 
+  const handleUpdatePokemonName = (pokemonId: string, newName: string) => {
+    setState(updatePokemonName(state, pokemonId, newName));
+  };
+
   return (
     <div className="app">
       <header className="app-header">
@@ -101,6 +106,7 @@ function App() {
           <PokemonCollection
             pokemons={state.pokemons}
             onTrain={handleTrainPokemon}
+            onUpdateName={handleUpdatePokemonName}
           />
         )}
       </main>

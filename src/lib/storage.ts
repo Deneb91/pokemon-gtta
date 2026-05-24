@@ -93,6 +93,24 @@ export const deleteTask = (state: AppState, taskId: string): AppState => {
   };
 };
 
+export const updatePokemonName = (
+  state: AppState,
+  pokemonId: string,
+  newName: string,
+): AppState => {
+  const updatedPokemons = state.pokemons.map((pokemon) => {
+    if (pokemon.id === pokemonId) {
+      return { ...pokemon, name: newName };
+    }
+    return pokemon;
+  });
+
+  return {
+    ...state,
+    pokemons: updatedPokemons,
+  };
+};
+
 /**
  * Exports the current state to a JSON object suitable for downloading
  */
