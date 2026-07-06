@@ -42,9 +42,6 @@
         "name": {
           "type": "string"
         },
-        "reward": {
-          "type": "string"
-        },
         "species": {
           "type": "string"
         }
@@ -97,9 +94,12 @@
         },
         "title": {
           "type": "string"
+        },
+        "reward": {
+          "type": "string"
         }
       },
-      "required": ["id", "title", "completed", "createdAt"],
+      "required": ["id", "title", "completed", "createdAt", "reward"],
       "type": "object"
     }
   }
