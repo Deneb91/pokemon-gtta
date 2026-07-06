@@ -5,8 +5,13 @@ export interface HasUserMessage {
   userMessage: string;
 }
 
-export function hasUserMessage(obj: any): obj is HasUserMessage {
-  return obj && typeof obj.userMessage === "string";
+export function hasUserMessage(obj: unknown): obj is HasUserMessage {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    "userMessage" in obj &&
+    typeof obj.userMessage === "string"
+  );
 }
 
 export function formatErrorForUser(error: unknown): string {

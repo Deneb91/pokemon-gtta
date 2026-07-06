@@ -1,6 +1,11 @@
-import type { SpeciesDataTable } from "./dex-species";
+import { isCosmeticFormeData, type SpeciesDataTable } from "./dex-species";
+import { EnglishNameToId } from "./en-name-to-id";
+import {
+  type PokemonSpecies,
+  type SpeciesId as SpeciesId,
+} from "./pokemon-species";
 
-export const Pokedex: SpeciesDataTable = {
+export const POKEDEX: SpeciesDataTable = {
   bulbasaur: {
     num: 1,
     name: "Bulbizarre",
@@ -38661,3 +38666,54 @@ export const Pokedex: SpeciesDataTable = {
     xpCurveName: "Unknown",
   },
 };
+
+export const Pokedex = new (class Pokedex {
+  private SPECIES_CACHE: Record<string, PokemonSpecies> = {};
+  get(id: SpeciesId): PokemonSpecies;
+  get(id: string): PokemonSpecies | undefined;
+  get(id: string) {
+    if (!this.SPECIES_CACHE[id]) {
+      const base = POKEDEX[id];
+      if (!base) {
+        return;
+      }
+      const newSpecies = {} as Partial<PokemonSpecies>;
+      if (isCosmeticFormeData(base)) {
+        const baseId = EnglishNameToId(base.baseSpecies);
+        Object.assign(newSpecies, POKEDEX[baseId as SpeciesId]);
+      }
+      Object.assign(newSpecies, base);
+      newSpecies.id = id as SpeciesId;
+      this.SPECIES_CACHE[id] = newSpecies as PokemonSpecies;
+    }
+    return this.SPECIES_CACHE[id];
+  }
+
+  *speciesNames(): IterableIterator<SpeciesId> {
+    for (const id in POKEDEX) {
+      yield id as SpeciesId;
+    }
+  }
+
+  *filter(
+    predicate: (species: PokemonSpecies) => boolean,
+  ): IterableIterator<PokemonSpecies> {
+    for (const id of this.speciesNames()) {
+      const species = this.get(id);
+      if (predicate(species)) {
+        yield species;
+      }
+    }
+  }
+
+  find(
+    predicate: (species: PokemonSpecies) => boolean,
+  ): PokemonSpecies | undefined {
+    for (const match of this.filter(predicate)) {
+      if (predicate(match)) {
+        return match;
+      }
+    }
+    return undefined;
+  }
+})();

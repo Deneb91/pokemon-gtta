@@ -28,9 +28,6 @@
       ],
       "type": "object"
     },
-    "IDEntry": {
-      "type": "string"
-    },
     "Pokemon": {
       "additionalProperties": false,
       "properties": {
@@ -48,9 +45,6 @@
         },
         "name": {
           "type": "string"
-        },
-        "species": {
-          "$ref": "#/definitions/IDEntry"
         }
       },
       "required": [
@@ -58,8 +52,7 @@
         "name",
         "level",
         "experience",
-        "capturedAt",
-        "species"
+        "capturedAt"
       ],
       "type": "object"
     },
@@ -102,9 +95,6 @@
         "id": {
           "type": "string"
         },
-        "reward": {
-          "$ref": "#/definitions/IDEntry"
-        },
         "title": {
           "type": "string"
         }
@@ -113,7 +103,6 @@
         "id",
         "title",
         "completed",
-        "reward",
         "createdAt"
       ],
       "type": "object"

@@ -1,14 +1,11 @@
 import { XPCurves, type XpCurve, type XpCurveName } from "../training";
-import { isCosmeticFormeData } from "./dex-species";
 import type {
   GenderName,
-  ID,
   Nonstandard,
   StatsTable,
   TierTypes,
 } from "./misc-types";
-import { Pokedex } from "./pokedex";
-
+export type SpeciesId = "" & { bub_species: never };
 export interface PokemonSpecies {
   types: string[];
   name: string;
@@ -17,7 +14,7 @@ export interface PokemonSpecies {
   eggGroups: string[];
   weightkg: number;
   effectType?: "Pokemon" | undefined;
-  id?: ID | undefined;
+  id: SpeciesId;
   baseSpecies: string;
   forme?: string | undefined;
   baseForme?: string | undefined;
@@ -91,20 +88,6 @@ export interface PokemonSpecies {
   shortDesc?: string | undefined;
   color: string;
   xpCurveName: XpCurveName;
-}
-
-const SPECIES_CACHE: Record<string, PokemonSpecies> = {};
-export function getSpeciesByName(speciesName: string): PokemonSpecies {
-  if (!SPECIES_CACHE[speciesName]) {
-    const base = Pokedex[speciesName];
-    const newSpecies = {} as Partial<PokemonSpecies>;
-    if (isCosmeticFormeData(base)) {
-      Object.assign(newSpecies, Pokedex[base.baseSpecies]);
-    }
-    Object.assign(newSpecies, base);
-    SPECIES_CACHE[speciesName] = newSpecies as PokemonSpecies;
-  }
-  return SPECIES_CACHE[speciesName];
 }
 
 export function getXpCurve(species: PokemonSpecies): XpCurve {

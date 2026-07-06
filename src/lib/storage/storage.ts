@@ -4,6 +4,7 @@ import { createTaskRewardPokemon, type Task } from "../tasks";
 import type { AppState } from "../types";
 import schema from "./schema.generated.json";
 import type { SaveFileData } from "./types";
+import { useEffect } from "react";
 
 const STORAGE_KEY = "pokemon-gtta-state";
 const SAVE_FORMAT_VERSION = "1.0.0";
@@ -16,6 +17,20 @@ export const getInitialState = (): AppState => ({
   totalTasksCompleted: 0,
 });
 
+export function useImportedState(setState: (s: AppState) => void) {
+  useEffect(() => {
+    const handleImportState = (event: Event) => {
+      if (event instanceof CustomEvent) {
+        setState(event.detail);
+      }
+    };
+
+    window.addEventListener("import-state", handleImportState);
+    return () => {
+      window.removeEventListener("import-state", handleImportState);
+    };
+  }, [setState]);
+}
 function deserializeState(serialized: string): SaveFileData {
   let parsed: unknown;
   try {
@@ -162,7 +177,9 @@ export const importState = (jsonString: string): AppState => {
     if (error instanceof Error) {
       throw error;
     }
-    throw new Error("Failed to parse save file: invalid JSON format.");
+    throw new Error("Failed to parse save file: invalid JSON format.", {
+      cause: error,
+    });
   }
 };
 

@@ -52,13 +52,18 @@
   color: #333;
 }
 
+.task-form-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 0;
+}
 .task-input {
   width: 100%;
   padding: 12px;
   border: 2px solid #e0e0e0;
   border-radius: 8px;
   font-size: 1em;
-  margin-bottom: 10px;
   font-family: inherit;
   transition: border-color 0.3s;
 }
@@ -96,7 +101,9 @@
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .add-btn:hover {
@@ -141,7 +148,9 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   margin-bottom: 10px;
-  transition: background-color 0.2s, opacity 0.2s;
+  transition:
+    background-color 0.2s,
+    opacity 0.2s;
 }
 
 .task-item:hover {

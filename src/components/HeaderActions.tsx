@@ -1,8 +1,8 @@
-import { useEffect, useRef, type ChangeEvent } from "react";
+import { useRef, type ChangeEvent } from "react";
+import { formatErrorForUser, hasUserMessage } from "../lib/errors";
 import { downloadStateAsFile, importState } from "../lib/storage/storage";
 import type { AppState } from "../lib/types";
 import { KebabMenu } from "./KebabMenu";
-import { formatErrorForUser, hasUserMessage } from "../lib/errors";
 
 interface HeaderActionsProps {
   state: AppState;
@@ -14,20 +14,6 @@ interface HeaderActionsProps {
   ) => void;
 }
 
-export function useImportedState(setState: (s: AppState) => void) {
-  useEffect(() => {
-    const handleImportState = (event: Event) => {
-      if (event instanceof CustomEvent) {
-        setState(event.detail);
-      }
-    };
-
-    window.addEventListener("import-state", handleImportState);
-    return () => {
-      window.removeEventListener("import-state", handleImportState);
-    };
-  }, []);
-}
 export function HeaderActions({ state, onStatusMessage }: HeaderActionsProps) {
   const setErrorStatus = (context: string, error: unknown) => {
     const errorMessage = formatErrorForUser(error);

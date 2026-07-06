@@ -37,8 +37,10 @@ export interface SpeciesData extends Partial<Species> {
   xpCurveName: XpCurveName;
 }
 
-export function isSpeciesData(data: any): data is SpeciesData {
+export function isSpeciesData(data: unknown): data is SpeciesData {
   return (
+    typeof data === "object" &&
+    data !== null &&
     "num" in data &&
     "types" in data &&
     "abilities" in data &&
@@ -52,8 +54,13 @@ export interface CosmeticFormeData {
   forme: string;
   color: string;
 }
-export function isCosmeticFormeData(data: any): data is CosmeticFormeData {
-  return "isCosmeticForme" in data && data.isCosmeticForme;
+export function isCosmeticFormeData(data: unknown): data is CosmeticFormeData {
+  return (
+    typeof data === "object" &&
+    data !== null &&
+    "isCosmeticForme" in data &&
+    data.isCosmeticForme === true
+  );
 }
 export type ModdedSpeciesData =
   | SpeciesData

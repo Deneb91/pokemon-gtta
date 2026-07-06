@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { ErrorRecoveryModal } from "./components/ErrorRecoveryModal";
-import { HeaderActions, useImportedState } from "./components/HeaderActions";
+import { HeaderActions } from "./components/HeaderActions";
 import { PokemonCollection } from "./components/PokemonCollection";
 import { TaskList } from "./components/TaskList";
 import {
@@ -14,29 +14,28 @@ import {
   saveState,
   trainPokemon,
   updatePokemonName,
+  useImportedState,
 } from "./lib/storage/storage";
 import type { Task } from "./lib/tasks";
 import type { AppState } from "./lib/types";
 
 function App() {
-  const [state, setState] = useState<AppState | null>(null);
   const [loadError, setLoadError] = useState<Error | null>(null);
+  const [state, setState] = useState<AppState | null>(() => {
+    try {
+      return loadState();
+    } catch (error) {
+      setLoadError(
+        error instanceof Error ? error : new Error("Failed to load state"),
+      );
+      return null;
+    }
+  });
   const [currentTab, setCurrentTab] = useState<"tasks" | "collection">("tasks");
   const [statusMessage, setStatusMessage] = useState<{
     type: "success" | "error";
     text: string;
   } | null>(null);
-
-  // Load state on mount
-  useEffect(() => {
-    try {
-      setState(loadState());
-    } catch (error) {
-      setLoadError(
-        error instanceof Error ? error : new Error("Failed to load state"),
-      );
-    }
-  }, []);
 
   // Save state whenever it changes
   useEffect(() => {

@@ -1,9 +1,9 @@
-import type { IDEntry } from "./misc-types";
+import { Pokedex } from "./pokedex";
 import {
   getExpectedLevelForXp,
-  getSpeciesByName,
   getTotalXpForLevel,
   type PokemonSpecies,
+  type SpeciesId,
 } from "./pokemon-species";
 
 import { v4 as uuid } from "uuid";
@@ -14,13 +14,13 @@ export interface Pokemon {
   level: number;
   experience: number;
   capturedAt: number;
-  species: IDEntry;
+  species: SpeciesId;
 }
 export interface NewPokemon extends Partial<Pokemon> {
-  species: IDEntry;
+  species: SpeciesId;
 }
 export function createPokemon(newPokemon: NewPokemon): Pokemon {
-  const species = getSpeciesByName(newPokemon.species);
+  const species = Pokedex.get(newPokemon.species);
   if (!species) {
     throw new PokemonSpeciesNotFoundError(newPokemon);
   }
@@ -34,7 +34,7 @@ export function createPokemon(newPokemon: NewPokemon): Pokemon {
   };
 }
 export function getSpecies(pokemon: Pokemon): PokemonSpecies {
-  return getSpeciesByName(pokemon.species);
+  return Pokedex.get(pokemon.species);
 }
 
 export function getExpectedLevel(pokemon: Pokemon): number {

@@ -1,5 +1,5 @@
 export type IDEntry = string;
-export type ID = "" | (string & { __isID: true });
+export type ID = string;
 export interface EventInfo {
   generation: number;
   level?: number;
@@ -27,6 +27,7 @@ export type SparseStatsTable = Partial<StatsTable>;
 export type StatsTable = { [stat in StatID]: number };
 export type StatIDExceptHP = "atk" | "def" | "spa" | "spd" | "spe";
 export type StatID = "hp" | StatIDExceptHP;
+// eslint-disable-next-line  @typescript-eslint/no-namespace
 export namespace TierTypes {
   export type Singles =
     | "AG"

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import type { IDEntry } from "../lib/pokedex/misc-types";
+import type { SpeciesId } from "../lib/pokedex";
+import { getSpeciesForTask, type Task } from "../lib/tasks";
 import "../styles/TaskList.css";
 import { PokemonAutocomplete } from "./PokemonAutocomplete";
-import { getSpeciesForTask, type Task } from "../lib/tasks";
 
 interface TaskListProps {
   tasks: Task[];
@@ -18,7 +18,7 @@ export const TaskList = ({
   onDeleteTask,
 }: TaskListProps) => {
   const [title, setTitle] = useState("");
-  const [selectedReward, setSelectedReward] = useState<IDEntry | undefined>();
+  const [selectedReward, setSelectedReward] = useState<SpeciesId | undefined>();
 
   const handleAddTask = () => {
     if (!selectedReward) {
@@ -62,21 +62,23 @@ export const TaskList = ({
 
       <div className="add-task-form">
         <h3>Add New Tidying Task</h3>
-        <input
-          type="text"
-          placeholder="Enter task (e.g., Clean bedroom)"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          onKeyPress={(e) => e.key === "Enter" && handleAddTask()}
-          className="task-input"
-        />
-        <PokemonAutocomplete
-          value={selectedReward}
-          onChange={setSelectedReward}
-        />
-        <button onClick={handleAddTask} className="add-btn">
-          Add Task
-        </button>
+        <div className="task-form-layout">
+          <input
+            type="text"
+            placeholder="Enter task (e.g., Clean bedroom)"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            onKeyUp={(e) => e.key === "Enter" && handleAddTask()}
+            className="task-input"
+          />
+          <PokemonAutocomplete
+            value={selectedReward}
+            onChange={setSelectedReward}
+          />
+          <button onClick={handleAddTask} className="add-btn">
+            Add Task
+          </button>
+        </div>
       </div>
 
       <div className="tasks">
