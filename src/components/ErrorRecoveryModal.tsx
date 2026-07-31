@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useState } from "react";
 import { formatErrorForUser } from "../lib/errors";
 import "../styles/ErrorRecoveryModal.css";
 
@@ -15,26 +15,13 @@ export function ErrorRecoveryModal({
   onDismiss,
   onDownload,
 }: ErrorRecoveryModalProps) {
-  useEffect(() => {
-    if (!isOpen) return;
-
-    // Handle Escape key
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        onDismiss();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onDismiss]);
+  const [hasDownloaded, setHasDownloaded] = useState(false);
 
   if (!isOpen) return null;
 
   const handleDownload = () => {
     onDownload();
-    // Auto-dismiss after a short delay to show visual feedback
-    setTimeout(onDismiss, 500);
+    setHasDownloaded(true);
   };
 
   const errorMessage = formatErrorForUser(error);
@@ -46,13 +33,6 @@ export function ErrorRecoveryModal({
       >
         <div className="error-recovery-header">
           <h2>Save File Corrupted</h2>
-          <button
-            className="error-recovery-close"
-            onClick={onDismiss}
-            aria-label="Close modal"
-          >
-            ✕
-          </button>
         </div>
 
         <div className="error-recovery-body">
@@ -78,10 +58,13 @@ export function ErrorRecoveryModal({
             className="error-recovery-download-btn"
             onClick={handleDownload}
           >
-            💾 Download Save File
+            💾 {hasDownloaded ? "Redownload" : "Download"} Save File
           </button>
-          <button className="error-recovery-dismiss-btn" onClick={onDismiss}>
-            Start Fresh
+          <button
+            className={`error-recovery-dismiss-btn${hasDownloaded ? " error-recovery-dismiss-btn--safe" : ""}`}
+            onClick={onDismiss}
+          >
+            Start Fresh{hasDownloaded ? "" : " ( ⚠️ Data will be lost if you didn't download it )"}
           </button>
         </div>
       </div>

@@ -121,12 +121,12 @@
 }
 
 .error-recovery-download-btn {
-  background-color: #d32f2f;
+  background-color: #2e7d32;
   color: white;
 }
 
 .error-recovery-download-btn:hover {
-  background-color: #b71c1c;
+  background-color: #1b5e20;
 }
 
 .error-recovery-download-btn:active {
@@ -134,10 +134,19 @@
 }
 
 .error-recovery-dismiss-btn {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.error-recovery-dismiss-btn:hover {
+  background-color: #b71c1c;
+}
+
+.error-recovery-dismiss-btn--safe {
   background-color: #e0e0e0;
   color: #333;
 }
 
-.error-recovery-dismiss-btn:hover {
+.error-recovery-dismiss-btn--safe:hover {
   background-color: #bdbdbd;
 }

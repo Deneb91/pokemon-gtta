@@ -21,7 +21,11 @@
           "type": "number"
         }
       },
-      "required": ["tasks", "pokemons", "totalTasksCompleted"],
+      "required": [
+        "tasks",
+        "pokemons",
+        "totalTasksCompleted"
+      ],
       "type": "object"
     },
     "Pokemon": {
@@ -41,9 +45,6 @@
         },
         "name": {
           "type": "string"
-        },
-        "species": {
-          "type": "string"
         }
       },
       "required": [
@@ -51,9 +52,7 @@
         "name",
         "level",
         "experience",
-        "capturedAt",
-        "reward",
-        "species"
+        "capturedAt"
       ],
       "type": "object"
     },
@@ -71,7 +70,11 @@
           "type": "string"
         }
       },
-      "required": ["version", "exportedAt", "state"],
+      "required": [
+        "version",
+        "exportedAt",
+        "state"
+      ],
       "type": "object"
     },
     "Task": {
@@ -94,13 +97,16 @@
         },
         "title": {
           "type": "string"
-        },
-        "reward": {
-          "type": "string"
         }
       },
-      "required": ["id", "title", "completed", "createdAt", "reward"],
+      "required": [
+        "id",
+        "title",
+        "completed",
+        "createdAt"
+      ],
       "type": "object"
     }
   }
 }
+
