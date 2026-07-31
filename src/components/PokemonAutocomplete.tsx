@@ -37,7 +37,7 @@ export const PokemonAutocomplete = ({
   };
 
   const handleBlur = () => {
-    setTimeout(() => setHasFocus(false), 150);
+    setTimeout(() => setHasFocus(false), 300);
   };
 
   return (
